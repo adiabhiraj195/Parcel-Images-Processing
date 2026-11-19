@@ -1,0 +1,13 @@
+image_name,format,tracking_number,barcode_value,weight_value,weight_unit,length,width,height,dimension_unit,status,scene_flags,text_detected,label_detected
+sample_scanner_1.jpg,yellow_dws,19108610903346,,2630.0,g,23.0,31.5,14.3,cm,SUCCESS,"NO_PARCEL,LABEL_NOT_FOUND",True,True
+sample_scanner_2.jpg,yellow_dws,19106721621035,,14060.0,g,75.3,49.2,44.4,cm,SUCCESS,"NO_PARCEL,LABEL_NOT_FOUND",True,True
+sample_scanner_3.jpg,yellow_dws,19109110325312,,11880.0,g,60.3,39.9,40.3,cm,SUCCESS,"NO_PARCEL,LABEL_NOT_FOUND",True,True
+scan_green_dws.jpg,green_dws,19108888777766,,3500.0,g,45.0,30.0,20.0,cm,SUCCESS,LABEL_NOT_FOUND,True,True
+scan_white_monospaced.jpg,white_text_scanner,940011189922334455,,2.35,kg,208.0,148.0,163.0,,SUCCESS,LABEL_NOT_FOUND,True,True
+scan_ekart_box.jpg,ekart,FMPP1234567890,,0.85,kg,330.0,369.0,40.0,,SUCCESS,LABEL_NOT_FOUND,True,True
+scan_bottom_panel.jpg,bottom_panel,888777666555,,1.45,kg,32.5,24.0,18.0,cm,SUCCESS,LABEL_NOT_FOUND,True,True
+scan_physical_label.jpg,physical_label_only,1Z999AA10123456784,1Z999AA10123456784,2.5,kg,30.0,20.0,15.0,cm,SUCCESS,LABEL_NOT_FOUND,True,True
+scan_no_parcel.jpg,no_parcel,,,,,,,,,PROCESSING_FAILED,"NO_PARCEL,LABEL_NOT_FOUND",False,False
+scan_multiple_parcels.jpg,multiple_parcels,1Z999AA10123456784,,2.5,kg,30.0,20.0,15.0,cm,SUCCESS,"MULTIPLE_PARCELS,LABEL_NOT_FOUND",True,True
+scan_barcode_conflict.jpg,source_conflict,1Z1111111111111111,1Z9999999999999999,1.0,kg,20.0,10.0,10.0,cm,SOURCE_CONFLICT,LABEL_NOT_FOUND,True,True
+scan_missing_dims.jpg,partial,1Z5555555555555555,,1.2,kg,,,,,PARTIAL_EXTRACTION,LABEL_NOT_FOUND,True,True

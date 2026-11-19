@@ -1,0 +1,461 @@
+{
+  "original_image": {
+    "s3_key": "batches/test/originals/parcel_sample.jpg",
+    "filename": "parcel_sample.jpg",
+    "file_size": 102400,
+    "dimensions": {
+      "width": 800,
+      "height": 600,
+      "channels": 3
+    },
+    "quality_metrics": {
+      "blur_score": 150.0,
+      "is_blurry": false,
+      "mean_brightness": 110.0
+    }
+  },
+  "candidate_regions": [
+    {
+      "format_hint": "top_left",
+      "bbox_xyxy": [
+        10,
+        10,
+        200,
+        100
+      ],
+      "score": 0.85
+    },
+    {
+      "source": "detector_parcel",
+      "bbox_xyxy": [
+        50,
+        50,
+        700,
+        550
+      ],
+      "score": 0.92
+    },
+    {
+      "source": "detector_shipping_label",
+      "bbox_xyxy": [
+        150,
+        150,
+        450,
+        400
+      ],
+      "score": 0.88
+    }
+  ],
+  "all_ocr_detections": [
+    {
+      "source": "overlay",
+      "text": "WT: 2.5 KG",
+      "score": 0.94,
+      "quad_box": [
+        [
+          10,
+          10
+        ],
+        [
+          150,
+          10
+        ],
+        [
+          150,
+          40
+        ],
+        [
+          10,
+          40
+        ]
+      ],
+      "bbox_xyxy": [
+        10,
+        10,
+        150,
+        40
+      ]
+    },
+    {
+      "source": "label",
+      "text": "AWB: 1Z9999999999999999",
+      "score": 0.98,
+      "quad_box": [
+        [
+          150,
+          150
+        ],
+        [
+          400,
+          150
+        ],
+        [
+          400,
+          190
+        ],
+        [
+          150,
+          190
+        ]
+      ],
+      "bbox_xyxy": [
+        150,
+        150,
+        400,
+        190
+      ]
+    },
+    {
+      "source": "label",
+      "text": "INVENTIMENT",
+      "score": 0.8,
+      "quad_box": [
+        [
+          150,
+          200
+        ],
+        [
+          350,
+          200
+        ],
+        [
+          350,
+          240
+        ],
+        [
+          150,
+          240
+        ]
+      ],
+      "bbox_xyxy": [
+        150,
+        200,
+        350,
+        240
+      ]
+    }
+  ],
+  "text_by_region": {
+    "overlay_full_text": "WT: 2.5 KG",
+    "label_full_text": "AWB: 1Z9999999999999999\nINVENTIMENT",
+    "cluster_1_label_area": "AWB: 1Z9999999999999999"
+  },
+  "enhanced_image_variants": [
+    "0_deg",
+    "clahe",
+    "original"
+  ],
+  "label_crop_info": {
+    "label_crop_bbox": [
+      150,
+      150,
+      450,
+      400
+    ],
+    "variants_evaluated": [
+      "0_deg",
+      "90_deg",
+      "180_deg",
+      "270_deg",
+      "clahe",
+      "deskewed"
+    ]
+  },
+  "barcode_decoder_attempts": [
+    {
+      "raw_value": "1Z9999999999999999",
+      "symbology": "Code128",
+      "bbox_xyxy": [
+        160,
+        260,
+        380,
+        320
+      ],
+      "source_crop": null
+    }
+  ],
+  "profile_scores_and_matched_anchors": [
+    {
+      "profile_name": "green_dws",
+      "status": "rejected",
+      "evidence_score": 0.375,
+      "cue_score": 0.2,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": false,
+        "metadata": false
+      },
+      "anchor_count": 2,
+      "disqualification_reason": "DWS anchors (Machine ID / Real Vol / AWB No) not satisfied"
+    },
+    {
+      "profile_name": "yellow_dws",
+      "status": "rejected",
+      "evidence_score": 0.325,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": false,
+        "metadata": false
+      },
+      "anchor_count": 2,
+      "disqualification_reason": "DWS anchors (Machine ID / Real Vol / AWB No) not satisfied"
+    },
+    {
+      "profile_name": "white_text_scanner",
+      "status": "rejected",
+      "evidence_score": 0.325,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": false,
+        "metadata": false
+      },
+      "anchor_count": 2,
+      "disqualification_reason": "White text scanner anchors (Sorter ID / triplet dimensions) not satisfied"
+    },
+    {
+      "profile_name": "ekart",
+      "status": "rejected",
+      "evidence_score": 0.325,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": false,
+        "metadata": false
+      },
+      "anchor_count": 2,
+      "disqualification_reason": "Ekart specific cues (L*W*H or Scan Time) not satisfied"
+    },
+    {
+      "profile_name": "bottom_panel",
+      "status": "rejected",
+      "evidence_score": 0.325,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": false,
+        "metadata": false
+      },
+      "anchor_count": 2,
+      "disqualification_reason": "Bottom panel anchors (A.W / V.W / bottom dimensions) not satisfied"
+    },
+    {
+      "profile_name": "generic_overlay",
+      "status": "selected",
+      "evidence_score": 0.35,
+      "cue_score": 0.1,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": false,
+        "metadata": false
+      },
+      "anchor_count": 2,
+      "disqualification_reason": null
+    }
+  ],
+  "parsed_values_and_validation_failures": {
+    "parsed_values": {
+      "tracking_number": "1Z9999999999999999",
+      "weight_value": 2.5,
+      "weight_unit": "kg",
+      "actual_weight": null,
+      "volumetric_weight": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "dimension_unit": null,
+      "status": "SUCCESS",
+      "scene_flags": []
+    },
+    "validation_failures": [
+      {
+        "field": "tracking_number",
+        "candidate": "INVENTIMENT",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      }
+    ]
+  },
+  "final_field_provenance_and_confidence": {
+    "provenance": {
+      "tracking_number": {
+        "value": "1Z9999999999999999",
+        "source": "printed_barcode+label_ocr",
+        "raw_text": "AWB: 1Z9999999999999999",
+        "ocr_confidence": 0.98,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "",
+        "unit": null,
+        "normalized_value": null,
+        "conflict_status": "AGREED",
+        "raw_candidates": [
+          "1Z9999999999999999",
+          "INVENTIMENT"
+        ]
+      }
+    },
+    "field_confidence": {
+      "tracking_number": 0.98,
+      "weight": 0.94
+    }
+  },
+  "original_image_ref": "batches/test/originals/parcel_sample.jpg",
+  "detected_metadata_rois": [
+    {
+      "format_hint": "top_left",
+      "bbox_xyxy": [
+        10,
+        10,
+        200,
+        100
+      ],
+      "score": 0.85
+    }
+  ],
+  "ocr_text_and_geometry": [
+    {
+      "source": "overlay",
+      "text": "WT: 2.5 KG",
+      "score": 0.94,
+      "quad_box": [
+        [
+          10,
+          10
+        ],
+        [
+          150,
+          10
+        ],
+        [
+          150,
+          40
+        ],
+        [
+          10,
+          40
+        ]
+      ],
+      "bbox_xyxy": [
+        10,
+        10,
+        150,
+        40
+      ]
+    },
+    {
+      "source": "label",
+      "text": "AWB: 1Z9999999999999999",
+      "score": 0.98,
+      "quad_box": [
+        [
+          150,
+          150
+        ],
+        [
+          400,
+          150
+        ],
+        [
+          400,
+          190
+        ],
+        [
+          150,
+          190
+        ]
+      ],
+      "bbox_xyxy": [
+        150,
+        150,
+        400,
+        190
+      ]
+    },
+    {
+      "source": "label",
+      "text": "INVENTIMENT",
+      "score": 0.8,
+      "quad_box": [
+        [
+          150,
+          200
+        ],
+        [
+          350,
+          200
+        ],
+        [
+          350,
+          240
+        ],
+        [
+          150,
+          240
+        ]
+      ],
+      "bbox_xyxy": [
+        150,
+        200,
+        350,
+        240
+      ]
+    }
+  ],
+  "detected_label_crop": [
+    150,
+    150,
+    450,
+    400
+  ],
+  "barcode_output": [
+    {
+      "raw_value": "1Z9999999999999999",
+      "symbology": "Code128",
+      "bbox_xyxy": [
+        160,
+        260,
+        380,
+        320
+      ],
+      "source_crop": null
+    }
+  ],
+  "parser_output": {
+    "tracking_number": "1Z9999999999999999",
+    "weight_value": 2.5,
+    "weight_unit": "kg",
+    "actual_weight": null,
+    "volumetric_weight": null,
+    "length": null,
+    "width": null,
+    "height": null,
+    "dimension_unit": null,
+    "status": "SUCCESS",
+    "scene_flags": []
+  },
+  "source_reconciliation_result": {
+    "tracking_number": {
+      "value": "1Z9999999999999999",
+      "source": "printed_barcode+label_ocr",
+      "raw_text": "AWB: 1Z9999999999999999",
+      "ocr_confidence": 0.98,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "",
+      "unit": null,
+      "normalized_value": null,
+      "conflict_status": "AGREED",
+      "raw_candidates": [
+        "1Z9999999999999999",
+        "INVENTIMENT"
+      ]
+    }
+  }
+}

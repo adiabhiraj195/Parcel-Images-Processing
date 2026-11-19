@@ -1,0 +1,3028 @@
+{
+  "original_image": {
+    "s3_key": "batches/228dc6f8-1bf6-44dc-8489-68e20f48fdec/originals/a65885b4-5bc3-4900-a927-a570fc5380bb/4_jpeg.rf.VfthwvlCymwlZDO2NmsW.jpeg",
+    "filename": "4_jpeg.rf.VfthwvlCymwlZDO2NmsW.jpeg",
+    "file_size": 1166281,
+    "dimensions": {
+      "width": 4096,
+      "height": 4604,
+      "channels": 3
+    },
+    "quality_metrics": {
+      "blur_score": 101.53,
+      "is_blurry": false,
+      "mean_brightness": 29.95
+    }
+  },
+  "candidate_regions": [
+    {
+      "format_hint": "yellow_dws",
+      "bbox_xyxy": [
+        91,
+        41,
+        1548,
+        829
+      ],
+      "score": 0.95
+    },
+    {
+      "source": "detector_parcel",
+      "bbox_xyxy": [
+        445,
+        182,
+        3521,
+        3366
+      ],
+      "score": 0.4437
+    },
+    {
+      "source": "detector_shipping_label",
+      "bbox_xyxy": [
+        94,
+        53,
+        1521,
+        833
+      ],
+      "score": 0.2005
+    }
+  ],
+  "all_ocr_detections": [
+    {
+      "source": "overlay",
+      "text": "Location:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          17,
+          9
+        ],
+        [
+          66,
+          9
+        ],
+        [
+          66,
+          20
+        ],
+        [
+          17,
+          20
+        ]
+      ],
+      "bbox_xyxy": [
+        17,
+        9,
+        66,
+        20
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Bangalore_Hoskote_GW (Kamataka)",
+      "score": 0.9756,
+      "quad_box": [
+        [
+          79,
+          8
+        ],
+        [
+          267,
+          8
+        ],
+        [
+          267,
+          21
+        ],
+        [
+          79,
+          21
+        ]
+      ],
+      "bbox_xyxy": [
+        79,
+        8,
+        267,
+        21
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "AWB No:",
+      "score": 0.9818,
+      "quad_box": [
+        [
+          17,
+          26
+        ],
+        [
+          67,
+          26
+        ],
+        [
+          67,
+          37
+        ],
+        [
+          17,
+          37
+        ]
+      ],
+      "bbox_xyxy": [
+        17,
+        26,
+        67,
+        37
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "19109110325312",
+      "score": 1.0,
+      "quad_box": [
+        [
+          77,
+          25
+        ],
+        [
+          167,
+          25
+        ],
+        [
+          167,
+          38
+        ],
+        [
+          77,
+          38
+        ]
+      ],
+      "bbox_xyxy": [
+        77,
+        25,
+        167,
+        38
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Length:",
+      "score": 0.9995,
+      "quad_box": [
+        [
+          16,
+          42
+        ],
+        [
+          59,
+          42
+        ],
+        [
+          59,
+          56
+        ],
+        [
+          16,
+          56
+        ]
+      ],
+      "bbox_xyxy": [
+        16,
+        42,
+        59,
+        56
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "60.300 cm",
+      "score": 0.9989,
+      "quad_box": [
+        [
+          77,
+          42
+        ],
+        [
+          134,
+          42
+        ],
+        [
+          134,
+          56
+        ],
+        [
+          77,
+          56
+        ]
+      ],
+      "bbox_xyxy": [
+        77,
+        42,
+        134,
+        56
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Width:",
+      "score": 0.9994,
+      "quad_box": [
+        [
+          16,
+          59
+        ],
+        [
+          54,
+          59
+        ],
+        [
+          54,
+          73
+        ],
+        [
+          16,
+          73
+        ]
+      ],
+      "bbox_xyxy": [
+        16,
+        59,
+        54,
+        73
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "39.900 cm",
+      "score": 0.9991,
+      "quad_box": [
+        [
+          77,
+          59
+        ],
+        [
+          134,
+          59
+        ],
+        [
+          134,
+          73
+        ],
+        [
+          77,
+          73
+        ]
+      ],
+      "bbox_xyxy": [
+        77,
+        59,
+        134,
+        73
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Height:",
+      "score": 0.9994,
+      "quad_box": [
+        [
+          16,
+          77
+        ],
+        [
+          58,
+          77
+        ],
+        [
+          58,
+          92
+        ],
+        [
+          16,
+          92
+        ]
+      ],
+      "bbox_xyxy": [
+        16,
+        77,
+        58,
+        92
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "40.300 cm",
+      "score": 0.9978,
+      "quad_box": [
+        [
+          74,
+          75
+        ],
+        [
+          132,
+          77
+        ],
+        [
+          131,
+          91
+        ],
+        [
+          74,
+          89
+        ]
+      ],
+      "bbox_xyxy": [
+        74,
+        75,
+        132,
+        91
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "R.Vol.:",
+      "score": 0.9974,
+      "quad_box": [
+        [
+          16,
+          94
+        ],
+        [
+          56,
+          94
+        ],
+        [
+          56,
+          108
+        ],
+        [
+          16,
+          108
+        ]
+      ],
+      "bbox_xyxy": [
+        16,
+        94,
+        56,
+        108
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "95207.000 cm (cubic)",
+      "score": 0.9839,
+      "quad_box": [
+        [
+          72,
+          93
+        ],
+        [
+          183,
+          94
+        ],
+        [
+          183,
+          109
+        ],
+        [
+          72,
+          108
+        ]
+      ],
+      "bbox_xyxy": [
+        72,
+        93,
+        183,
+        109
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Weight:",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          17,
+          112
+        ],
+        [
+          59,
+          112
+        ],
+        [
+          59,
+          126
+        ],
+        [
+          17,
+          126
+        ]
+      ],
+      "bbox_xyxy": [
+        17,
+        112,
+        59,
+        126
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "11880.000 gm",
+      "score": 0.9991,
+      "quad_box": [
+        [
+          77,
+          112
+        ],
+        [
+          153,
+          112
+        ],
+        [
+          153,
+          126
+        ],
+        [
+          77,
+          126
+        ]
+      ],
+      "bbox_xyxy": [
+        77,
+        112,
+        153,
+        126
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Time:",
+      "score": 0.9997,
+      "quad_box": [
+        [
+          18,
+          129
+        ],
+        [
+          49,
+          131
+        ],
+        [
+          48,
+          143
+        ],
+        [
+          17,
+          141
+        ]
+      ],
+      "bbox_xyxy": [
+        17,
+        129,
+        49,
+        143
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "7/25/2025 4:03:19 AM",
+      "score": 0.9919,
+      "quad_box": [
+        [
+          74,
+          129
+        ],
+        [
+          187,
+          129
+        ],
+        [
+          187,
+          142
+        ],
+        [
+          74,
+          142
+        ]
+      ],
+      "bbox_xyxy": [
+        74,
+        129,
+        187,
+        142
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "\u00a9",
+      "score": 0.3398,
+      "quad_box": [
+        [
+          174,
+          404
+        ],
+        [
+          184,
+          404
+        ],
+        [
+          184,
+          415
+        ],
+        [
+          174,
+          415
+        ]
+      ],
+      "bbox_xyxy": [
+        174,
+        404,
+        184,
+        415
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "9",
+      "score": 0.8904,
+      "quad_box": [
+        [
+          91,
+          416
+        ],
+        [
+          99,
+          416
+        ],
+        [
+          99,
+          425
+        ],
+        [
+          91,
+          425
+        ]
+      ],
+      "bbox_xyxy": [
+        91,
+        416,
+        99,
+        425
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "@",
+      "score": 0.5733,
+      "quad_box": [
+        [
+          173,
+          784
+        ],
+        [
+          182,
+          784
+        ],
+        [
+          182,
+          793
+        ],
+        [
+          173,
+          793
+        ]
+      ],
+      "bbox_xyxy": [
+        173,
+        784,
+        182,
+        793
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "o",
+      "score": 0.4197,
+      "quad_box": [
+        [
+          295,
+          786
+        ],
+        [
+          304,
+          786
+        ],
+        [
+          304,
+          795
+        ],
+        [
+          295,
+          795
+        ]
+      ],
+      "bbox_xyxy": [
+        295,
+        786,
+        304,
+        795
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "\u00a9",
+      "score": 0.554,
+      "quad_box": [
+        [
+          417,
+          787
+        ],
+        [
+          426,
+          787
+        ],
+        [
+          426,
+          797
+        ],
+        [
+          417,
+          797
+        ]
+      ],
+      "bbox_xyxy": [
+        417,
+        787,
+        426,
+        797
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "\u2462",
+      "score": 0.8132,
+      "quad_box": [
+        [
+          535,
+          794
+        ],
+        [
+          543,
+          785
+        ],
+        [
+          551,
+          793
+        ],
+        [
+          543,
+          800
+        ]
+      ],
+      "bbox_xyxy": [
+        535,
+        785,
+        551,
+        800
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Location:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          93,
+          49
+        ],
+        [
+          309,
+          49
+        ],
+        [
+          309,
+          94
+        ],
+        [
+          93,
+          94
+        ]
+      ],
+      "bbox_xyxy": [
+        93,
+        49,
+        309,
+        94
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Bangalore",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          386,
+          46
+        ],
+        [
+          632,
+          48
+        ],
+        [
+          632,
+          100
+        ],
+        [
+          386,
+          98
+        ]
+      ],
+      "bbox_xyxy": [
+        386,
+        46,
+        632,
+        100
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Hosko",
+      "score": 0.9358,
+      "quad_box": [
+        [
+          659,
+          48
+        ],
+        [
+          800,
+          48
+        ],
+        [
+          800,
+          94
+        ],
+        [
+          659,
+          94
+        ]
+      ],
+      "bbox_xyxy": [
+        659,
+        48,
+        800,
+        94
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "AWB No:",
+      "score": 0.9986,
+      "quad_box": [
+        [
+          88,
+          128
+        ],
+        [
+          316,
+          128
+        ],
+        [
+          316,
+          180
+        ],
+        [
+          88,
+          180
+        ]
+      ],
+      "bbox_xyxy": [
+        88,
+        128,
+        316,
+        180
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "19109110325312",
+      "score": 0.9961,
+      "quad_box": [
+        [
+          378,
+          133
+        ],
+        [
+          791,
+          133
+        ],
+        [
+          791,
+          174
+        ],
+        [
+          378,
+          174
+        ]
+      ],
+      "bbox_xyxy": [
+        378,
+        133,
+        791,
+        174
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Length:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          90,
+          212
+        ],
+        [
+          272,
+          212
+        ],
+        [
+          272,
+          269
+        ],
+        [
+          90,
+          269
+        ]
+      ],
+      "bbox_xyxy": [
+        90,
+        212,
+        272,
+        269
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "60.300",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          377,
+          214
+        ],
+        [
+          548,
+          214
+        ],
+        [
+          548,
+          260
+        ],
+        [
+          377,
+          260
+        ]
+      ],
+      "bbox_xyxy": [
+        377,
+        214,
+        548,
+        260
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "cm",
+      "score": 0.8775,
+      "quad_box": [
+        [
+          526,
+          220
+        ],
+        [
+          628,
+          220
+        ],
+        [
+          628,
+          260
+        ],
+        [
+          526,
+          260
+        ]
+      ],
+      "bbox_xyxy": [
+        526,
+        220,
+        628,
+        260
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Width:",
+      "score": 0.9996,
+      "quad_box": [
+        [
+          90,
+          293
+        ],
+        [
+          244,
+          296
+        ],
+        [
+          243,
+          346
+        ],
+        [
+          89,
+          343
+        ]
+      ],
+      "bbox_xyxy": [
+        89,
+        293,
+        244,
+        346
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "39.900 cm",
+      "score": 0.9996,
+      "quad_box": [
+        [
+          379,
+          294
+        ],
+        [
+          635,
+          298
+        ],
+        [
+          634,
+          347
+        ],
+        [
+          378,
+          343
+        ]
+      ],
+      "bbox_xyxy": [
+        378,
+        294,
+        635,
+        347
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Height:",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          89,
+          377
+        ],
+        [
+          264,
+          379
+        ],
+        [
+          263,
+          436
+        ],
+        [
+          88,
+          434
+        ]
+      ],
+      "bbox_xyxy": [
+        88,
+        377,
+        264,
+        436
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "40.300 cm",
+      "score": 0.999,
+      "quad_box": [
+        [
+          363,
+          378
+        ],
+        [
+          623,
+          381
+        ],
+        [
+          623,
+          430
+        ],
+        [
+          363,
+          427
+        ]
+      ],
+      "bbox_xyxy": [
+        363,
+        378,
+        623,
+        430
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "R.Vol.:",
+      "score": 0.9959,
+      "quad_box": [
+        [
+          90,
+          461
+        ],
+        [
+          256,
+          463
+        ],
+        [
+          255,
+          513
+        ],
+        [
+          89,
+          511
+        ]
+      ],
+      "bbox_xyxy": [
+        89,
+        461,
+        256,
+        513
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "95207.000 cm (cub",
+      "score": 0.9694,
+      "quad_box": [
+        [
+          355,
+          460
+        ],
+        [
+          800,
+          465
+        ],
+        [
+          800,
+          516
+        ],
+        [
+          355,
+          511
+        ]
+      ],
+      "bbox_xyxy": [
+        355,
+        460,
+        800,
+        516
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Weight:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          88,
+          543
+        ],
+        [
+          276,
+          545
+        ],
+        [
+          275,
+          601
+        ],
+        [
+          87,
+          599
+        ]
+      ],
+      "bbox_xyxy": [
+        87,
+        543,
+        276,
+        601
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "11880.000 gm",
+      "score": 0.9997,
+      "quad_box": [
+        [
+          380,
+          540
+        ],
+        [
+          731,
+          548
+        ],
+        [
+          730,
+          604
+        ],
+        [
+          379,
+          596
+        ]
+      ],
+      "bbox_xyxy": [
+        379,
+        540,
+        731,
+        604
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Time:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          86,
+          625
+        ],
+        [
+          231,
+          631
+        ],
+        [
+          229,
+          685
+        ],
+        [
+          84,
+          679
+        ]
+      ],
+      "bbox_xyxy": [
+        84,
+        625,
+        231,
+        685
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "7/25/2025 4:03:19",
+      "score": 0.9927,
+      "quad_box": [
+        [
+          357,
+          628
+        ],
+        [
+          798,
+          630
+        ],
+        [
+          798,
+          681
+        ],
+        [
+          357,
+          679
+        ]
+      ],
+      "bbox_xyxy": [
+        357,
+        628,
+        798,
+        681
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Hoskote_GW (Karnataka)",
+      "score": 0.9712,
+      "quad_box": [
+        [
+          820,
+          41
+        ],
+        [
+          1414,
+          44
+        ],
+        [
+          1414,
+          105
+        ],
+        [
+          820,
+          102
+        ]
+      ],
+      "bbox_xyxy": [
+        820,
+        41,
+        1414,
+        105
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "5312",
+      "score": 0.9993,
+      "quad_box": [
+        [
+          820,
+          129
+        ],
+        [
+          935,
+          125
+        ],
+        [
+          937,
+          179
+        ],
+        [
+          820,
+          183
+        ]
+      ],
+      "bbox_xyxy": [
+        820,
+        125,
+        937,
+        183
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "(cubic)",
+      "score": 0.9995,
+      "quad_box": [
+        [
+          846,
+          462
+        ],
+        [
+          1015,
+          462
+        ],
+        [
+          1015,
+          520
+        ],
+        [
+          846,
+          520
+        ]
+      ],
+      "bbox_xyxy": [
+        846,
+        462,
+        1015,
+        520
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "m",
+      "score": 0.9959,
+      "quad_box": [
+        [
+          821,
+          557
+        ],
+        [
+          865,
+          557
+        ],
+        [
+          865,
+          597
+        ],
+        [
+          821,
+          597
+        ]
+      ],
+      "bbox_xyxy": [
+        821,
+        557,
+        865,
+        597
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "03:19 AM",
+      "score": 0.9353,
+      "quad_box": [
+        [
+          820,
+          627
+        ],
+        [
+          1033,
+          624
+        ],
+        [
+          1034,
+          680
+        ],
+        [
+          820,
+          683
+        ]
+      ],
+      "bbox_xyxy": [
+        820,
+        624,
+        1034,
+        683
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "f",
+      "score": 0.3321,
+      "quad_box": [
+        [
+          1640,
+          309
+        ],
+        [
+          1815,
+          289
+        ],
+        [
+          1828,
+          410
+        ],
+        [
+          1653,
+          429
+        ]
+      ],
+      "bbox_xyxy": [
+        1640,
+        289,
+        1828,
+        429
+      ]
+    }
+  ],
+  "text_by_region": {
+    "overlay_full_text": "Location:\nBangalore_Hoskote_GW (Kamataka)\nAWB No:\n19109110325312\nLength:\n60.300 cm\nWidth:\n39.900 cm\nHeight:\n40.300 cm\nR.Vol.:\n95207.000 cm (cubic)\nWeight:\n11880.000 gm\nTime:\n7/25/2025 4:03:19 AM\n\u00a9\n9\n@\no\n\u00a9\n\u2462\nLocation:\nBangalore\nHosko\nAWB No:\n19109110325312\nLength:\n60.300\ncm\nWidth:\n39.900 cm\nHeight:\n40.300 cm\nR.Vol.:\n95207.000 cm (cub\nWeight:\n11880.000 gm\nTime:\n7/25/2025 4:03:19\nHoskote_GW (Karnataka)\n5312\n(cubic)\nm\n03:19 AM\nf",
+    "cluster_1_top_left": "Location: Bangalore_Hoskote_GW (Kamataka)\nAWB No: 19109110325312\nLength: 60.300 cm\nWidth: Height: 40.300 cm 39.900 cm Location: Bangalore Hosko Hoskote_GW (Karnataka)\nR.Vol.: 95207.000 cm (cubic)\nWeight: 11880.000 gm\nTime: 7/25/2025 4:03:19 AM\nAWB No: 19109110325312 5312\nLength: 60.300 cm\nWidth: 39.900 cm\nHeight: 9 \u00a9 40.300 cm f\nR.Vol.: 95207.000 cm (cub (cubic)\nWeight: 11880.000 gm m\nTime: 7/25/2025 4:03:19 03:19 AM\n@ o \u00a9 \u2462"
+  },
+  "enhanced_image_variants": [
+    "original_full_res",
+    "original"
+  ],
+  "label_crop_info": {
+    "label_crop_bbox": null,
+    "variants_evaluated": [
+      "0_deg",
+      "90_deg",
+      "180_deg",
+      "270_deg",
+      "clahe",
+      "deskewed"
+    ]
+  },
+  "barcode_decoder_attempts": [],
+  "profile_scores_and_matched_anchors": [
+    {
+      "profile_name": "green_dws",
+      "status": "rejected",
+      "evidence_score": 0.775,
+      "cue_score": 0.5,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 4,
+      "disqualification_reason": "DWS anchors (Machine ID / Real Vol / AWB No) not satisfied"
+    },
+    {
+      "profile_name": "yellow_dws",
+      "status": "selected",
+      "evidence_score": 0.875,
+      "cue_score": 0.9,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 4,
+      "disqualification_reason": null
+    },
+    {
+      "profile_name": "white_text_scanner",
+      "status": "rejected",
+      "evidence_score": 0.488,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": true,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 3,
+      "disqualification_reason": "White text scanner anchors (Sorter ID / triplet dimensions) not satisfied"
+    },
+    {
+      "profile_name": "ekart",
+      "status": "rejected",
+      "evidence_score": 0.325,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": true,
+        "dimensions": false,
+        "metadata": true
+      },
+      "anchor_count": 2,
+      "disqualification_reason": "Ekart specific cues (L*W*H or Scan Time) not satisfied"
+    },
+    {
+      "profile_name": "bottom_panel",
+      "status": "rejected",
+      "evidence_score": 0.488,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": false
+      },
+      "anchor_count": 3,
+      "disqualification_reason": "Bottom panel anchors (A.W / V.W / bottom dimensions) not satisfied"
+    },
+    {
+      "profile_name": "generic_overlay",
+      "status": "rejected",
+      "evidence_score": 0.675,
+      "cue_score": 0.1,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 4,
+      "disqualification_reason": "Evidence threshold not met"
+    }
+  ],
+  "parsed_values_and_validation_failures": {
+    "parsed_values": {
+      "tracking_number": "19109110325312",
+      "weight_value": 11880.0,
+      "weight_unit": "g",
+      "actual_weight": 11880.0,
+      "volumetric_weight": null,
+      "length": 60.3,
+      "width": 39.9,
+      "height": 40.3,
+      "dimension_unit": "cm",
+      "status": "SUCCESS",
+      "scene_flags": []
+    },
+    "validation_failures": [
+      {
+        "field": "tracking_number",
+        "candidate": "Location",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      },
+      {
+        "field": "tracking_number",
+        "candidate": "Kamataka",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      },
+      {
+        "field": "tracking_number",
+        "candidate": "Location",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      },
+      {
+        "field": "tracking_number",
+        "candidate": "Bangalore",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      },
+      {
+        "field": "tracking_number",
+        "candidate": "Karnataka",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      }
+    ]
+  },
+  "final_field_provenance_and_confidence": {
+    "provenance": {
+      "tracking_number": {
+        "value": "19109110325312",
+        "source": "scanner_metadata",
+        "raw_text": "AWB No: 19109110325312",
+        "ocr_confidence": 0.95,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "tracking_reconciliation",
+        "unit": null,
+        "normalized_value": "19109110325312",
+        "conflict_status": null,
+        "raw_candidates": [
+          "Location",
+          "Kamataka",
+          "19109110325312",
+          "Location",
+          "Bangalore",
+          "19109110325312",
+          "Karnataka",
+          "19109110325312",
+          "19109110325312",
+          "19109110325312",
+          "19109110325312",
+          "19109110325312"
+        ]
+      },
+      "weight": {
+        "value": 11880.0,
+        "source": "scanner_metadata",
+        "raw_text": "Weight: 11880.000 gm",
+        "ocr_confidence": 0.98,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "weight_reconciliation",
+        "unit": "g",
+        "normalized_value": 11880.0,
+        "conflict_status": null,
+        "raw_candidates": []
+      },
+      "dimensions": {
+        "value": [
+          60.3,
+          39.9,
+          40.3
+        ],
+        "source": "scanner_metadata",
+        "raw_text": "Length: 60.300 cm; Width: 39.900 cm; Height: 40.300 cm",
+        "ocr_confidence": 0.98,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "dimensions_reconciliation",
+        "unit": "cm",
+        "normalized_value": [
+          60.3,
+          39.9,
+          40.3
+        ],
+        "conflict_status": null,
+        "raw_candidates": []
+      }
+    },
+    "field_confidence": {
+      "tracking_number": 0.95,
+      "weight": 0.98,
+      "dimensions": 0.98
+    }
+  },
+  "original_image_ref": "batches/228dc6f8-1bf6-44dc-8489-68e20f48fdec/originals/a65885b4-5bc3-4900-a927-a570fc5380bb/4_jpeg.rf.VfthwvlCymwlZDO2NmsW.jpeg",
+  "detected_metadata_rois": [
+    {
+      "format_hint": "yellow_dws",
+      "bbox_xyxy": [
+        91,
+        41,
+        1548,
+        829
+      ],
+      "score": 0.95
+    }
+  ],
+  "ocr_text_and_geometry": [
+    {
+      "source": "overlay",
+      "text": "Location:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          17,
+          9
+        ],
+        [
+          66,
+          9
+        ],
+        [
+          66,
+          20
+        ],
+        [
+          17,
+          20
+        ]
+      ],
+      "bbox_xyxy": [
+        17,
+        9,
+        66,
+        20
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Bangalore_Hoskote_GW (Kamataka)",
+      "score": 0.9756,
+      "quad_box": [
+        [
+          79,
+          8
+        ],
+        [
+          267,
+          8
+        ],
+        [
+          267,
+          21
+        ],
+        [
+          79,
+          21
+        ]
+      ],
+      "bbox_xyxy": [
+        79,
+        8,
+        267,
+        21
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "AWB No:",
+      "score": 0.9818,
+      "quad_box": [
+        [
+          17,
+          26
+        ],
+        [
+          67,
+          26
+        ],
+        [
+          67,
+          37
+        ],
+        [
+          17,
+          37
+        ]
+      ],
+      "bbox_xyxy": [
+        17,
+        26,
+        67,
+        37
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "19109110325312",
+      "score": 1.0,
+      "quad_box": [
+        [
+          77,
+          25
+        ],
+        [
+          167,
+          25
+        ],
+        [
+          167,
+          38
+        ],
+        [
+          77,
+          38
+        ]
+      ],
+      "bbox_xyxy": [
+        77,
+        25,
+        167,
+        38
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Length:",
+      "score": 0.9995,
+      "quad_box": [
+        [
+          16,
+          42
+        ],
+        [
+          59,
+          42
+        ],
+        [
+          59,
+          56
+        ],
+        [
+          16,
+          56
+        ]
+      ],
+      "bbox_xyxy": [
+        16,
+        42,
+        59,
+        56
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "60.300 cm",
+      "score": 0.9989,
+      "quad_box": [
+        [
+          77,
+          42
+        ],
+        [
+          134,
+          42
+        ],
+        [
+          134,
+          56
+        ],
+        [
+          77,
+          56
+        ]
+      ],
+      "bbox_xyxy": [
+        77,
+        42,
+        134,
+        56
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Width:",
+      "score": 0.9994,
+      "quad_box": [
+        [
+          16,
+          59
+        ],
+        [
+          54,
+          59
+        ],
+        [
+          54,
+          73
+        ],
+        [
+          16,
+          73
+        ]
+      ],
+      "bbox_xyxy": [
+        16,
+        59,
+        54,
+        73
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "39.900 cm",
+      "score": 0.9991,
+      "quad_box": [
+        [
+          77,
+          59
+        ],
+        [
+          134,
+          59
+        ],
+        [
+          134,
+          73
+        ],
+        [
+          77,
+          73
+        ]
+      ],
+      "bbox_xyxy": [
+        77,
+        59,
+        134,
+        73
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Height:",
+      "score": 0.9994,
+      "quad_box": [
+        [
+          16,
+          77
+        ],
+        [
+          58,
+          77
+        ],
+        [
+          58,
+          92
+        ],
+        [
+          16,
+          92
+        ]
+      ],
+      "bbox_xyxy": [
+        16,
+        77,
+        58,
+        92
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "40.300 cm",
+      "score": 0.9978,
+      "quad_box": [
+        [
+          74,
+          75
+        ],
+        [
+          132,
+          77
+        ],
+        [
+          131,
+          91
+        ],
+        [
+          74,
+          89
+        ]
+      ],
+      "bbox_xyxy": [
+        74,
+        75,
+        132,
+        91
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "R.Vol.:",
+      "score": 0.9974,
+      "quad_box": [
+        [
+          16,
+          94
+        ],
+        [
+          56,
+          94
+        ],
+        [
+          56,
+          108
+        ],
+        [
+          16,
+          108
+        ]
+      ],
+      "bbox_xyxy": [
+        16,
+        94,
+        56,
+        108
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "95207.000 cm (cubic)",
+      "score": 0.9839,
+      "quad_box": [
+        [
+          72,
+          93
+        ],
+        [
+          183,
+          94
+        ],
+        [
+          183,
+          109
+        ],
+        [
+          72,
+          108
+        ]
+      ],
+      "bbox_xyxy": [
+        72,
+        93,
+        183,
+        109
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Weight:",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          17,
+          112
+        ],
+        [
+          59,
+          112
+        ],
+        [
+          59,
+          126
+        ],
+        [
+          17,
+          126
+        ]
+      ],
+      "bbox_xyxy": [
+        17,
+        112,
+        59,
+        126
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "11880.000 gm",
+      "score": 0.9991,
+      "quad_box": [
+        [
+          77,
+          112
+        ],
+        [
+          153,
+          112
+        ],
+        [
+          153,
+          126
+        ],
+        [
+          77,
+          126
+        ]
+      ],
+      "bbox_xyxy": [
+        77,
+        112,
+        153,
+        126
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Time:",
+      "score": 0.9997,
+      "quad_box": [
+        [
+          18,
+          129
+        ],
+        [
+          49,
+          131
+        ],
+        [
+          48,
+          143
+        ],
+        [
+          17,
+          141
+        ]
+      ],
+      "bbox_xyxy": [
+        17,
+        129,
+        49,
+        143
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "7/25/2025 4:03:19 AM",
+      "score": 0.9919,
+      "quad_box": [
+        [
+          74,
+          129
+        ],
+        [
+          187,
+          129
+        ],
+        [
+          187,
+          142
+        ],
+        [
+          74,
+          142
+        ]
+      ],
+      "bbox_xyxy": [
+        74,
+        129,
+        187,
+        142
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "\u00a9",
+      "score": 0.3398,
+      "quad_box": [
+        [
+          174,
+          404
+        ],
+        [
+          184,
+          404
+        ],
+        [
+          184,
+          415
+        ],
+        [
+          174,
+          415
+        ]
+      ],
+      "bbox_xyxy": [
+        174,
+        404,
+        184,
+        415
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "9",
+      "score": 0.8904,
+      "quad_box": [
+        [
+          91,
+          416
+        ],
+        [
+          99,
+          416
+        ],
+        [
+          99,
+          425
+        ],
+        [
+          91,
+          425
+        ]
+      ],
+      "bbox_xyxy": [
+        91,
+        416,
+        99,
+        425
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "@",
+      "score": 0.5733,
+      "quad_box": [
+        [
+          173,
+          784
+        ],
+        [
+          182,
+          784
+        ],
+        [
+          182,
+          793
+        ],
+        [
+          173,
+          793
+        ]
+      ],
+      "bbox_xyxy": [
+        173,
+        784,
+        182,
+        793
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "o",
+      "score": 0.4197,
+      "quad_box": [
+        [
+          295,
+          786
+        ],
+        [
+          304,
+          786
+        ],
+        [
+          304,
+          795
+        ],
+        [
+          295,
+          795
+        ]
+      ],
+      "bbox_xyxy": [
+        295,
+        786,
+        304,
+        795
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "\u00a9",
+      "score": 0.554,
+      "quad_box": [
+        [
+          417,
+          787
+        ],
+        [
+          426,
+          787
+        ],
+        [
+          426,
+          797
+        ],
+        [
+          417,
+          797
+        ]
+      ],
+      "bbox_xyxy": [
+        417,
+        787,
+        426,
+        797
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "\u2462",
+      "score": 0.8132,
+      "quad_box": [
+        [
+          535,
+          794
+        ],
+        [
+          543,
+          785
+        ],
+        [
+          551,
+          793
+        ],
+        [
+          543,
+          800
+        ]
+      ],
+      "bbox_xyxy": [
+        535,
+        785,
+        551,
+        800
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Location:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          93,
+          49
+        ],
+        [
+          309,
+          49
+        ],
+        [
+          309,
+          94
+        ],
+        [
+          93,
+          94
+        ]
+      ],
+      "bbox_xyxy": [
+        93,
+        49,
+        309,
+        94
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Bangalore",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          386,
+          46
+        ],
+        [
+          632,
+          48
+        ],
+        [
+          632,
+          100
+        ],
+        [
+          386,
+          98
+        ]
+      ],
+      "bbox_xyxy": [
+        386,
+        46,
+        632,
+        100
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Hosko",
+      "score": 0.9358,
+      "quad_box": [
+        [
+          659,
+          48
+        ],
+        [
+          800,
+          48
+        ],
+        [
+          800,
+          94
+        ],
+        [
+          659,
+          94
+        ]
+      ],
+      "bbox_xyxy": [
+        659,
+        48,
+        800,
+        94
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "AWB No:",
+      "score": 0.9986,
+      "quad_box": [
+        [
+          88,
+          128
+        ],
+        [
+          316,
+          128
+        ],
+        [
+          316,
+          180
+        ],
+        [
+          88,
+          180
+        ]
+      ],
+      "bbox_xyxy": [
+        88,
+        128,
+        316,
+        180
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "19109110325312",
+      "score": 0.9961,
+      "quad_box": [
+        [
+          378,
+          133
+        ],
+        [
+          791,
+          133
+        ],
+        [
+          791,
+          174
+        ],
+        [
+          378,
+          174
+        ]
+      ],
+      "bbox_xyxy": [
+        378,
+        133,
+        791,
+        174
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Length:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          90,
+          212
+        ],
+        [
+          272,
+          212
+        ],
+        [
+          272,
+          269
+        ],
+        [
+          90,
+          269
+        ]
+      ],
+      "bbox_xyxy": [
+        90,
+        212,
+        272,
+        269
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "60.300",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          377,
+          214
+        ],
+        [
+          548,
+          214
+        ],
+        [
+          548,
+          260
+        ],
+        [
+          377,
+          260
+        ]
+      ],
+      "bbox_xyxy": [
+        377,
+        214,
+        548,
+        260
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "cm",
+      "score": 0.8775,
+      "quad_box": [
+        [
+          526,
+          220
+        ],
+        [
+          628,
+          220
+        ],
+        [
+          628,
+          260
+        ],
+        [
+          526,
+          260
+        ]
+      ],
+      "bbox_xyxy": [
+        526,
+        220,
+        628,
+        260
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Width:",
+      "score": 0.9996,
+      "quad_box": [
+        [
+          90,
+          293
+        ],
+        [
+          244,
+          296
+        ],
+        [
+          243,
+          346
+        ],
+        [
+          89,
+          343
+        ]
+      ],
+      "bbox_xyxy": [
+        89,
+        293,
+        244,
+        346
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "39.900 cm",
+      "score": 0.9996,
+      "quad_box": [
+        [
+          379,
+          294
+        ],
+        [
+          635,
+          298
+        ],
+        [
+          634,
+          347
+        ],
+        [
+          378,
+          343
+        ]
+      ],
+      "bbox_xyxy": [
+        378,
+        294,
+        635,
+        347
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Height:",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          89,
+          377
+        ],
+        [
+          264,
+          379
+        ],
+        [
+          263,
+          436
+        ],
+        [
+          88,
+          434
+        ]
+      ],
+      "bbox_xyxy": [
+        88,
+        377,
+        264,
+        436
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "40.300 cm",
+      "score": 0.999,
+      "quad_box": [
+        [
+          363,
+          378
+        ],
+        [
+          623,
+          381
+        ],
+        [
+          623,
+          430
+        ],
+        [
+          363,
+          427
+        ]
+      ],
+      "bbox_xyxy": [
+        363,
+        378,
+        623,
+        430
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "R.Vol.:",
+      "score": 0.9959,
+      "quad_box": [
+        [
+          90,
+          461
+        ],
+        [
+          256,
+          463
+        ],
+        [
+          255,
+          513
+        ],
+        [
+          89,
+          511
+        ]
+      ],
+      "bbox_xyxy": [
+        89,
+        461,
+        256,
+        513
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "95207.000 cm (cub",
+      "score": 0.9694,
+      "quad_box": [
+        [
+          355,
+          460
+        ],
+        [
+          800,
+          465
+        ],
+        [
+          800,
+          516
+        ],
+        [
+          355,
+          511
+        ]
+      ],
+      "bbox_xyxy": [
+        355,
+        460,
+        800,
+        516
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Weight:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          88,
+          543
+        ],
+        [
+          276,
+          545
+        ],
+        [
+          275,
+          601
+        ],
+        [
+          87,
+          599
+        ]
+      ],
+      "bbox_xyxy": [
+        87,
+        543,
+        276,
+        601
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "11880.000 gm",
+      "score": 0.9997,
+      "quad_box": [
+        [
+          380,
+          540
+        ],
+        [
+          731,
+          548
+        ],
+        [
+          730,
+          604
+        ],
+        [
+          379,
+          596
+        ]
+      ],
+      "bbox_xyxy": [
+        379,
+        540,
+        731,
+        604
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Time:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          86,
+          625
+        ],
+        [
+          231,
+          631
+        ],
+        [
+          229,
+          685
+        ],
+        [
+          84,
+          679
+        ]
+      ],
+      "bbox_xyxy": [
+        84,
+        625,
+        231,
+        685
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "7/25/2025 4:03:19",
+      "score": 0.9927,
+      "quad_box": [
+        [
+          357,
+          628
+        ],
+        [
+          798,
+          630
+        ],
+        [
+          798,
+          681
+        ],
+        [
+          357,
+          679
+        ]
+      ],
+      "bbox_xyxy": [
+        357,
+        628,
+        798,
+        681
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Hoskote_GW (Karnataka)",
+      "score": 0.9712,
+      "quad_box": [
+        [
+          820,
+          41
+        ],
+        [
+          1414,
+          44
+        ],
+        [
+          1414,
+          105
+        ],
+        [
+          820,
+          102
+        ]
+      ],
+      "bbox_xyxy": [
+        820,
+        41,
+        1414,
+        105
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "5312",
+      "score": 0.9993,
+      "quad_box": [
+        [
+          820,
+          129
+        ],
+        [
+          935,
+          125
+        ],
+        [
+          937,
+          179
+        ],
+        [
+          820,
+          183
+        ]
+      ],
+      "bbox_xyxy": [
+        820,
+        125,
+        937,
+        183
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "(cubic)",
+      "score": 0.9995,
+      "quad_box": [
+        [
+          846,
+          462
+        ],
+        [
+          1015,
+          462
+        ],
+        [
+          1015,
+          520
+        ],
+        [
+          846,
+          520
+        ]
+      ],
+      "bbox_xyxy": [
+        846,
+        462,
+        1015,
+        520
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "m",
+      "score": 0.9959,
+      "quad_box": [
+        [
+          821,
+          557
+        ],
+        [
+          865,
+          557
+        ],
+        [
+          865,
+          597
+        ],
+        [
+          821,
+          597
+        ]
+      ],
+      "bbox_xyxy": [
+        821,
+        557,
+        865,
+        597
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "03:19 AM",
+      "score": 0.9353,
+      "quad_box": [
+        [
+          820,
+          627
+        ],
+        [
+          1033,
+          624
+        ],
+        [
+          1034,
+          680
+        ],
+        [
+          820,
+          683
+        ]
+      ],
+      "bbox_xyxy": [
+        820,
+        624,
+        1034,
+        683
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "f",
+      "score": 0.3321,
+      "quad_box": [
+        [
+          1640,
+          309
+        ],
+        [
+          1815,
+          289
+        ],
+        [
+          1828,
+          410
+        ],
+        [
+          1653,
+          429
+        ]
+      ],
+      "bbox_xyxy": [
+        1640,
+        289,
+        1828,
+        429
+      ]
+    }
+  ],
+  "detected_label_crop": null,
+  "barcode_output": [],
+  "parser_output": {
+    "tracking_number": "19109110325312",
+    "weight_value": 11880.0,
+    "weight_unit": "g",
+    "actual_weight": 11880.0,
+    "volumetric_weight": null,
+    "length": 60.3,
+    "width": 39.9,
+    "height": 40.3,
+    "dimension_unit": "cm",
+    "status": "SUCCESS",
+    "scene_flags": []
+  },
+  "source_reconciliation_result": {
+    "tracking_number": {
+      "value": "19109110325312",
+      "source": "scanner_metadata",
+      "raw_text": "AWB No: 19109110325312",
+      "ocr_confidence": 0.95,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "tracking_reconciliation",
+      "unit": null,
+      "normalized_value": "19109110325312",
+      "conflict_status": null,
+      "raw_candidates": [
+        "Location",
+        "Kamataka",
+        "19109110325312",
+        "Location",
+        "Bangalore",
+        "19109110325312",
+        "Karnataka",
+        "19109110325312",
+        "19109110325312",
+        "19109110325312",
+        "19109110325312",
+        "19109110325312"
+      ]
+    },
+    "weight": {
+      "value": 11880.0,
+      "source": "scanner_metadata",
+      "raw_text": "Weight: 11880.000 gm",
+      "ocr_confidence": 0.98,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "weight_reconciliation",
+      "unit": "g",
+      "normalized_value": 11880.0,
+      "conflict_status": null,
+      "raw_candidates": []
+    },
+    "dimensions": {
+      "value": [
+        60.3,
+        39.9,
+        40.3
+      ],
+      "source": "scanner_metadata",
+      "raw_text": "Length: 60.300 cm; Width: 39.900 cm; Height: 40.300 cm",
+      "ocr_confidence": 0.98,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "dimensions_reconciliation",
+      "unit": "cm",
+      "normalized_value": [
+        60.3,
+        39.9,
+        40.3
+      ],
+      "conflict_status": null,
+      "raw_candidates": []
+    }
+  }
+}

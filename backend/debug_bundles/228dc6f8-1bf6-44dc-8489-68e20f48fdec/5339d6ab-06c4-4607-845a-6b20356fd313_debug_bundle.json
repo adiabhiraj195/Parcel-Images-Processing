@@ -1,0 +1,5011 @@
+{
+  "original_image": {
+    "s3_key": "batches/228dc6f8-1bf6-44dc-8489-68e20f48fdec/originals/5339d6ab-06c4-4607-845a-6b20356fd313/Different_format_belongs_to_Ekart_png.rf.BsrAfLLTmAOXMTQQp6zB.png",
+    "filename": "Different format belongs to Ekart_png.rf.BsrAfLLTmAOXMTQQp6zB.png",
+    "file_size": 606259,
+    "dimensions": {
+      "width": 1267,
+      "height": 628,
+      "channels": 3
+    },
+    "quality_metrics": {
+      "blur_score": 801.02,
+      "is_blurry": false,
+      "mean_brightness": 43.0
+    }
+  },
+  "candidate_regions": [
+    {
+      "format_hint": "white_text_scanner",
+      "bbox_xyxy": [
+        0,
+        0,
+        653,
+        271
+      ],
+      "score": 0.75
+    },
+    {
+      "source": "detector_parcel",
+      "bbox_xyxy": [
+        432,
+        165,
+        942,
+        624
+      ],
+      "score": 0.4336
+    },
+    {
+      "source": "detector_shipping_label",
+      "bbox_xyxy": [
+        452,
+        321,
+        608,
+        526
+      ],
+      "score": 0.3137
+    },
+    {
+      "source": "detector_shipping_label",
+      "bbox_xyxy": [
+        634,
+        604,
+        714,
+        626
+      ],
+      "score": 0.3024
+    },
+    {
+      "source": "detector_shipping_label",
+      "bbox_xyxy": [
+        18,
+        10,
+        148,
+        72
+      ],
+      "score": 0.1884
+    }
+  ],
+  "all_ocr_detections": [
+    {
+      "source": "overlay",
+      "text": "Barcodke: PROC0000316077",
+      "score": 0.9295,
+      "quad_box": [
+        [
+          13,
+          3
+        ],
+        [
+          80,
+          3
+        ],
+        [
+          80,
+          13
+        ],
+        [
+          13,
+          13
+        ]
+      ],
+      "bbox_xyxy": [
+        13,
+        3,
+        80,
+        13
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Wight 0.62 kg",
+      "score": 0.9853,
+      "quad_box": [
+        [
+          13,
+          14
+        ],
+        [
+          53,
+          14
+        ],
+        [
+          53,
+          25
+        ],
+        [
+          13,
+          25
+        ]
+      ],
+      "bbox_xyxy": [
+        13,
+        14,
+        53,
+        25
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "L *W * H: 0130 *0369 * 0040",
+      "score": 0.7831,
+      "quad_box": [
+        [
+          14,
+          26
+        ],
+        [
+          89,
+          26
+        ],
+        [
+          89,
+          33
+        ],
+        [
+          14,
+          33
+        ]
+      ],
+      "bbox_xyxy": [
+        14,
+        26,
+        89,
+        33
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Scan Tirre: 10-07-2025 0t:34.39",
+      "score": 0.9418,
+      "quad_box": [
+        [
+          14,
+          35
+        ],
+        [
+          91,
+          35
+        ],
+        [
+          91,
+          45
+        ],
+        [
+          14,
+          45
+        ]
+      ],
+      "bbox_xyxy": [
+        14,
+        35,
+        91,
+        45
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "AAAAAA",
+      "score": 0.7558,
+      "quad_box": [
+        [
+          436,
+          158
+        ],
+        [
+          524,
+          163
+        ],
+        [
+          523,
+          180
+        ],
+        [
+          435,
+          175
+        ]
+      ],
+      "bbox_xyxy": [
+        435,
+        158,
+        524,
+        180
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "M",
+      "score": 0.8368,
+      "quad_box": [
+        [
+          520,
+          162
+        ],
+        [
+          555,
+          162
+        ],
+        [
+          555,
+          182
+        ],
+        [
+          520,
+          182
+        ]
+      ],
+      "bbox_xyxy": [
+        520,
+        162,
+        555,
+        182
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Mau L p-o Ams",
+      "score": 0.4768,
+      "quad_box": [
+        [
+          418,
+          218
+        ],
+        [
+          507,
+          225
+        ],
+        [
+          506,
+          236
+        ],
+        [
+          417,
+          229
+        ]
+      ],
+      "bbox_xyxy": [
+        417,
+        218,
+        507,
+        236
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Kepung Sad syeae",
+      "score": 0.7545,
+      "quad_box": [
+        [
+          423,
+          210
+        ],
+        [
+          508,
+          216
+        ],
+        [
+          507,
+          228
+        ],
+        [
+          422,
+          221
+        ]
+      ],
+      "bbox_xyxy": [
+        422,
+        210,
+        508,
+        228
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Meeene e Wes",
+      "score": 0.3589,
+      "quad_box": [
+        [
+          389,
+          229
+        ],
+        [
+          506,
+          240
+        ],
+        [
+          505,
+          255
+        ],
+        [
+          388,
+          244
+        ]
+      ],
+      "bbox_xyxy": [
+        388,
+        229,
+        506,
+        255
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "a  aa",
+      "score": 0.4909,
+      "quad_box": [
+        [
+          401,
+          273
+        ],
+        [
+          503,
+          280
+        ],
+        [
+          502,
+          292
+        ],
+        [
+          400,
+          284
+        ]
+      ],
+      "bbox_xyxy": [
+        400,
+        273,
+        503,
+        292
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "(100s of 4) azs euany )",
+      "score": 0.5551,
+      "quad_box": [
+        [
+          408,
+          265
+        ],
+        [
+          503,
+          273
+        ],
+        [
+          502,
+          285
+        ],
+        [
+          407,
+          277
+        ]
+      ],
+      "bbox_xyxy": [
+        407,
+        265,
+        503,
+        285
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "UV",
+      "score": 0.4477,
+      "quad_box": [
+        [
+          509,
+          274
+        ],
+        [
+          553,
+          274
+        ],
+        [
+          553,
+          309
+        ],
+        [
+          509,
+          309
+        ]
+      ],
+      "bbox_xyxy": [
+        509,
+        274,
+        553,
+        309
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "PPeel",
+      "score": 0.5219,
+      "quad_box": [
+        [
+          446,
+          291
+        ],
+        [
+          502,
+          295
+        ],
+        [
+          502,
+          306
+        ],
+        [
+          446,
+          303
+        ]
+      ],
+      "bbox_xyxy": [
+        446,
+        291,
+        502,
+        306
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Praen bewc",
+      "score": 0.3213,
+      "quad_box": [
+        [
+          412,
+          340
+        ],
+        [
+          500,
+          349
+        ],
+        [
+          499,
+          363
+        ],
+        [
+          411,
+          354
+        ]
+      ],
+      "bbox_xyxy": [
+        411,
+        340,
+        500,
+        363
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Barcode: PROC0000316077",
+      "score": 0.9951,
+      "quad_box": [
+        [
+          19,
+          7
+        ],
+        [
+          105,
+          7
+        ],
+        [
+          105,
+          17
+        ],
+        [
+          19,
+          17
+        ]
+      ],
+      "bbox_xyxy": [
+        19,
+        7,
+        105,
+        17
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Weight: 0.62 kg",
+      "score": 0.9885,
+      "quad_box": [
+        [
+          18,
+          20
+        ],
+        [
+          70,
+          20
+        ],
+        [
+          70,
+          32
+        ],
+        [
+          18,
+          32
+        ]
+      ],
+      "bbox_xyxy": [
+        18,
+        20,
+        70,
+        32
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Scan Time: 10-07-2025 0t:34:39",
+      "score": 0.9622,
+      "quad_box": [
+        [
+          18,
+          47
+        ],
+        [
+          120,
+          47
+        ],
+        [
+          120,
+          60
+        ],
+        [
+          18,
+          60
+        ]
+      ],
+      "bbox_xyxy": [
+        18,
+        47,
+        120,
+        60
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "M j o o a   o",
+      "score": 0.3699,
+      "quad_box": [
+        [
+          533,
+          185
+        ],
+        [
+          734,
+          198
+        ],
+        [
+          733,
+          213
+        ],
+        [
+          532,
+          199
+        ]
+      ],
+      "bbox_xyxy": [
+        532,
+        185,
+        734,
+        213
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "UAAAAAA",
+      "score": 0.645,
+      "quad_box": [
+        [
+          572,
+          202
+        ],
+        [
+          736,
+          213
+        ],
+        [
+          734,
+          245
+        ],
+        [
+          570,
+          233
+        ]
+      ],
+      "bbox_xyxy": [
+        570,
+        202,
+        736,
+        245
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Repuns Sa seae",
+      "score": 0.3625,
+      "quad_box": [
+        [
+          558,
+          278
+        ],
+        [
+          671,
+          286
+        ],
+        [
+          670,
+          301
+        ],
+        [
+          557,
+          292
+        ]
+      ],
+      "bbox_xyxy": [
+        557,
+        278,
+        671,
+        301
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Sa w wen-o Mae",
+      "score": 0.3626,
+      "quad_box": [
+        [
+          551,
+          288
+        ],
+        [
+          670,
+          297
+        ],
+        [
+          669,
+          311
+        ],
+        [
+          550,
+          302
+        ]
+      ],
+      "bbox_xyxy": [
+        550,
+        288,
+        670,
+        311
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Mene e Mees",
+      "score": 0.3797,
+      "quad_box": [
+        [
+          514,
+          305
+        ],
+        [
+          668,
+          317
+        ],
+        [
+          667,
+          334
+        ],
+        [
+          513,
+          322
+        ]
+      ],
+      "bbox_xyxy": [
+        513,
+        305,
+        668,
+        334
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "(Da o t) ae un caN)",
+      "score": 0.4027,
+      "quad_box": [
+        [
+          539,
+          350
+        ],
+        [
+          665,
+          360
+        ],
+        [
+          664,
+          374
+        ],
+        [
+          538,
+          364
+        ]
+      ],
+      "bbox_xyxy": [
+        538,
+        350,
+        665,
+        374
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "ceo ie cae coaae",
+      "score": 0.2694,
+      "quad_box": [
+        [
+          529,
+          361
+        ],
+        [
+          664,
+          370
+        ],
+        [
+          663,
+          383
+        ],
+        [
+          528,
+          375
+        ]
+      ],
+      "bbox_xyxy": [
+        528,
+        361,
+        664,
+        383
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "UW",
+      "score": 0.845,
+      "quad_box": [
+        [
+          671,
+          355
+        ],
+        [
+          736,
+          359
+        ],
+        [
+          732,
+          413
+        ],
+        [
+          667,
+          408
+        ]
+      ],
+      "bbox_xyxy": [
+        667,
+        355,
+        736,
+        413
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Peel",
+      "score": 0.4116,
+      "quad_box": [
+        [
+          590,
+          385
+        ],
+        [
+          664,
+          388
+        ],
+        [
+          664,
+          403
+        ],
+        [
+          590,
+          399
+        ]
+      ],
+      "bbox_xyxy": [
+        590,
+        385,
+        664,
+        403
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "6uv",
+      "score": 0.7304,
+      "quad_box": [
+        [
+          568,
+          424
+        ],
+        [
+          588,
+          429
+        ],
+        [
+          585,
+          440
+        ],
+        [
+          565,
+          436
+        ]
+      ],
+      "bbox_xyxy": [
+        565,
+        424,
+        588,
+        440
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "a",
+      "score": 0.1658,
+      "quad_box": [
+        [
+          550,
+          434
+        ],
+        [
+          660,
+          441
+        ],
+        [
+          659,
+          455
+        ],
+        [
+          549,
+          448
+        ]
+      ],
+      "bbox_xyxy": [
+        549,
+        434,
+        660,
+        455
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "wo",
+      "score": 0.2849,
+      "quad_box": [
+        [
+          626,
+          431
+        ],
+        [
+          657,
+          431
+        ],
+        [
+          657,
+          442
+        ],
+        [
+          626,
+          442
+        ]
+      ],
+      "bbox_xyxy": [
+        626,
+        431,
+        657,
+        442
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Peq brcS",
+      "score": 0.3097,
+      "quad_box": [
+        [
+          542,
+          450
+        ],
+        [
+          658,
+          460
+        ],
+        [
+          657,
+          477
+        ],
+        [
+          541,
+          467
+        ]
+      ],
+      "bbox_xyxy": [
+        541,
+        450,
+        658,
+        477
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Repun Sa seae",
+      "score": 0.3822,
+      "quad_box": [
+        [
+          609,
+          278
+        ],
+        [
+          722,
+          286
+        ],
+        [
+          721,
+          301
+        ],
+        [
+          608,
+          292
+        ]
+      ],
+      "bbox_xyxy": [
+        608,
+        278,
+        722,
+        301
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "e wn wen-o wae",
+      "score": 0.366,
+      "quad_box": [
+        [
+          602,
+          288
+        ],
+        [
+          721,
+          297
+        ],
+        [
+          720,
+          311
+        ],
+        [
+          601,
+          302
+        ]
+      ],
+      "bbox_xyxy": [
+        601,
+        288,
+        721,
+        311
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "(Da ou t) ae ur caN)",
+      "score": 0.3801,
+      "quad_box": [
+        [
+          590,
+          350
+        ],
+        [
+          716,
+          360
+        ],
+        [
+          715,
+          374
+        ],
+        [
+          589,
+          364
+        ]
+      ],
+      "bbox_xyxy": [
+        589,
+        350,
+        716,
+        374
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "UW",
+      "score": 0.725,
+      "quad_box": [
+        [
+          723,
+          354
+        ],
+        [
+          788,
+          361
+        ],
+        [
+          783,
+          413
+        ],
+        [
+          718,
+          406
+        ]
+      ],
+      "bbox_xyxy": [
+        718,
+        354,
+        788,
+        413
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Pel",
+      "score": 0.42,
+      "quad_box": [
+        [
+          642,
+          384
+        ],
+        [
+          715,
+          388
+        ],
+        [
+          714,
+          404
+        ],
+        [
+          641,
+          399
+        ]
+      ],
+      "bbox_xyxy": [
+        641,
+        384,
+        715,
+        404
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "ee2aee",
+      "score": 0.249,
+      "quad_box": [
+        [
+          601,
+          434
+        ],
+        [
+          711,
+          441
+        ],
+        [
+          710,
+          455
+        ],
+        [
+          600,
+          448
+        ]
+      ],
+      "bbox_xyxy": [
+        600,
+        434,
+        711,
+        455
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "yo",
+      "score": 0.389,
+      "quad_box": [
+        [
+          672,
+          428
+        ],
+        [
+          708,
+          433
+        ],
+        [
+          707,
+          444
+        ],
+        [
+          671,
+          439
+        ]
+      ],
+      "bbox_xyxy": [
+        671,
+        428,
+        708,
+        444
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Peq bruS",
+      "score": 0.3265,
+      "quad_box": [
+        [
+          593,
+          450
+        ],
+        [
+          710,
+          460
+        ],
+        [
+          709,
+          477
+        ],
+        [
+          592,
+          467
+        ]
+      ],
+      "bbox_xyxy": [
+        592,
+        450,
+        710,
+        477
+      ]
+    },
+    {
+      "source": "label",
+      "text": "so js o o o  s",
+      "score": 0.4646,
+      "quad_box": [
+        [
+          299,
+          104
+        ],
+        [
+          492,
+          117
+        ],
+        [
+          492,
+          131
+        ],
+        [
+          298,
+          118
+        ]
+      ],
+      "bbox_xyxy": [
+        298,
+        104,
+        492,
+        131
+      ]
+    },
+    {
+      "source": "label",
+      "text": "AAAAA",
+      "score": 0.7115,
+      "quad_box": [
+        [
+          350,
+          134
+        ],
+        [
+          489,
+          141
+        ],
+        [
+          488,
+          162
+        ],
+        [
+          349,
+          155
+        ]
+      ],
+      "bbox_xyxy": [
+        349,
+        134,
+        489,
+        162
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Penun Se sea",
+      "score": 0.3687,
+      "quad_box": [
+        [
+          329,
+          214
+        ],
+        [
+          464,
+          224
+        ],
+        [
+          463,
+          240
+        ],
+        [
+          328,
+          231
+        ]
+      ],
+      "bbox_xyxy": [
+        328,
+        214,
+        464,
+        240
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Seu  wun-uo kem",
+      "score": 0.3908,
+      "quad_box": [
+        [
+          321,
+          229
+        ],
+        [
+          462,
+          238
+        ],
+        [
+          462,
+          252
+        ],
+        [
+          320,
+          243
+        ]
+      ],
+      "bbox_xyxy": [
+        320,
+        229,
+        462,
+        252
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Weeune M Me",
+      "score": 0.3377,
+      "quad_box": [
+        [
+          279,
+          248
+        ],
+        [
+          461,
+          263
+        ],
+        [
+          459,
+          281
+        ],
+        [
+          278,
+          266
+        ]
+      ],
+      "bbox_xyxy": [
+        278,
+        248,
+        461,
+        281
+      ]
+    },
+    {
+      "source": "label",
+      "text": "(r T t) oa oune tan)",
+      "score": 0.3231,
+      "quad_box": [
+        [
+          307,
+          302
+        ],
+        [
+          458,
+          312
+        ],
+        [
+          456,
+          329
+        ],
+        [
+          306,
+          318
+        ]
+      ],
+      "bbox_xyxy": [
+        306,
+        302,
+        458,
+        329
+      ]
+    },
+    {
+      "source": "label",
+      "text": "cn ee wog soee",
+      "score": 0.3457,
+      "quad_box": [
+        [
+          296,
+          315
+        ],
+        [
+          456,
+          326
+        ],
+        [
+          455,
+          340
+        ],
+        [
+          295,
+          329
+        ]
+      ],
+      "bbox_xyxy": [
+        295,
+        315,
+        456,
+        340
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Pbel",
+      "score": 0.3862,
+      "quad_box": [
+        [
+          369,
+          342
+        ],
+        [
+          456,
+          347
+        ],
+        [
+          455,
+          364
+        ],
+        [
+          368,
+          359
+        ]
+      ],
+      "bbox_xyxy": [
+        368,
+        342,
+        456,
+        364
+      ]
+    },
+    {
+      "source": "label",
+      "text": "rtoer",
+      "score": 0.1623,
+      "quad_box": [
+        [
+          320,
+          401
+        ],
+        [
+          451,
+          410
+        ],
+        [
+          450,
+          427
+        ],
+        [
+          318,
+          418
+        ]
+      ],
+      "bbox_xyxy": [
+        318,
+        401,
+        451,
+        427
+      ]
+    },
+    {
+      "source": "label",
+      "text": "wos",
+      "score": 0.3079,
+      "quad_box": [
+        [
+          414,
+          395
+        ],
+        [
+          450,
+          400
+        ],
+        [
+          448,
+          414
+        ],
+        [
+          412,
+          408
+        ]
+      ],
+      "bbox_xyxy": [
+        412,
+        395,
+        450,
+        414
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Per brueS",
+      "score": 0.3204,
+      "quad_box": [
+        [
+          312,
+          422
+        ],
+        [
+          450,
+          435
+        ],
+        [
+          448,
+          452
+        ],
+        [
+          310,
+          439
+        ]
+      ],
+      "bbox_xyxy": [
+        310,
+        422,
+        450,
+        452
+      ]
+    },
+    {
+      "source": "label",
+      "text": "AAAAAA",
+      "score": 0.7558,
+      "quad_box": [
+        [
+          436,
+          158
+        ],
+        [
+          524,
+          163
+        ],
+        [
+          523,
+          180
+        ],
+        [
+          435,
+          175
+        ]
+      ],
+      "bbox_xyxy": [
+        435,
+        158,
+        524,
+        180
+      ]
+    },
+    {
+      "source": "label",
+      "text": "M",
+      "score": 0.8368,
+      "quad_box": [
+        [
+          520,
+          162
+        ],
+        [
+          555,
+          162
+        ],
+        [
+          555,
+          182
+        ],
+        [
+          520,
+          182
+        ]
+      ],
+      "bbox_xyxy": [
+        520,
+        162,
+        555,
+        182
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Mau L p-o Ams",
+      "score": 0.4768,
+      "quad_box": [
+        [
+          418,
+          218
+        ],
+        [
+          507,
+          225
+        ],
+        [
+          506,
+          236
+        ],
+        [
+          417,
+          229
+        ]
+      ],
+      "bbox_xyxy": [
+        417,
+        218,
+        507,
+        236
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Kepung Sad syeae",
+      "score": 0.7545,
+      "quad_box": [
+        [
+          423,
+          210
+        ],
+        [
+          508,
+          216
+        ],
+        [
+          507,
+          228
+        ],
+        [
+          422,
+          221
+        ]
+      ],
+      "bbox_xyxy": [
+        422,
+        210,
+        508,
+        228
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Meeene e Wes",
+      "score": 0.3589,
+      "quad_box": [
+        [
+          389,
+          229
+        ],
+        [
+          506,
+          240
+        ],
+        [
+          505,
+          255
+        ],
+        [
+          388,
+          244
+        ]
+      ],
+      "bbox_xyxy": [
+        388,
+        229,
+        506,
+        255
+      ]
+    },
+    {
+      "source": "label",
+      "text": "a  aa",
+      "score": 0.4909,
+      "quad_box": [
+        [
+          401,
+          273
+        ],
+        [
+          503,
+          280
+        ],
+        [
+          502,
+          292
+        ],
+        [
+          400,
+          284
+        ]
+      ],
+      "bbox_xyxy": [
+        400,
+        273,
+        503,
+        292
+      ]
+    },
+    {
+      "source": "label",
+      "text": "(100s of 4) azs euany )",
+      "score": 0.5551,
+      "quad_box": [
+        [
+          408,
+          265
+        ],
+        [
+          503,
+          273
+        ],
+        [
+          502,
+          285
+        ],
+        [
+          407,
+          277
+        ]
+      ],
+      "bbox_xyxy": [
+        407,
+        265,
+        503,
+        285
+      ]
+    },
+    {
+      "source": "label",
+      "text": "UV",
+      "score": 0.4477,
+      "quad_box": [
+        [
+          509,
+          274
+        ],
+        [
+          553,
+          274
+        ],
+        [
+          553,
+          309
+        ],
+        [
+          509,
+          309
+        ]
+      ],
+      "bbox_xyxy": [
+        509,
+        274,
+        553,
+        309
+      ]
+    },
+    {
+      "source": "label",
+      "text": "PPeel",
+      "score": 0.5219,
+      "quad_box": [
+        [
+          446,
+          291
+        ],
+        [
+          502,
+          295
+        ],
+        [
+          502,
+          306
+        ],
+        [
+          446,
+          303
+        ]
+      ],
+      "bbox_xyxy": [
+        446,
+        291,
+        502,
+        306
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Praen bewc",
+      "score": 0.3213,
+      "quad_box": [
+        [
+          412,
+          340
+        ],
+        [
+          500,
+          349
+        ],
+        [
+          499,
+          363
+        ],
+        [
+          411,
+          354
+        ]
+      ],
+      "bbox_xyxy": [
+        411,
+        340,
+        500,
+        363
+      ]
+    },
+    {
+      "source": "label",
+      "text": "M j o o a   o",
+      "score": 0.3699,
+      "quad_box": [
+        [
+          533,
+          185
+        ],
+        [
+          734,
+          198
+        ],
+        [
+          733,
+          213
+        ],
+        [
+          532,
+          199
+        ]
+      ],
+      "bbox_xyxy": [
+        532,
+        185,
+        734,
+        213
+      ]
+    },
+    {
+      "source": "label",
+      "text": "UAAAAAA",
+      "score": 0.645,
+      "quad_box": [
+        [
+          572,
+          202
+        ],
+        [
+          736,
+          213
+        ],
+        [
+          734,
+          245
+        ],
+        [
+          570,
+          233
+        ]
+      ],
+      "bbox_xyxy": [
+        570,
+        202,
+        736,
+        245
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Repuns Sa seae",
+      "score": 0.3625,
+      "quad_box": [
+        [
+          558,
+          278
+        ],
+        [
+          671,
+          286
+        ],
+        [
+          670,
+          301
+        ],
+        [
+          557,
+          292
+        ]
+      ],
+      "bbox_xyxy": [
+        557,
+        278,
+        671,
+        301
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Sa w wen-o Mae",
+      "score": 0.3626,
+      "quad_box": [
+        [
+          551,
+          288
+        ],
+        [
+          670,
+          297
+        ],
+        [
+          669,
+          311
+        ],
+        [
+          550,
+          302
+        ]
+      ],
+      "bbox_xyxy": [
+        550,
+        288,
+        670,
+        311
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Mene e Mees",
+      "score": 0.3797,
+      "quad_box": [
+        [
+          514,
+          305
+        ],
+        [
+          668,
+          317
+        ],
+        [
+          667,
+          334
+        ],
+        [
+          513,
+          322
+        ]
+      ],
+      "bbox_xyxy": [
+        513,
+        305,
+        668,
+        334
+      ]
+    },
+    {
+      "source": "label",
+      "text": "(Da o t) ae un caN)",
+      "score": 0.4027,
+      "quad_box": [
+        [
+          539,
+          350
+        ],
+        [
+          665,
+          360
+        ],
+        [
+          664,
+          374
+        ],
+        [
+          538,
+          364
+        ]
+      ],
+      "bbox_xyxy": [
+        538,
+        350,
+        665,
+        374
+      ]
+    },
+    {
+      "source": "label",
+      "text": "ceo ie cae coaae",
+      "score": 0.2694,
+      "quad_box": [
+        [
+          529,
+          361
+        ],
+        [
+          664,
+          370
+        ],
+        [
+          663,
+          383
+        ],
+        [
+          528,
+          375
+        ]
+      ],
+      "bbox_xyxy": [
+        528,
+        361,
+        664,
+        383
+      ]
+    },
+    {
+      "source": "label",
+      "text": "UW",
+      "score": 0.845,
+      "quad_box": [
+        [
+          671,
+          355
+        ],
+        [
+          736,
+          359
+        ],
+        [
+          732,
+          413
+        ],
+        [
+          667,
+          408
+        ]
+      ],
+      "bbox_xyxy": [
+        667,
+        355,
+        736,
+        413
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Peel",
+      "score": 0.4116,
+      "quad_box": [
+        [
+          590,
+          385
+        ],
+        [
+          664,
+          388
+        ],
+        [
+          664,
+          403
+        ],
+        [
+          590,
+          399
+        ]
+      ],
+      "bbox_xyxy": [
+        590,
+        385,
+        664,
+        403
+      ]
+    },
+    {
+      "source": "label",
+      "text": "6uv",
+      "score": 0.7304,
+      "quad_box": [
+        [
+          568,
+          424
+        ],
+        [
+          588,
+          429
+        ],
+        [
+          585,
+          440
+        ],
+        [
+          565,
+          436
+        ]
+      ],
+      "bbox_xyxy": [
+        565,
+        424,
+        588,
+        440
+      ]
+    },
+    {
+      "source": "label",
+      "text": "a",
+      "score": 0.1658,
+      "quad_box": [
+        [
+          550,
+          434
+        ],
+        [
+          660,
+          441
+        ],
+        [
+          659,
+          455
+        ],
+        [
+          549,
+          448
+        ]
+      ],
+      "bbox_xyxy": [
+        549,
+        434,
+        660,
+        455
+      ]
+    },
+    {
+      "source": "label",
+      "text": "wo",
+      "score": 0.2849,
+      "quad_box": [
+        [
+          626,
+          431
+        ],
+        [
+          657,
+          431
+        ],
+        [
+          657,
+          442
+        ],
+        [
+          626,
+          442
+        ]
+      ],
+      "bbox_xyxy": [
+        626,
+        431,
+        657,
+        442
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Peq brcS",
+      "score": 0.3097,
+      "quad_box": [
+        [
+          542,
+          450
+        ],
+        [
+          658,
+          460
+        ],
+        [
+          657,
+          477
+        ],
+        [
+          541,
+          467
+        ]
+      ],
+      "bbox_xyxy": [
+        541,
+        450,
+        658,
+        477
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Repun Sa seae",
+      "score": 0.3822,
+      "quad_box": [
+        [
+          609,
+          278
+        ],
+        [
+          722,
+          286
+        ],
+        [
+          721,
+          301
+        ],
+        [
+          608,
+          292
+        ]
+      ],
+      "bbox_xyxy": [
+        608,
+        278,
+        722,
+        301
+      ]
+    },
+    {
+      "source": "label",
+      "text": "e wn wen-o wae",
+      "score": 0.366,
+      "quad_box": [
+        [
+          602,
+          288
+        ],
+        [
+          721,
+          297
+        ],
+        [
+          720,
+          311
+        ],
+        [
+          601,
+          302
+        ]
+      ],
+      "bbox_xyxy": [
+        601,
+        288,
+        721,
+        311
+      ]
+    },
+    {
+      "source": "label",
+      "text": "(Da ou t) ae ur caN)",
+      "score": 0.3801,
+      "quad_box": [
+        [
+          590,
+          350
+        ],
+        [
+          716,
+          360
+        ],
+        [
+          715,
+          374
+        ],
+        [
+          589,
+          364
+        ]
+      ],
+      "bbox_xyxy": [
+        589,
+        350,
+        716,
+        374
+      ]
+    },
+    {
+      "source": "label",
+      "text": "UW",
+      "score": 0.725,
+      "quad_box": [
+        [
+          723,
+          354
+        ],
+        [
+          788,
+          361
+        ],
+        [
+          783,
+          413
+        ],
+        [
+          718,
+          406
+        ]
+      ],
+      "bbox_xyxy": [
+        718,
+        354,
+        788,
+        413
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Pel",
+      "score": 0.42,
+      "quad_box": [
+        [
+          642,
+          384
+        ],
+        [
+          715,
+          388
+        ],
+        [
+          714,
+          404
+        ],
+        [
+          641,
+          399
+        ]
+      ],
+      "bbox_xyxy": [
+        641,
+        384,
+        715,
+        404
+      ]
+    },
+    {
+      "source": "label",
+      "text": "ee2aee",
+      "score": 0.249,
+      "quad_box": [
+        [
+          601,
+          434
+        ],
+        [
+          711,
+          441
+        ],
+        [
+          710,
+          455
+        ],
+        [
+          600,
+          448
+        ]
+      ],
+      "bbox_xyxy": [
+        600,
+        434,
+        711,
+        455
+      ]
+    },
+    {
+      "source": "label",
+      "text": "yo",
+      "score": 0.389,
+      "quad_box": [
+        [
+          672,
+          428
+        ],
+        [
+          708,
+          433
+        ],
+        [
+          707,
+          444
+        ],
+        [
+          671,
+          439
+        ]
+      ],
+      "bbox_xyxy": [
+        671,
+        428,
+        708,
+        444
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Peq bruS",
+      "score": 0.3265,
+      "quad_box": [
+        [
+          593,
+          450
+        ],
+        [
+          710,
+          460
+        ],
+        [
+          709,
+          477
+        ],
+        [
+          592,
+          467
+        ]
+      ],
+      "bbox_xyxy": [
+        592,
+        450,
+        710,
+        477
+      ]
+    }
+  ],
+  "text_by_region": {
+    "overlay_full_text": "Barcodke: PROC0000316077\nWight 0.62 kg\nL *W * H: 0130 *0369 * 0040\nScan Tirre: 10-07-2025 0t:34.39\nAAAAAA\nM\nMau L p-o Ams\nKepung Sad syeae\nMeeene e Wes\na  aa\n(100s of 4) azs euany )\nUV\nPPeel\nPraen bewc\nBarcode: PROC0000316077\nWeight: 0.62 kg\nScan Time: 10-07-2025 0t:34:39\nM j o o a   o\nUAAAAAA\nRepuns Sa seae\nSa w wen-o Mae\nMene e Mees\n(Da o t) ae un caN)\nceo ie cae coaae\nUW\nPeel\n6uv\na\nwo\nPeq brcS\nRepun Sa seae\ne wn wen-o wae\n(Da ou t) ae ur caN)\nUW\nPel\nee2aee\nyo\nPeq bruS",
+    "label_full_text": "so js o o o  s\nAAAAA\nPenun Se sea\nSeu  wun-uo kem\nWeeune M Me\n(r T t) oa oune tan)\ncn ee wog soee\nPbel\nrtoer\nwos\nPer brueS\nAAAAAA\nM\nMau L p-o Ams\nKepung Sad syeae\nMeeene e Wes\na  aa\n(100s of 4) azs euany )\nUV\nPPeel\nPraen bewc\nM j o o a   o\nUAAAAAA\nRepuns Sa seae\nSa w wen-o Mae\nMene e Mees\n(Da o t) ae un caN)\nceo ie cae coaae\nUW\nPeel\n6uv\na\nwo\nPeq brcS\nRepun Sa seae\ne wn wen-o wae\n(Da ou t) ae ur caN)\nUW\nPel\nee2aee\nyo\nPeq bruS",
+    "cluster_1_top_left": "Barcodke: PROC0000316077 Barcode: PROC0000316077\nWight 0.62 kg L *W * H: 0130 *0369 * 0040 Weight: 0.62 kg\nScan Tirre: 10-07-2025 0t:34.39\nScan Time: 10-07-2025 0t:34:39",
+    "cluster_2_label_area": "AAAAAA M\nM j o o a   o\nMau L p-o Ams Kepung Sad syeae UAAAAAA\nMeeene e Wes\na  aa (100s of 4) azs euany ) PPeel UV Sa w wen-o Mae Repuns Sa seae e wn wen-o wae Repun Sa seae\nMene e Mees\nPraen bewc ceo ie cae coaae (Da o t) ae un caN) (Da ou t) ae ur caN)\nPeel Pel UW UW\n6uv wo yo\na ee2aee\nPeq brcS Peq bruS"
+  },
+  "enhanced_image_variants": [
+    "original_full_res",
+    "label_crop_0deg",
+    "original"
+  ],
+  "label_crop_info": {
+    "label_crop_bbox": [
+      340,
+      120,
+      836,
+      592
+    ],
+    "variants_evaluated": [
+      "0_deg",
+      "90_deg",
+      "180_deg",
+      "270_deg",
+      "clahe",
+      "deskewed"
+    ]
+  },
+  "barcode_decoder_attempts": [],
+  "profile_scores_and_matched_anchors": [
+    {
+      "profile_name": "green_dws",
+      "status": "rejected",
+      "evidence_score": 0.488,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": true,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 3,
+      "disqualification_reason": "DWS anchors (Machine ID / Real Vol / AWB No) not satisfied"
+    },
+    {
+      "profile_name": "yellow_dws",
+      "status": "rejected",
+      "evidence_score": 0.488,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": true,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 3,
+      "disqualification_reason": "DWS anchors (Machine ID / Real Vol / AWB No) not satisfied"
+    },
+    {
+      "profile_name": "white_text_scanner",
+      "status": "rejected",
+      "evidence_score": 0.725,
+      "cue_score": 0.3,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 4,
+      "disqualification_reason": "White text scanner anchors (Sorter ID / triplet dimensions) not satisfied"
+    },
+    {
+      "profile_name": "ekart",
+      "status": "selected",
+      "evidence_score": 0.838,
+      "cue_score": 0.75,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 4,
+      "disqualification_reason": null
+    },
+    {
+      "profile_name": "bottom_panel",
+      "status": "rejected",
+      "evidence_score": 0.488,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": false
+      },
+      "anchor_count": 3,
+      "disqualification_reason": "Bottom panel anchors (A.W / V.W / bottom dimensions) not satisfied"
+    },
+    {
+      "profile_name": "generic_overlay",
+      "status": "rejected",
+      "evidence_score": 0.675,
+      "cue_score": 0.1,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 4,
+      "disqualification_reason": "Evidence threshold not met"
+    }
+  ],
+  "parsed_values_and_validation_failures": {
+    "parsed_values": {
+      "tracking_number": "PROC0000316077",
+      "weight_value": 0.62,
+      "weight_unit": "kg",
+      "actual_weight": 0.62,
+      "volumetric_weight": null,
+      "length": 130.0,
+      "width": 369.0,
+      "height": 40.0,
+      "dimension_unit": null,
+      "status": "SUCCESS",
+      "scene_flags": [
+        "PARTIAL_PARCEL"
+      ]
+    },
+    "validation_failures": [
+      {
+        "field": "tracking_number",
+        "candidate": "Barcodke",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      }
+    ]
+  },
+  "final_field_provenance_and_confidence": {
+    "provenance": {
+      "tracking_number": {
+        "value": "PROC0000316077",
+        "source": "scanner_metadata",
+        "raw_text": "Barcode: PROC0000316077",
+        "ocr_confidence": 0.95,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "tracking_reconciliation",
+        "unit": null,
+        "normalized_value": "PROC0000316077",
+        "conflict_status": null,
+        "raw_candidates": [
+          "Barcodke",
+          "PROC0000316077",
+          "10-07-2025",
+          "PROC0000316077",
+          "10-07-2025",
+          "PROC0000316077",
+          "PROC0000316077",
+          "PROC0000316077",
+          "PROC0000316077"
+        ]
+      },
+      "weight": {
+        "value": 0.62,
+        "source": "scanner_metadata",
+        "raw_text": "Weight: 0.62 kg",
+        "ocr_confidence": 0.98,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "weight_reconciliation",
+        "unit": "kg",
+        "normalized_value": 0.62,
+        "conflict_status": null,
+        "raw_candidates": []
+      },
+      "dimensions": {
+        "value": [
+          130.0,
+          369.0,
+          40.0
+        ],
+        "source": "scanner_metadata",
+        "raw_text": "L *W * H: 0130 *0369 * 0040",
+        "ocr_confidence": 0.98,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "dimensions_reconciliation",
+        "unit": null,
+        "normalized_value": [
+          130.0,
+          369.0,
+          40.0
+        ],
+        "conflict_status": null,
+        "raw_candidates": []
+      }
+    },
+    "field_confidence": {
+      "tracking_number": 0.95,
+      "weight": 0.98,
+      "dimensions": 0.98
+    }
+  },
+  "original_image_ref": "batches/228dc6f8-1bf6-44dc-8489-68e20f48fdec/originals/5339d6ab-06c4-4607-845a-6b20356fd313/Different_format_belongs_to_Ekart_png.rf.BsrAfLLTmAOXMTQQp6zB.png",
+  "detected_metadata_rois": [
+    {
+      "format_hint": "white_text_scanner",
+      "bbox_xyxy": [
+        0,
+        0,
+        653,
+        271
+      ],
+      "score": 0.75
+    }
+  ],
+  "ocr_text_and_geometry": [
+    {
+      "source": "overlay",
+      "text": "Barcodke: PROC0000316077",
+      "score": 0.9295,
+      "quad_box": [
+        [
+          13,
+          3
+        ],
+        [
+          80,
+          3
+        ],
+        [
+          80,
+          13
+        ],
+        [
+          13,
+          13
+        ]
+      ],
+      "bbox_xyxy": [
+        13,
+        3,
+        80,
+        13
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Wight 0.62 kg",
+      "score": 0.9853,
+      "quad_box": [
+        [
+          13,
+          14
+        ],
+        [
+          53,
+          14
+        ],
+        [
+          53,
+          25
+        ],
+        [
+          13,
+          25
+        ]
+      ],
+      "bbox_xyxy": [
+        13,
+        14,
+        53,
+        25
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "L *W * H: 0130 *0369 * 0040",
+      "score": 0.7831,
+      "quad_box": [
+        [
+          14,
+          26
+        ],
+        [
+          89,
+          26
+        ],
+        [
+          89,
+          33
+        ],
+        [
+          14,
+          33
+        ]
+      ],
+      "bbox_xyxy": [
+        14,
+        26,
+        89,
+        33
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Scan Tirre: 10-07-2025 0t:34.39",
+      "score": 0.9418,
+      "quad_box": [
+        [
+          14,
+          35
+        ],
+        [
+          91,
+          35
+        ],
+        [
+          91,
+          45
+        ],
+        [
+          14,
+          45
+        ]
+      ],
+      "bbox_xyxy": [
+        14,
+        35,
+        91,
+        45
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "AAAAAA",
+      "score": 0.7558,
+      "quad_box": [
+        [
+          436,
+          158
+        ],
+        [
+          524,
+          163
+        ],
+        [
+          523,
+          180
+        ],
+        [
+          435,
+          175
+        ]
+      ],
+      "bbox_xyxy": [
+        435,
+        158,
+        524,
+        180
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "M",
+      "score": 0.8368,
+      "quad_box": [
+        [
+          520,
+          162
+        ],
+        [
+          555,
+          162
+        ],
+        [
+          555,
+          182
+        ],
+        [
+          520,
+          182
+        ]
+      ],
+      "bbox_xyxy": [
+        520,
+        162,
+        555,
+        182
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Mau L p-o Ams",
+      "score": 0.4768,
+      "quad_box": [
+        [
+          418,
+          218
+        ],
+        [
+          507,
+          225
+        ],
+        [
+          506,
+          236
+        ],
+        [
+          417,
+          229
+        ]
+      ],
+      "bbox_xyxy": [
+        417,
+        218,
+        507,
+        236
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Kepung Sad syeae",
+      "score": 0.7545,
+      "quad_box": [
+        [
+          423,
+          210
+        ],
+        [
+          508,
+          216
+        ],
+        [
+          507,
+          228
+        ],
+        [
+          422,
+          221
+        ]
+      ],
+      "bbox_xyxy": [
+        422,
+        210,
+        508,
+        228
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Meeene e Wes",
+      "score": 0.3589,
+      "quad_box": [
+        [
+          389,
+          229
+        ],
+        [
+          506,
+          240
+        ],
+        [
+          505,
+          255
+        ],
+        [
+          388,
+          244
+        ]
+      ],
+      "bbox_xyxy": [
+        388,
+        229,
+        506,
+        255
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "a  aa",
+      "score": 0.4909,
+      "quad_box": [
+        [
+          401,
+          273
+        ],
+        [
+          503,
+          280
+        ],
+        [
+          502,
+          292
+        ],
+        [
+          400,
+          284
+        ]
+      ],
+      "bbox_xyxy": [
+        400,
+        273,
+        503,
+        292
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "(100s of 4) azs euany )",
+      "score": 0.5551,
+      "quad_box": [
+        [
+          408,
+          265
+        ],
+        [
+          503,
+          273
+        ],
+        [
+          502,
+          285
+        ],
+        [
+          407,
+          277
+        ]
+      ],
+      "bbox_xyxy": [
+        407,
+        265,
+        503,
+        285
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "UV",
+      "score": 0.4477,
+      "quad_box": [
+        [
+          509,
+          274
+        ],
+        [
+          553,
+          274
+        ],
+        [
+          553,
+          309
+        ],
+        [
+          509,
+          309
+        ]
+      ],
+      "bbox_xyxy": [
+        509,
+        274,
+        553,
+        309
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "PPeel",
+      "score": 0.5219,
+      "quad_box": [
+        [
+          446,
+          291
+        ],
+        [
+          502,
+          295
+        ],
+        [
+          502,
+          306
+        ],
+        [
+          446,
+          303
+        ]
+      ],
+      "bbox_xyxy": [
+        446,
+        291,
+        502,
+        306
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Praen bewc",
+      "score": 0.3213,
+      "quad_box": [
+        [
+          412,
+          340
+        ],
+        [
+          500,
+          349
+        ],
+        [
+          499,
+          363
+        ],
+        [
+          411,
+          354
+        ]
+      ],
+      "bbox_xyxy": [
+        411,
+        340,
+        500,
+        363
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Barcode: PROC0000316077",
+      "score": 0.9951,
+      "quad_box": [
+        [
+          19,
+          7
+        ],
+        [
+          105,
+          7
+        ],
+        [
+          105,
+          17
+        ],
+        [
+          19,
+          17
+        ]
+      ],
+      "bbox_xyxy": [
+        19,
+        7,
+        105,
+        17
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Weight: 0.62 kg",
+      "score": 0.9885,
+      "quad_box": [
+        [
+          18,
+          20
+        ],
+        [
+          70,
+          20
+        ],
+        [
+          70,
+          32
+        ],
+        [
+          18,
+          32
+        ]
+      ],
+      "bbox_xyxy": [
+        18,
+        20,
+        70,
+        32
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Scan Time: 10-07-2025 0t:34:39",
+      "score": 0.9622,
+      "quad_box": [
+        [
+          18,
+          47
+        ],
+        [
+          120,
+          47
+        ],
+        [
+          120,
+          60
+        ],
+        [
+          18,
+          60
+        ]
+      ],
+      "bbox_xyxy": [
+        18,
+        47,
+        120,
+        60
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "M j o o a   o",
+      "score": 0.3699,
+      "quad_box": [
+        [
+          533,
+          185
+        ],
+        [
+          734,
+          198
+        ],
+        [
+          733,
+          213
+        ],
+        [
+          532,
+          199
+        ]
+      ],
+      "bbox_xyxy": [
+        532,
+        185,
+        734,
+        213
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "UAAAAAA",
+      "score": 0.645,
+      "quad_box": [
+        [
+          572,
+          202
+        ],
+        [
+          736,
+          213
+        ],
+        [
+          734,
+          245
+        ],
+        [
+          570,
+          233
+        ]
+      ],
+      "bbox_xyxy": [
+        570,
+        202,
+        736,
+        245
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Repuns Sa seae",
+      "score": 0.3625,
+      "quad_box": [
+        [
+          558,
+          278
+        ],
+        [
+          671,
+          286
+        ],
+        [
+          670,
+          301
+        ],
+        [
+          557,
+          292
+        ]
+      ],
+      "bbox_xyxy": [
+        557,
+        278,
+        671,
+        301
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Sa w wen-o Mae",
+      "score": 0.3626,
+      "quad_box": [
+        [
+          551,
+          288
+        ],
+        [
+          670,
+          297
+        ],
+        [
+          669,
+          311
+        ],
+        [
+          550,
+          302
+        ]
+      ],
+      "bbox_xyxy": [
+        550,
+        288,
+        670,
+        311
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Mene e Mees",
+      "score": 0.3797,
+      "quad_box": [
+        [
+          514,
+          305
+        ],
+        [
+          668,
+          317
+        ],
+        [
+          667,
+          334
+        ],
+        [
+          513,
+          322
+        ]
+      ],
+      "bbox_xyxy": [
+        513,
+        305,
+        668,
+        334
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "(Da o t) ae un caN)",
+      "score": 0.4027,
+      "quad_box": [
+        [
+          539,
+          350
+        ],
+        [
+          665,
+          360
+        ],
+        [
+          664,
+          374
+        ],
+        [
+          538,
+          364
+        ]
+      ],
+      "bbox_xyxy": [
+        538,
+        350,
+        665,
+        374
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "ceo ie cae coaae",
+      "score": 0.2694,
+      "quad_box": [
+        [
+          529,
+          361
+        ],
+        [
+          664,
+          370
+        ],
+        [
+          663,
+          383
+        ],
+        [
+          528,
+          375
+        ]
+      ],
+      "bbox_xyxy": [
+        528,
+        361,
+        664,
+        383
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "UW",
+      "score": 0.845,
+      "quad_box": [
+        [
+          671,
+          355
+        ],
+        [
+          736,
+          359
+        ],
+        [
+          732,
+          413
+        ],
+        [
+          667,
+          408
+        ]
+      ],
+      "bbox_xyxy": [
+        667,
+        355,
+        736,
+        413
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Peel",
+      "score": 0.4116,
+      "quad_box": [
+        [
+          590,
+          385
+        ],
+        [
+          664,
+          388
+        ],
+        [
+          664,
+          403
+        ],
+        [
+          590,
+          399
+        ]
+      ],
+      "bbox_xyxy": [
+        590,
+        385,
+        664,
+        403
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "6uv",
+      "score": 0.7304,
+      "quad_box": [
+        [
+          568,
+          424
+        ],
+        [
+          588,
+          429
+        ],
+        [
+          585,
+          440
+        ],
+        [
+          565,
+          436
+        ]
+      ],
+      "bbox_xyxy": [
+        565,
+        424,
+        588,
+        440
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "a",
+      "score": 0.1658,
+      "quad_box": [
+        [
+          550,
+          434
+        ],
+        [
+          660,
+          441
+        ],
+        [
+          659,
+          455
+        ],
+        [
+          549,
+          448
+        ]
+      ],
+      "bbox_xyxy": [
+        549,
+        434,
+        660,
+        455
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "wo",
+      "score": 0.2849,
+      "quad_box": [
+        [
+          626,
+          431
+        ],
+        [
+          657,
+          431
+        ],
+        [
+          657,
+          442
+        ],
+        [
+          626,
+          442
+        ]
+      ],
+      "bbox_xyxy": [
+        626,
+        431,
+        657,
+        442
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Peq brcS",
+      "score": 0.3097,
+      "quad_box": [
+        [
+          542,
+          450
+        ],
+        [
+          658,
+          460
+        ],
+        [
+          657,
+          477
+        ],
+        [
+          541,
+          467
+        ]
+      ],
+      "bbox_xyxy": [
+        541,
+        450,
+        658,
+        477
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Repun Sa seae",
+      "score": 0.3822,
+      "quad_box": [
+        [
+          609,
+          278
+        ],
+        [
+          722,
+          286
+        ],
+        [
+          721,
+          301
+        ],
+        [
+          608,
+          292
+        ]
+      ],
+      "bbox_xyxy": [
+        608,
+        278,
+        722,
+        301
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "e wn wen-o wae",
+      "score": 0.366,
+      "quad_box": [
+        [
+          602,
+          288
+        ],
+        [
+          721,
+          297
+        ],
+        [
+          720,
+          311
+        ],
+        [
+          601,
+          302
+        ]
+      ],
+      "bbox_xyxy": [
+        601,
+        288,
+        721,
+        311
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "(Da ou t) ae ur caN)",
+      "score": 0.3801,
+      "quad_box": [
+        [
+          590,
+          350
+        ],
+        [
+          716,
+          360
+        ],
+        [
+          715,
+          374
+        ],
+        [
+          589,
+          364
+        ]
+      ],
+      "bbox_xyxy": [
+        589,
+        350,
+        716,
+        374
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "UW",
+      "score": 0.725,
+      "quad_box": [
+        [
+          723,
+          354
+        ],
+        [
+          788,
+          361
+        ],
+        [
+          783,
+          413
+        ],
+        [
+          718,
+          406
+        ]
+      ],
+      "bbox_xyxy": [
+        718,
+        354,
+        788,
+        413
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Pel",
+      "score": 0.42,
+      "quad_box": [
+        [
+          642,
+          384
+        ],
+        [
+          715,
+          388
+        ],
+        [
+          714,
+          404
+        ],
+        [
+          641,
+          399
+        ]
+      ],
+      "bbox_xyxy": [
+        641,
+        384,
+        715,
+        404
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "ee2aee",
+      "score": 0.249,
+      "quad_box": [
+        [
+          601,
+          434
+        ],
+        [
+          711,
+          441
+        ],
+        [
+          710,
+          455
+        ],
+        [
+          600,
+          448
+        ]
+      ],
+      "bbox_xyxy": [
+        600,
+        434,
+        711,
+        455
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "yo",
+      "score": 0.389,
+      "quad_box": [
+        [
+          672,
+          428
+        ],
+        [
+          708,
+          433
+        ],
+        [
+          707,
+          444
+        ],
+        [
+          671,
+          439
+        ]
+      ],
+      "bbox_xyxy": [
+        671,
+        428,
+        708,
+        444
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Peq bruS",
+      "score": 0.3265,
+      "quad_box": [
+        [
+          593,
+          450
+        ],
+        [
+          710,
+          460
+        ],
+        [
+          709,
+          477
+        ],
+        [
+          592,
+          467
+        ]
+      ],
+      "bbox_xyxy": [
+        592,
+        450,
+        710,
+        477
+      ]
+    },
+    {
+      "source": "label",
+      "text": "so js o o o  s",
+      "score": 0.4646,
+      "quad_box": [
+        [
+          299,
+          104
+        ],
+        [
+          492,
+          117
+        ],
+        [
+          492,
+          131
+        ],
+        [
+          298,
+          118
+        ]
+      ],
+      "bbox_xyxy": [
+        298,
+        104,
+        492,
+        131
+      ]
+    },
+    {
+      "source": "label",
+      "text": "AAAAA",
+      "score": 0.7115,
+      "quad_box": [
+        [
+          350,
+          134
+        ],
+        [
+          489,
+          141
+        ],
+        [
+          488,
+          162
+        ],
+        [
+          349,
+          155
+        ]
+      ],
+      "bbox_xyxy": [
+        349,
+        134,
+        489,
+        162
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Penun Se sea",
+      "score": 0.3687,
+      "quad_box": [
+        [
+          329,
+          214
+        ],
+        [
+          464,
+          224
+        ],
+        [
+          463,
+          240
+        ],
+        [
+          328,
+          231
+        ]
+      ],
+      "bbox_xyxy": [
+        328,
+        214,
+        464,
+        240
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Seu  wun-uo kem",
+      "score": 0.3908,
+      "quad_box": [
+        [
+          321,
+          229
+        ],
+        [
+          462,
+          238
+        ],
+        [
+          462,
+          252
+        ],
+        [
+          320,
+          243
+        ]
+      ],
+      "bbox_xyxy": [
+        320,
+        229,
+        462,
+        252
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Weeune M Me",
+      "score": 0.3377,
+      "quad_box": [
+        [
+          279,
+          248
+        ],
+        [
+          461,
+          263
+        ],
+        [
+          459,
+          281
+        ],
+        [
+          278,
+          266
+        ]
+      ],
+      "bbox_xyxy": [
+        278,
+        248,
+        461,
+        281
+      ]
+    },
+    {
+      "source": "label",
+      "text": "(r T t) oa oune tan)",
+      "score": 0.3231,
+      "quad_box": [
+        [
+          307,
+          302
+        ],
+        [
+          458,
+          312
+        ],
+        [
+          456,
+          329
+        ],
+        [
+          306,
+          318
+        ]
+      ],
+      "bbox_xyxy": [
+        306,
+        302,
+        458,
+        329
+      ]
+    },
+    {
+      "source": "label",
+      "text": "cn ee wog soee",
+      "score": 0.3457,
+      "quad_box": [
+        [
+          296,
+          315
+        ],
+        [
+          456,
+          326
+        ],
+        [
+          455,
+          340
+        ],
+        [
+          295,
+          329
+        ]
+      ],
+      "bbox_xyxy": [
+        295,
+        315,
+        456,
+        340
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Pbel",
+      "score": 0.3862,
+      "quad_box": [
+        [
+          369,
+          342
+        ],
+        [
+          456,
+          347
+        ],
+        [
+          455,
+          364
+        ],
+        [
+          368,
+          359
+        ]
+      ],
+      "bbox_xyxy": [
+        368,
+        342,
+        456,
+        364
+      ]
+    },
+    {
+      "source": "label",
+      "text": "rtoer",
+      "score": 0.1623,
+      "quad_box": [
+        [
+          320,
+          401
+        ],
+        [
+          451,
+          410
+        ],
+        [
+          450,
+          427
+        ],
+        [
+          318,
+          418
+        ]
+      ],
+      "bbox_xyxy": [
+        318,
+        401,
+        451,
+        427
+      ]
+    },
+    {
+      "source": "label",
+      "text": "wos",
+      "score": 0.3079,
+      "quad_box": [
+        [
+          414,
+          395
+        ],
+        [
+          450,
+          400
+        ],
+        [
+          448,
+          414
+        ],
+        [
+          412,
+          408
+        ]
+      ],
+      "bbox_xyxy": [
+        412,
+        395,
+        450,
+        414
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Per brueS",
+      "score": 0.3204,
+      "quad_box": [
+        [
+          312,
+          422
+        ],
+        [
+          450,
+          435
+        ],
+        [
+          448,
+          452
+        ],
+        [
+          310,
+          439
+        ]
+      ],
+      "bbox_xyxy": [
+        310,
+        422,
+        450,
+        452
+      ]
+    },
+    {
+      "source": "label",
+      "text": "AAAAAA",
+      "score": 0.7558,
+      "quad_box": [
+        [
+          436,
+          158
+        ],
+        [
+          524,
+          163
+        ],
+        [
+          523,
+          180
+        ],
+        [
+          435,
+          175
+        ]
+      ],
+      "bbox_xyxy": [
+        435,
+        158,
+        524,
+        180
+      ]
+    },
+    {
+      "source": "label",
+      "text": "M",
+      "score": 0.8368,
+      "quad_box": [
+        [
+          520,
+          162
+        ],
+        [
+          555,
+          162
+        ],
+        [
+          555,
+          182
+        ],
+        [
+          520,
+          182
+        ]
+      ],
+      "bbox_xyxy": [
+        520,
+        162,
+        555,
+        182
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Mau L p-o Ams",
+      "score": 0.4768,
+      "quad_box": [
+        [
+          418,
+          218
+        ],
+        [
+          507,
+          225
+        ],
+        [
+          506,
+          236
+        ],
+        [
+          417,
+          229
+        ]
+      ],
+      "bbox_xyxy": [
+        417,
+        218,
+        507,
+        236
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Kepung Sad syeae",
+      "score": 0.7545,
+      "quad_box": [
+        [
+          423,
+          210
+        ],
+        [
+          508,
+          216
+        ],
+        [
+          507,
+          228
+        ],
+        [
+          422,
+          221
+        ]
+      ],
+      "bbox_xyxy": [
+        422,
+        210,
+        508,
+        228
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Meeene e Wes",
+      "score": 0.3589,
+      "quad_box": [
+        [
+          389,
+          229
+        ],
+        [
+          506,
+          240
+        ],
+        [
+          505,
+          255
+        ],
+        [
+          388,
+          244
+        ]
+      ],
+      "bbox_xyxy": [
+        388,
+        229,
+        506,
+        255
+      ]
+    },
+    {
+      "source": "label",
+      "text": "a  aa",
+      "score": 0.4909,
+      "quad_box": [
+        [
+          401,
+          273
+        ],
+        [
+          503,
+          280
+        ],
+        [
+          502,
+          292
+        ],
+        [
+          400,
+          284
+        ]
+      ],
+      "bbox_xyxy": [
+        400,
+        273,
+        503,
+        292
+      ]
+    },
+    {
+      "source": "label",
+      "text": "(100s of 4) azs euany )",
+      "score": 0.5551,
+      "quad_box": [
+        [
+          408,
+          265
+        ],
+        [
+          503,
+          273
+        ],
+        [
+          502,
+          285
+        ],
+        [
+          407,
+          277
+        ]
+      ],
+      "bbox_xyxy": [
+        407,
+        265,
+        503,
+        285
+      ]
+    },
+    {
+      "source": "label",
+      "text": "UV",
+      "score": 0.4477,
+      "quad_box": [
+        [
+          509,
+          274
+        ],
+        [
+          553,
+          274
+        ],
+        [
+          553,
+          309
+        ],
+        [
+          509,
+          309
+        ]
+      ],
+      "bbox_xyxy": [
+        509,
+        274,
+        553,
+        309
+      ]
+    },
+    {
+      "source": "label",
+      "text": "PPeel",
+      "score": 0.5219,
+      "quad_box": [
+        [
+          446,
+          291
+        ],
+        [
+          502,
+          295
+        ],
+        [
+          502,
+          306
+        ],
+        [
+          446,
+          303
+        ]
+      ],
+      "bbox_xyxy": [
+        446,
+        291,
+        502,
+        306
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Praen bewc",
+      "score": 0.3213,
+      "quad_box": [
+        [
+          412,
+          340
+        ],
+        [
+          500,
+          349
+        ],
+        [
+          499,
+          363
+        ],
+        [
+          411,
+          354
+        ]
+      ],
+      "bbox_xyxy": [
+        411,
+        340,
+        500,
+        363
+      ]
+    },
+    {
+      "source": "label",
+      "text": "M j o o a   o",
+      "score": 0.3699,
+      "quad_box": [
+        [
+          533,
+          185
+        ],
+        [
+          734,
+          198
+        ],
+        [
+          733,
+          213
+        ],
+        [
+          532,
+          199
+        ]
+      ],
+      "bbox_xyxy": [
+        532,
+        185,
+        734,
+        213
+      ]
+    },
+    {
+      "source": "label",
+      "text": "UAAAAAA",
+      "score": 0.645,
+      "quad_box": [
+        [
+          572,
+          202
+        ],
+        [
+          736,
+          213
+        ],
+        [
+          734,
+          245
+        ],
+        [
+          570,
+          233
+        ]
+      ],
+      "bbox_xyxy": [
+        570,
+        202,
+        736,
+        245
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Repuns Sa seae",
+      "score": 0.3625,
+      "quad_box": [
+        [
+          558,
+          278
+        ],
+        [
+          671,
+          286
+        ],
+        [
+          670,
+          301
+        ],
+        [
+          557,
+          292
+        ]
+      ],
+      "bbox_xyxy": [
+        557,
+        278,
+        671,
+        301
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Sa w wen-o Mae",
+      "score": 0.3626,
+      "quad_box": [
+        [
+          551,
+          288
+        ],
+        [
+          670,
+          297
+        ],
+        [
+          669,
+          311
+        ],
+        [
+          550,
+          302
+        ]
+      ],
+      "bbox_xyxy": [
+        550,
+        288,
+        670,
+        311
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Mene e Mees",
+      "score": 0.3797,
+      "quad_box": [
+        [
+          514,
+          305
+        ],
+        [
+          668,
+          317
+        ],
+        [
+          667,
+          334
+        ],
+        [
+          513,
+          322
+        ]
+      ],
+      "bbox_xyxy": [
+        513,
+        305,
+        668,
+        334
+      ]
+    },
+    {
+      "source": "label",
+      "text": "(Da o t) ae un caN)",
+      "score": 0.4027,
+      "quad_box": [
+        [
+          539,
+          350
+        ],
+        [
+          665,
+          360
+        ],
+        [
+          664,
+          374
+        ],
+        [
+          538,
+          364
+        ]
+      ],
+      "bbox_xyxy": [
+        538,
+        350,
+        665,
+        374
+      ]
+    },
+    {
+      "source": "label",
+      "text": "ceo ie cae coaae",
+      "score": 0.2694,
+      "quad_box": [
+        [
+          529,
+          361
+        ],
+        [
+          664,
+          370
+        ],
+        [
+          663,
+          383
+        ],
+        [
+          528,
+          375
+        ]
+      ],
+      "bbox_xyxy": [
+        528,
+        361,
+        664,
+        383
+      ]
+    },
+    {
+      "source": "label",
+      "text": "UW",
+      "score": 0.845,
+      "quad_box": [
+        [
+          671,
+          355
+        ],
+        [
+          736,
+          359
+        ],
+        [
+          732,
+          413
+        ],
+        [
+          667,
+          408
+        ]
+      ],
+      "bbox_xyxy": [
+        667,
+        355,
+        736,
+        413
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Peel",
+      "score": 0.4116,
+      "quad_box": [
+        [
+          590,
+          385
+        ],
+        [
+          664,
+          388
+        ],
+        [
+          664,
+          403
+        ],
+        [
+          590,
+          399
+        ]
+      ],
+      "bbox_xyxy": [
+        590,
+        385,
+        664,
+        403
+      ]
+    },
+    {
+      "source": "label",
+      "text": "6uv",
+      "score": 0.7304,
+      "quad_box": [
+        [
+          568,
+          424
+        ],
+        [
+          588,
+          429
+        ],
+        [
+          585,
+          440
+        ],
+        [
+          565,
+          436
+        ]
+      ],
+      "bbox_xyxy": [
+        565,
+        424,
+        588,
+        440
+      ]
+    },
+    {
+      "source": "label",
+      "text": "a",
+      "score": 0.1658,
+      "quad_box": [
+        [
+          550,
+          434
+        ],
+        [
+          660,
+          441
+        ],
+        [
+          659,
+          455
+        ],
+        [
+          549,
+          448
+        ]
+      ],
+      "bbox_xyxy": [
+        549,
+        434,
+        660,
+        455
+      ]
+    },
+    {
+      "source": "label",
+      "text": "wo",
+      "score": 0.2849,
+      "quad_box": [
+        [
+          626,
+          431
+        ],
+        [
+          657,
+          431
+        ],
+        [
+          657,
+          442
+        ],
+        [
+          626,
+          442
+        ]
+      ],
+      "bbox_xyxy": [
+        626,
+        431,
+        657,
+        442
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Peq brcS",
+      "score": 0.3097,
+      "quad_box": [
+        [
+          542,
+          450
+        ],
+        [
+          658,
+          460
+        ],
+        [
+          657,
+          477
+        ],
+        [
+          541,
+          467
+        ]
+      ],
+      "bbox_xyxy": [
+        541,
+        450,
+        658,
+        477
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Repun Sa seae",
+      "score": 0.3822,
+      "quad_box": [
+        [
+          609,
+          278
+        ],
+        [
+          722,
+          286
+        ],
+        [
+          721,
+          301
+        ],
+        [
+          608,
+          292
+        ]
+      ],
+      "bbox_xyxy": [
+        608,
+        278,
+        722,
+        301
+      ]
+    },
+    {
+      "source": "label",
+      "text": "e wn wen-o wae",
+      "score": 0.366,
+      "quad_box": [
+        [
+          602,
+          288
+        ],
+        [
+          721,
+          297
+        ],
+        [
+          720,
+          311
+        ],
+        [
+          601,
+          302
+        ]
+      ],
+      "bbox_xyxy": [
+        601,
+        288,
+        721,
+        311
+      ]
+    },
+    {
+      "source": "label",
+      "text": "(Da ou t) ae ur caN)",
+      "score": 0.3801,
+      "quad_box": [
+        [
+          590,
+          350
+        ],
+        [
+          716,
+          360
+        ],
+        [
+          715,
+          374
+        ],
+        [
+          589,
+          364
+        ]
+      ],
+      "bbox_xyxy": [
+        589,
+        350,
+        716,
+        374
+      ]
+    },
+    {
+      "source": "label",
+      "text": "UW",
+      "score": 0.725,
+      "quad_box": [
+        [
+          723,
+          354
+        ],
+        [
+          788,
+          361
+        ],
+        [
+          783,
+          413
+        ],
+        [
+          718,
+          406
+        ]
+      ],
+      "bbox_xyxy": [
+        718,
+        354,
+        788,
+        413
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Pel",
+      "score": 0.42,
+      "quad_box": [
+        [
+          642,
+          384
+        ],
+        [
+          715,
+          388
+        ],
+        [
+          714,
+          404
+        ],
+        [
+          641,
+          399
+        ]
+      ],
+      "bbox_xyxy": [
+        641,
+        384,
+        715,
+        404
+      ]
+    },
+    {
+      "source": "label",
+      "text": "ee2aee",
+      "score": 0.249,
+      "quad_box": [
+        [
+          601,
+          434
+        ],
+        [
+          711,
+          441
+        ],
+        [
+          710,
+          455
+        ],
+        [
+          600,
+          448
+        ]
+      ],
+      "bbox_xyxy": [
+        600,
+        434,
+        711,
+        455
+      ]
+    },
+    {
+      "source": "label",
+      "text": "yo",
+      "score": 0.389,
+      "quad_box": [
+        [
+          672,
+          428
+        ],
+        [
+          708,
+          433
+        ],
+        [
+          707,
+          444
+        ],
+        [
+          671,
+          439
+        ]
+      ],
+      "bbox_xyxy": [
+        671,
+        428,
+        708,
+        444
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Peq bruS",
+      "score": 0.3265,
+      "quad_box": [
+        [
+          593,
+          450
+        ],
+        [
+          710,
+          460
+        ],
+        [
+          709,
+          477
+        ],
+        [
+          592,
+          467
+        ]
+      ],
+      "bbox_xyxy": [
+        592,
+        450,
+        710,
+        477
+      ]
+    }
+  ],
+  "detected_label_crop": [
+    340,
+    120,
+    836,
+    592
+  ],
+  "barcode_output": [],
+  "parser_output": {
+    "tracking_number": "PROC0000316077",
+    "weight_value": 0.62,
+    "weight_unit": "kg",
+    "actual_weight": 0.62,
+    "volumetric_weight": null,
+    "length": 130.0,
+    "width": 369.0,
+    "height": 40.0,
+    "dimension_unit": null,
+    "status": "SUCCESS",
+    "scene_flags": [
+      "PARTIAL_PARCEL"
+    ]
+  },
+  "source_reconciliation_result": {
+    "tracking_number": {
+      "value": "PROC0000316077",
+      "source": "scanner_metadata",
+      "raw_text": "Barcode: PROC0000316077",
+      "ocr_confidence": 0.95,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "tracking_reconciliation",
+      "unit": null,
+      "normalized_value": "PROC0000316077",
+      "conflict_status": null,
+      "raw_candidates": [
+        "Barcodke",
+        "PROC0000316077",
+        "10-07-2025",
+        "PROC0000316077",
+        "10-07-2025",
+        "PROC0000316077",
+        "PROC0000316077",
+        "PROC0000316077",
+        "PROC0000316077"
+      ]
+    },
+    "weight": {
+      "value": 0.62,
+      "source": "scanner_metadata",
+      "raw_text": "Weight: 0.62 kg",
+      "ocr_confidence": 0.98,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "weight_reconciliation",
+      "unit": "kg",
+      "normalized_value": 0.62,
+      "conflict_status": null,
+      "raw_candidates": []
+    },
+    "dimensions": {
+      "value": [
+        130.0,
+        369.0,
+        40.0
+      ],
+      "source": "scanner_metadata",
+      "raw_text": "L *W * H: 0130 *0369 * 0040",
+      "ocr_confidence": 0.98,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "dimensions_reconciliation",
+      "unit": null,
+      "normalized_value": [
+        130.0,
+        369.0,
+        40.0
+      ],
+      "conflict_status": null,
+      "raw_candidates": []
+    }
+  }
+}

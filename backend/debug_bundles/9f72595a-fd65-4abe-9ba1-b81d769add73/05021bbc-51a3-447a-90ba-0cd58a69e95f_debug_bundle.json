@@ -1,0 +1,3082 @@
+{
+  "original_image": {
+    "s3_key": "batches/9f72595a-fd65-4abe-9ba1-b81d769add73/originals/05021bbc-51a3-447a-90ba-0cd58a69e95f/7_jpeg.rf.0OlfcInn25OqfI2hMhuM.jpeg",
+    "filename": "7_jpeg.rf.0OlfcInn25OqfI2hMhuM.jpeg",
+    "file_size": 380754,
+    "dimensions": {
+      "width": 3072,
+      "height": 3775,
+      "channels": 3
+    },
+    "quality_metrics": {
+      "blur_score": 100.36,
+      "is_blurry": false,
+      "mean_brightness": 31.07
+    }
+  },
+  "candidate_regions": [
+    {
+      "format_hint": "yellow_dws",
+      "bbox_xyxy": [
+        91,
+        42,
+        1086,
+        832
+      ],
+      "score": 0.95
+    },
+    {
+      "source": "detector_parcel",
+      "bbox_xyxy": [
+        40,
+        68,
+        1174,
+        3384
+      ],
+      "score": 0.564
+    },
+    {
+      "source": "detector_shipping_label",
+      "bbox_xyxy": [
+        387,
+        239,
+        862,
+        868
+      ],
+      "score": 0.2842
+    }
+  ],
+  "all_ocr_detections": [
+    {
+      "source": "overlay",
+      "text": "Location:",
+      "score": 0.9995,
+      "quad_box": [
+        [
+          20,
+          8
+        ],
+        [
+          81,
+          10
+        ],
+        [
+          80,
+          25
+        ],
+        [
+          19,
+          23
+        ]
+      ],
+      "bbox_xyxy": [
+        19,
+        8,
+        81,
+        25
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "INMHAPVP",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          97,
+          10
+        ],
+        [
+          170,
+          10
+        ],
+        [
+          170,
+          24
+        ],
+        [
+          97,
+          24
+        ]
+      ],
+      "bbox_xyxy": [
+        97,
+        10,
+        170,
+        24
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "AWB No:",
+      "score": 0.9918,
+      "quad_box": [
+        [
+          21,
+          29
+        ],
+        [
+          81,
+          31
+        ],
+        [
+          80,
+          46
+        ],
+        [
+          20,
+          44
+        ]
+      ],
+      "bbox_xyxy": [
+        20,
+        29,
+        81,
+        46
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "19109110323094",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          95,
+          31
+        ],
+        [
+          201,
+          31
+        ],
+        [
+          201,
+          44
+        ],
+        [
+          95,
+          44
+        ]
+      ],
+      "bbox_xyxy": [
+        95,
+        31,
+        201,
+        44
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Length:",
+      "score": 0.9997,
+      "quad_box": [
+        [
+          20,
+          50
+        ],
+        [
+          71,
+          52
+        ],
+        [
+          71,
+          71
+        ],
+        [
+          19,
+          69
+        ]
+      ],
+      "bbox_xyxy": [
+        19,
+        50,
+        71,
+        71
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "41,500 cm",
+      "score": 0.9429,
+      "quad_box": [
+        [
+          95,
+          53
+        ],
+        [
+          162,
+          53
+        ],
+        [
+          162,
+          67
+        ],
+        [
+          95,
+          67
+        ]
+      ],
+      "bbox_xyxy": [
+        95,
+        53,
+        162,
+        67
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Width:",
+      "score": 0.9996,
+      "quad_box": [
+        [
+          21,
+          74
+        ],
+        [
+          64,
+          74
+        ],
+        [
+          64,
+          89
+        ],
+        [
+          21,
+          89
+        ]
+      ],
+      "bbox_xyxy": [
+        21,
+        74,
+        64,
+        89
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "65.900 cm",
+      "score": 0.9787,
+      "quad_box": [
+        [
+          95,
+          74
+        ],
+        [
+          162,
+          74
+        ],
+        [
+          162,
+          88
+        ],
+        [
+          95,
+          88
+        ]
+      ],
+      "bbox_xyxy": [
+        95,
+        74,
+        162,
+        88
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Height:",
+      "score": 0.9995,
+      "quad_box": [
+        [
+          20,
+          94
+        ],
+        [
+          68,
+          94
+        ],
+        [
+          68,
+          112
+        ],
+        [
+          20,
+          112
+        ]
+      ],
+      "bbox_xyxy": [
+        20,
+        94,
+        68,
+        112
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "25.500 cm",
+      "score": 0.9889,
+      "quad_box": [
+        [
+          90,
+          92
+        ],
+        [
+          160,
+          94
+        ],
+        [
+          159,
+          112
+        ],
+        [
+          89,
+          110
+        ]
+      ],
+      "bbox_xyxy": [
+        89,
+        92,
+        160,
+        112
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "R.Vol.:",
+      "score": 0.9743,
+      "quad_box": [
+        [
+          21,
+          115
+        ],
+        [
+          66,
+          115
+        ],
+        [
+          66,
+          130
+        ],
+        [
+          21,
+          130
+        ]
+      ],
+      "bbox_xyxy": [
+        21,
+        115,
+        66,
+        130
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "68819.000 cm (cubic)",
+      "score": 0.972,
+      "quad_box": [
+        [
+          89,
+          114
+        ],
+        [
+          223,
+          116
+        ],
+        [
+          223,
+          132
+        ],
+        [
+          88,
+          130
+        ]
+      ],
+      "bbox_xyxy": [
+        88,
+        114,
+        223,
+        132
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Weight:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          20,
+          136
+        ],
+        [
+          72,
+          136
+        ],
+        [
+          72,
+          154
+        ],
+        [
+          20,
+          154
+        ]
+      ],
+      "bbox_xyxy": [
+        20,
+        136,
+        72,
+        154
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "8570.000gm",
+      "score": 0.9929,
+      "quad_box": [
+        [
+          93,
+          135
+        ],
+        [
+          178,
+          137
+        ],
+        [
+          178,
+          154
+        ],
+        [
+          92,
+          152
+        ]
+      ],
+      "bbox_xyxy": [
+        92,
+        135,
+        178,
+        154
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Time:",
+      "score": 0.9996,
+      "quad_box": [
+        [
+          20,
+          156
+        ],
+        [
+          61,
+          158
+        ],
+        [
+          60,
+          176
+        ],
+        [
+          19,
+          174
+        ]
+      ],
+      "bbox_xyxy": [
+        19,
+        156,
+        61,
+        176
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "7/10/2025 9:54:40 PM",
+      "score": 0.9601,
+      "quad_box": [
+        [
+          92,
+          159
+        ],
+        [
+          228,
+          159
+        ],
+        [
+          228,
+          173
+        ],
+        [
+          92,
+          173
+        ]
+      ],
+      "bbox_xyxy": [
+        92,
+        159,
+        228,
+        173
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "B376",
+      "score": 0.2771,
+      "quad_box": [
+        [
+          256,
+          764
+        ],
+        [
+          307,
+          764
+        ],
+        [
+          307,
+          778
+        ],
+        [
+          256,
+          778
+        ]
+      ],
+      "bbox_xyxy": [
+        256,
+        764,
+        307,
+        778
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Location:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          93,
+          49
+        ],
+        [
+          309,
+          49
+        ],
+        [
+          309,
+          94
+        ],
+        [
+          93,
+          94
+        ]
+      ],
+      "bbox_xyxy": [
+        93,
+        49,
+        309,
+        94
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "INMHAPVP",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          387,
+          48
+        ],
+        [
+          663,
+          48
+        ],
+        [
+          663,
+          92
+        ],
+        [
+          387,
+          92
+        ]
+      ],
+      "bbox_xyxy": [
+        387,
+        48,
+        663,
+        92
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "AWB",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          90,
+          130
+        ],
+        [
+          243,
+          130
+        ],
+        [
+          243,
+          178
+        ],
+        [
+          90,
+          178
+        ]
+      ],
+      "bbox_xyxy": [
+        90,
+        130,
+        243,
+        178
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "No:",
+      "score": 0.9993,
+      "quad_box": [
+        [
+          226,
+          131
+        ],
+        [
+          316,
+          131
+        ],
+        [
+          316,
+          177
+        ],
+        [
+          226,
+          177
+        ]
+      ],
+      "bbox_xyxy": [
+        226,
+        131,
+        316,
+        177
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "19109110323094",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          378,
+          133
+        ],
+        [
+          790,
+          133
+        ],
+        [
+          790,
+          174
+        ],
+        [
+          378,
+          174
+        ]
+      ],
+      "bbox_xyxy": [
+        378,
+        133,
+        790,
+        174
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Length:",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          90,
+          211
+        ],
+        [
+          273,
+          213
+        ],
+        [
+          272,
+          269
+        ],
+        [
+          89,
+          267
+        ]
+      ],
+      "bbox_xyxy": [
+        89,
+        211,
+        273,
+        269
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "41500",
+      "score": 0.9988,
+      "quad_box": [
+        [
+          374,
+          215
+        ],
+        [
+          544,
+          215
+        ],
+        [
+          544,
+          260
+        ],
+        [
+          374,
+          260
+        ]
+      ],
+      "bbox_xyxy": [
+        374,
+        215,
+        544,
+        260
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "cm",
+      "score": 0.9962,
+      "quad_box": [
+        [
+          554,
+          225
+        ],
+        [
+          628,
+          225
+        ],
+        [
+          628,
+          259
+        ],
+        [
+          554,
+          259
+        ]
+      ],
+      "bbox_xyxy": [
+        554,
+        225,
+        628,
+        259
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Width:",
+      "score": 0.9994,
+      "quad_box": [
+        [
+          88,
+          293
+        ],
+        [
+          246,
+          293
+        ],
+        [
+          246,
+          346
+        ],
+        [
+          88,
+          346
+        ]
+      ],
+      "bbox_xyxy": [
+        88,
+        293,
+        246,
+        346
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "65.900",
+      "score": 0.9922,
+      "quad_box": [
+        [
+          380,
+          296
+        ],
+        [
+          550,
+          298
+        ],
+        [
+          550,
+          344
+        ],
+        [
+          380,
+          342
+        ]
+      ],
+      "bbox_xyxy": [
+        380,
+        296,
+        550,
+        344
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "cm",
+      "score": 0.9981,
+      "quad_box": [
+        [
+          555,
+          305
+        ],
+        [
+          629,
+          305
+        ],
+        [
+          629,
+          343
+        ],
+        [
+          555,
+          343
+        ]
+      ],
+      "bbox_xyxy": [
+        555,
+        305,
+        629,
+        343
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Height:",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          88,
+          378
+        ],
+        [
+          264,
+          378
+        ],
+        [
+          264,
+          435
+        ],
+        [
+          88,
+          435
+        ]
+      ],
+      "bbox_xyxy": [
+        88,
+        378,
+        264,
+        435
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "25.500 cm",
+      "score": 0.9657,
+      "quad_box": [
+        [
+          367,
+          379
+        ],
+        [
+          623,
+          383
+        ],
+        [
+          622,
+          428
+        ],
+        [
+          366,
+          424
+        ]
+      ],
+      "bbox_xyxy": [
+        366,
+        379,
+        623,
+        428
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "R.Vol.:",
+      "score": 0.9996,
+      "quad_box": [
+        [
+          88,
+          461
+        ],
+        [
+          257,
+          461
+        ],
+        [
+          257,
+          514
+        ],
+        [
+          88,
+          514
+        ]
+      ],
+      "bbox_xyxy": [
+        88,
+        461,
+        257,
+        514
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "68819.000",
+      "score": 0.9976,
+      "quad_box": [
+        [
+          358,
+          463
+        ],
+        [
+          614,
+          465
+        ],
+        [
+          614,
+          510
+        ],
+        [
+          358,
+          508
+        ]
+      ],
+      "bbox_xyxy": [
+        358,
+        463,
+        614,
+        510
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "(cub",
+      "score": 0.9831,
+      "quad_box": [
+        [
+          714,
+          464
+        ],
+        [
+          800,
+          462
+        ],
+        [
+          800,
+          517
+        ],
+        [
+          715,
+          519
+        ]
+      ],
+      "bbox_xyxy": [
+        714,
+        462,
+        800,
+        519
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "cm",
+      "score": 0.8844,
+      "quad_box": [
+        [
+          628,
+          477
+        ],
+        [
+          696,
+          477
+        ],
+        [
+          696,
+          507
+        ],
+        [
+          628,
+          507
+        ]
+      ],
+      "bbox_xyxy": [
+        628,
+        477,
+        696,
+        507
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Weight:",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          88,
+          544
+        ],
+        [
+          274,
+          544
+        ],
+        [
+          274,
+          601
+        ],
+        [
+          88,
+          601
+        ]
+      ],
+      "bbox_xyxy": [
+        88,
+        544,
+        274,
+        601
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "8570.000",
+      "score": 0.9841,
+      "quad_box": [
+        [
+          377,
+          545
+        ],
+        [
+          609,
+          547
+        ],
+        [
+          609,
+          596
+        ],
+        [
+          377,
+          594
+        ]
+      ],
+      "bbox_xyxy": [
+        377,
+        545,
+        609,
+        596
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "gm",
+      "score": 0.9595,
+      "quad_box": [
+        [
+          613,
+          556
+        ],
+        [
+          695,
+          556
+        ],
+        [
+          695,
+          602
+        ],
+        [
+          613,
+          602
+        ]
+      ],
+      "bbox_xyxy": [
+        613,
+        556,
+        695,
+        602
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Time:",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          86,
+          624
+        ],
+        [
+          230,
+          630
+        ],
+        [
+          228,
+          685
+        ],
+        [
+          84,
+          679
+        ]
+      ],
+      "bbox_xyxy": [
+        84,
+        624,
+        230,
+        685
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "7/10/20259:54:40",
+      "score": 0.9801,
+      "quad_box": [
+        [
+          361,
+          630
+        ],
+        [
+          796,
+          630
+        ],
+        [
+          796,
+          678
+        ],
+        [
+          361,
+          678
+        ]
+      ],
+      "bbox_xyxy": [
+        361,
+        630,
+        796,
+        678
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "3094",
+      "score": 0.9991,
+      "quad_box": [
+        [
+          820,
+          128
+        ],
+        [
+          933,
+          121
+        ],
+        [
+          936,
+          182
+        ],
+        [
+          820,
+          189
+        ]
+      ],
+      "bbox_xyxy": [
+        820,
+        121,
+        936,
+        189
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "(cubic)",
+      "score": 0.9987,
+      "quad_box": [
+        [
+          851,
+          462
+        ],
+        [
+          1017,
+          462
+        ],
+        [
+          1017,
+          524
+        ],
+        [
+          851,
+          524
+        ]
+      ],
+      "bbox_xyxy": [
+        851,
+        462,
+        1017,
+        524
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "4:40 PM",
+      "score": 0.9931,
+      "quad_box": [
+        [
+          820,
+          627
+        ],
+        [
+          1034,
+          627
+        ],
+        [
+          1034,
+          680
+        ],
+        [
+          820,
+          680
+        ]
+      ],
+      "bbox_xyxy": [
+        820,
+        627,
+        1034,
+        680
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "4",
+      "score": 0.7026,
+      "quad_box": [
+        [
+          639,
+          1999
+        ],
+        [
+          646,
+          1999
+        ],
+        [
+          646,
+          2006
+        ],
+        [
+          639,
+          2006
+        ]
+      ],
+      "bbox_xyxy": [
+        639,
+        1999,
+        646,
+        2006
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "2",
+      "score": 0.0796,
+      "quad_box": [
+        [
+          1884,
+          1878
+        ],
+        [
+          2241,
+          1875
+        ],
+        [
+          2245,
+          2343
+        ],
+        [
+          1888,
+          2346
+        ]
+      ],
+      "bbox_xyxy": [
+        1884,
+        1875,
+        2245,
+        2346
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "A",
+      "score": 0.1164,
+      "quad_box": [
+        [
+          81,
+          2465
+        ],
+        [
+          723,
+          2465
+        ],
+        [
+          723,
+          3260
+        ],
+        [
+          81,
+          3260
+        ]
+      ],
+      "bbox_xyxy": [
+        81,
+        2465,
+        723,
+        3260
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "-",
+      "score": 0.4523,
+      "quad_box": [
+        [
+          271,
+          2807
+        ],
+        [
+          282,
+          2807
+        ],
+        [
+          282,
+          2814
+        ],
+        [
+          271,
+          2814
+        ]
+      ],
+      "bbox_xyxy": [
+        271,
+        2807,
+        282,
+        2814
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "J",
+      "score": 0.6083,
+      "quad_box": [
+        [
+          856,
+          3039
+        ],
+        [
+          1010,
+          3031
+        ],
+        [
+          1020,
+          3220
+        ],
+        [
+          866,
+          3228
+        ]
+      ],
+      "bbox_xyxy": [
+        856,
+        3031,
+        1020,
+        3228
+      ]
+    }
+  ],
+  "text_by_region": {
+    "overlay_full_text": "Location:\nINMHAPVP\nAWB No:\n19109110323094\nLength:\n41,500 cm\nWidth:\n65.900 cm\nHeight:\n25.500 cm\nR.Vol.:\n68819.000 cm (cubic)\nWeight:\n8570.000gm\nTime:\n7/10/2025 9:54:40 PM\nB376\nLocation:\nINMHAPVP\nAWB\nNo:\n19109110323094\nLength:\n41500\ncm\nWidth:\n65.900\ncm\nHeight:\n25.500 cm\nR.Vol.:\n68819.000\n(cub\ncm\nWeight:\n8570.000\ngm\nTime:\n7/10/20259:54:40\n3094\n(cubic)\n4:40 PM\n4\n2\nA\n-\nJ",
+    "cluster_1_top_left": "Location: INMHAPVP\nAWB No: 19109110323094\nLength: Width: Location: 41,500 cm 65.900 cm INMHAPVP\nHeight: 25.500 cm\nR.Vol.: 68819.000 cm (cubic)\nTime: Weight: AWB 8570.000gm 7/10/2025 9:54:40 PM No: 19109110323094 3094\nLength: 41500 cm\nWidth: 65.900 cm\nHeight: 25.500 cm\nR.Vol.: 68819.000 cm (cub (cubic)\nWeight: 8570.000 gm\nTime: 7/10/20259:54:40 4:40 PM\nB376\nA J",
+    "cluster_2_label_area": "4",
+    "cluster_3_label_area": "2",
+    "cluster_4_bottom_panel": "-"
+  },
+  "enhanced_image_variants": [
+    "original_full_res",
+    "original"
+  ],
+  "label_crop_info": {
+    "label_crop_bbox": null,
+    "variants_evaluated": [
+      "0_deg",
+      "90_deg",
+      "180_deg",
+      "270_deg",
+      "clahe",
+      "deskewed"
+    ]
+  },
+  "barcode_decoder_attempts": [],
+  "profile_scores_and_matched_anchors": [
+    {
+      "profile_name": "green_dws",
+      "status": "rejected",
+      "evidence_score": 0.775,
+      "cue_score": 0.5,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 4,
+      "disqualification_reason": "DWS anchors (Machine ID / Real Vol / AWB No) not satisfied"
+    },
+    {
+      "profile_name": "yellow_dws",
+      "status": "selected",
+      "evidence_score": 0.875,
+      "cue_score": 0.9,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 4,
+      "disqualification_reason": null
+    },
+    {
+      "profile_name": "white_text_scanner",
+      "status": "rejected",
+      "evidence_score": 0.488,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": true,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 3,
+      "disqualification_reason": "White text scanner anchors (Sorter ID / triplet dimensions) not satisfied"
+    },
+    {
+      "profile_name": "ekart",
+      "status": "rejected",
+      "evidence_score": 0.325,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": true,
+        "dimensions": false,
+        "metadata": true
+      },
+      "anchor_count": 2,
+      "disqualification_reason": "Ekart specific cues (L*W*H or Scan Time) not satisfied"
+    },
+    {
+      "profile_name": "bottom_panel",
+      "status": "rejected",
+      "evidence_score": 0.488,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": false
+      },
+      "anchor_count": 3,
+      "disqualification_reason": "Bottom panel anchors (A.W / V.W / bottom dimensions) not satisfied"
+    },
+    {
+      "profile_name": "generic_overlay",
+      "status": "rejected",
+      "evidence_score": 0.675,
+      "cue_score": 0.1,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 4,
+      "disqualification_reason": "Evidence threshold not met"
+    }
+  ],
+  "parsed_values_and_validation_failures": {
+    "parsed_values": {
+      "tracking_number": "19109110323094",
+      "weight_value": 8570.0,
+      "weight_unit": "g",
+      "actual_weight": 8570.0,
+      "volumetric_weight": null,
+      "length": 41500.0,
+      "width": 65.9,
+      "height": 25.5,
+      "dimension_unit": "cm",
+      "status": "SUCCESS",
+      "scene_flags": []
+    },
+    "validation_failures": [
+      {
+        "field": "tracking_number",
+        "candidate": "Location",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      },
+      {
+        "field": "tracking_number",
+        "candidate": "INMHAPVP",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      },
+      {
+        "field": "tracking_number",
+        "candidate": "Location",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      },
+      {
+        "field": "tracking_number",
+        "candidate": "INMHAPVP",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      }
+    ]
+  },
+  "final_field_provenance_and_confidence": {
+    "provenance": {
+      "tracking_number": {
+        "value": "19109110323094",
+        "source": "scanner_metadata",
+        "raw_text": "AWB No: 19109110323094",
+        "ocr_confidence": 0.95,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "tracking_reconciliation",
+        "unit": null,
+        "normalized_value": "19109110323094",
+        "conflict_status": null,
+        "raw_candidates": [
+          "Location",
+          "INMHAPVP",
+          "19109110323094",
+          "Location",
+          "INMHAPVP",
+          "19109110323094",
+          "19109110323094",
+          "19109110323094",
+          "19109110323094",
+          "19109110323094",
+          "19109110323094"
+        ]
+      },
+      "weight": {
+        "value": 8570.0,
+        "source": "scanner_metadata",
+        "raw_text": "Weight: 8570.000 gm",
+        "ocr_confidence": 0.98,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "weight_reconciliation",
+        "unit": "g",
+        "normalized_value": 8570.0,
+        "conflict_status": null,
+        "raw_candidates": []
+      },
+      "dimensions": {
+        "value": [
+          41500.0,
+          65.9,
+          25.5
+        ],
+        "source": "scanner_metadata",
+        "raw_text": "Length: 41500 cm; Width: 65.900 cm; Height: 25.500 cm",
+        "ocr_confidence": 0.98,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "dimensions_reconciliation",
+        "unit": "cm",
+        "normalized_value": [
+          41500.0,
+          65.9,
+          25.5
+        ],
+        "conflict_status": null,
+        "raw_candidates": []
+      }
+    },
+    "field_confidence": {
+      "tracking_number": 0.95,
+      "weight": 0.98,
+      "dimensions": 0.98
+    }
+  },
+  "original_image_ref": "batches/9f72595a-fd65-4abe-9ba1-b81d769add73/originals/05021bbc-51a3-447a-90ba-0cd58a69e95f/7_jpeg.rf.0OlfcInn25OqfI2hMhuM.jpeg",
+  "detected_metadata_rois": [
+    {
+      "format_hint": "yellow_dws",
+      "bbox_xyxy": [
+        91,
+        42,
+        1086,
+        832
+      ],
+      "score": 0.95
+    }
+  ],
+  "ocr_text_and_geometry": [
+    {
+      "source": "overlay",
+      "text": "Location:",
+      "score": 0.9995,
+      "quad_box": [
+        [
+          20,
+          8
+        ],
+        [
+          81,
+          10
+        ],
+        [
+          80,
+          25
+        ],
+        [
+          19,
+          23
+        ]
+      ],
+      "bbox_xyxy": [
+        19,
+        8,
+        81,
+        25
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "INMHAPVP",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          97,
+          10
+        ],
+        [
+          170,
+          10
+        ],
+        [
+          170,
+          24
+        ],
+        [
+          97,
+          24
+        ]
+      ],
+      "bbox_xyxy": [
+        97,
+        10,
+        170,
+        24
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "AWB No:",
+      "score": 0.9918,
+      "quad_box": [
+        [
+          21,
+          29
+        ],
+        [
+          81,
+          31
+        ],
+        [
+          80,
+          46
+        ],
+        [
+          20,
+          44
+        ]
+      ],
+      "bbox_xyxy": [
+        20,
+        29,
+        81,
+        46
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "19109110323094",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          95,
+          31
+        ],
+        [
+          201,
+          31
+        ],
+        [
+          201,
+          44
+        ],
+        [
+          95,
+          44
+        ]
+      ],
+      "bbox_xyxy": [
+        95,
+        31,
+        201,
+        44
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Length:",
+      "score": 0.9997,
+      "quad_box": [
+        [
+          20,
+          50
+        ],
+        [
+          71,
+          52
+        ],
+        [
+          71,
+          71
+        ],
+        [
+          19,
+          69
+        ]
+      ],
+      "bbox_xyxy": [
+        19,
+        50,
+        71,
+        71
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "41,500 cm",
+      "score": 0.9429,
+      "quad_box": [
+        [
+          95,
+          53
+        ],
+        [
+          162,
+          53
+        ],
+        [
+          162,
+          67
+        ],
+        [
+          95,
+          67
+        ]
+      ],
+      "bbox_xyxy": [
+        95,
+        53,
+        162,
+        67
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Width:",
+      "score": 0.9996,
+      "quad_box": [
+        [
+          21,
+          74
+        ],
+        [
+          64,
+          74
+        ],
+        [
+          64,
+          89
+        ],
+        [
+          21,
+          89
+        ]
+      ],
+      "bbox_xyxy": [
+        21,
+        74,
+        64,
+        89
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "65.900 cm",
+      "score": 0.9787,
+      "quad_box": [
+        [
+          95,
+          74
+        ],
+        [
+          162,
+          74
+        ],
+        [
+          162,
+          88
+        ],
+        [
+          95,
+          88
+        ]
+      ],
+      "bbox_xyxy": [
+        95,
+        74,
+        162,
+        88
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Height:",
+      "score": 0.9995,
+      "quad_box": [
+        [
+          20,
+          94
+        ],
+        [
+          68,
+          94
+        ],
+        [
+          68,
+          112
+        ],
+        [
+          20,
+          112
+        ]
+      ],
+      "bbox_xyxy": [
+        20,
+        94,
+        68,
+        112
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "25.500 cm",
+      "score": 0.9889,
+      "quad_box": [
+        [
+          90,
+          92
+        ],
+        [
+          160,
+          94
+        ],
+        [
+          159,
+          112
+        ],
+        [
+          89,
+          110
+        ]
+      ],
+      "bbox_xyxy": [
+        89,
+        92,
+        160,
+        112
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "R.Vol.:",
+      "score": 0.9743,
+      "quad_box": [
+        [
+          21,
+          115
+        ],
+        [
+          66,
+          115
+        ],
+        [
+          66,
+          130
+        ],
+        [
+          21,
+          130
+        ]
+      ],
+      "bbox_xyxy": [
+        21,
+        115,
+        66,
+        130
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "68819.000 cm (cubic)",
+      "score": 0.972,
+      "quad_box": [
+        [
+          89,
+          114
+        ],
+        [
+          223,
+          116
+        ],
+        [
+          223,
+          132
+        ],
+        [
+          88,
+          130
+        ]
+      ],
+      "bbox_xyxy": [
+        88,
+        114,
+        223,
+        132
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Weight:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          20,
+          136
+        ],
+        [
+          72,
+          136
+        ],
+        [
+          72,
+          154
+        ],
+        [
+          20,
+          154
+        ]
+      ],
+      "bbox_xyxy": [
+        20,
+        136,
+        72,
+        154
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "8570.000gm",
+      "score": 0.9929,
+      "quad_box": [
+        [
+          93,
+          135
+        ],
+        [
+          178,
+          137
+        ],
+        [
+          178,
+          154
+        ],
+        [
+          92,
+          152
+        ]
+      ],
+      "bbox_xyxy": [
+        92,
+        135,
+        178,
+        154
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Time:",
+      "score": 0.9996,
+      "quad_box": [
+        [
+          20,
+          156
+        ],
+        [
+          61,
+          158
+        ],
+        [
+          60,
+          176
+        ],
+        [
+          19,
+          174
+        ]
+      ],
+      "bbox_xyxy": [
+        19,
+        156,
+        61,
+        176
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "7/10/2025 9:54:40 PM",
+      "score": 0.9601,
+      "quad_box": [
+        [
+          92,
+          159
+        ],
+        [
+          228,
+          159
+        ],
+        [
+          228,
+          173
+        ],
+        [
+          92,
+          173
+        ]
+      ],
+      "bbox_xyxy": [
+        92,
+        159,
+        228,
+        173
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "B376",
+      "score": 0.2771,
+      "quad_box": [
+        [
+          256,
+          764
+        ],
+        [
+          307,
+          764
+        ],
+        [
+          307,
+          778
+        ],
+        [
+          256,
+          778
+        ]
+      ],
+      "bbox_xyxy": [
+        256,
+        764,
+        307,
+        778
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Location:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          93,
+          49
+        ],
+        [
+          309,
+          49
+        ],
+        [
+          309,
+          94
+        ],
+        [
+          93,
+          94
+        ]
+      ],
+      "bbox_xyxy": [
+        93,
+        49,
+        309,
+        94
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "INMHAPVP",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          387,
+          48
+        ],
+        [
+          663,
+          48
+        ],
+        [
+          663,
+          92
+        ],
+        [
+          387,
+          92
+        ]
+      ],
+      "bbox_xyxy": [
+        387,
+        48,
+        663,
+        92
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "AWB",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          90,
+          130
+        ],
+        [
+          243,
+          130
+        ],
+        [
+          243,
+          178
+        ],
+        [
+          90,
+          178
+        ]
+      ],
+      "bbox_xyxy": [
+        90,
+        130,
+        243,
+        178
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "No:",
+      "score": 0.9993,
+      "quad_box": [
+        [
+          226,
+          131
+        ],
+        [
+          316,
+          131
+        ],
+        [
+          316,
+          177
+        ],
+        [
+          226,
+          177
+        ]
+      ],
+      "bbox_xyxy": [
+        226,
+        131,
+        316,
+        177
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "19109110323094",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          378,
+          133
+        ],
+        [
+          790,
+          133
+        ],
+        [
+          790,
+          174
+        ],
+        [
+          378,
+          174
+        ]
+      ],
+      "bbox_xyxy": [
+        378,
+        133,
+        790,
+        174
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Length:",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          90,
+          211
+        ],
+        [
+          273,
+          213
+        ],
+        [
+          272,
+          269
+        ],
+        [
+          89,
+          267
+        ]
+      ],
+      "bbox_xyxy": [
+        89,
+        211,
+        273,
+        269
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "41500",
+      "score": 0.9988,
+      "quad_box": [
+        [
+          374,
+          215
+        ],
+        [
+          544,
+          215
+        ],
+        [
+          544,
+          260
+        ],
+        [
+          374,
+          260
+        ]
+      ],
+      "bbox_xyxy": [
+        374,
+        215,
+        544,
+        260
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "cm",
+      "score": 0.9962,
+      "quad_box": [
+        [
+          554,
+          225
+        ],
+        [
+          628,
+          225
+        ],
+        [
+          628,
+          259
+        ],
+        [
+          554,
+          259
+        ]
+      ],
+      "bbox_xyxy": [
+        554,
+        225,
+        628,
+        259
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Width:",
+      "score": 0.9994,
+      "quad_box": [
+        [
+          88,
+          293
+        ],
+        [
+          246,
+          293
+        ],
+        [
+          246,
+          346
+        ],
+        [
+          88,
+          346
+        ]
+      ],
+      "bbox_xyxy": [
+        88,
+        293,
+        246,
+        346
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "65.900",
+      "score": 0.9922,
+      "quad_box": [
+        [
+          380,
+          296
+        ],
+        [
+          550,
+          298
+        ],
+        [
+          550,
+          344
+        ],
+        [
+          380,
+          342
+        ]
+      ],
+      "bbox_xyxy": [
+        380,
+        296,
+        550,
+        344
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "cm",
+      "score": 0.9981,
+      "quad_box": [
+        [
+          555,
+          305
+        ],
+        [
+          629,
+          305
+        ],
+        [
+          629,
+          343
+        ],
+        [
+          555,
+          343
+        ]
+      ],
+      "bbox_xyxy": [
+        555,
+        305,
+        629,
+        343
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Height:",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          88,
+          378
+        ],
+        [
+          264,
+          378
+        ],
+        [
+          264,
+          435
+        ],
+        [
+          88,
+          435
+        ]
+      ],
+      "bbox_xyxy": [
+        88,
+        378,
+        264,
+        435
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "25.500 cm",
+      "score": 0.9657,
+      "quad_box": [
+        [
+          367,
+          379
+        ],
+        [
+          623,
+          383
+        ],
+        [
+          622,
+          428
+        ],
+        [
+          366,
+          424
+        ]
+      ],
+      "bbox_xyxy": [
+        366,
+        379,
+        623,
+        428
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "R.Vol.:",
+      "score": 0.9996,
+      "quad_box": [
+        [
+          88,
+          461
+        ],
+        [
+          257,
+          461
+        ],
+        [
+          257,
+          514
+        ],
+        [
+          88,
+          514
+        ]
+      ],
+      "bbox_xyxy": [
+        88,
+        461,
+        257,
+        514
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "68819.000",
+      "score": 0.9976,
+      "quad_box": [
+        [
+          358,
+          463
+        ],
+        [
+          614,
+          465
+        ],
+        [
+          614,
+          510
+        ],
+        [
+          358,
+          508
+        ]
+      ],
+      "bbox_xyxy": [
+        358,
+        463,
+        614,
+        510
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "(cub",
+      "score": 0.9831,
+      "quad_box": [
+        [
+          714,
+          464
+        ],
+        [
+          800,
+          462
+        ],
+        [
+          800,
+          517
+        ],
+        [
+          715,
+          519
+        ]
+      ],
+      "bbox_xyxy": [
+        714,
+        462,
+        800,
+        519
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "cm",
+      "score": 0.8844,
+      "quad_box": [
+        [
+          628,
+          477
+        ],
+        [
+          696,
+          477
+        ],
+        [
+          696,
+          507
+        ],
+        [
+          628,
+          507
+        ]
+      ],
+      "bbox_xyxy": [
+        628,
+        477,
+        696,
+        507
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Weight:",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          88,
+          544
+        ],
+        [
+          274,
+          544
+        ],
+        [
+          274,
+          601
+        ],
+        [
+          88,
+          601
+        ]
+      ],
+      "bbox_xyxy": [
+        88,
+        544,
+        274,
+        601
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "8570.000",
+      "score": 0.9841,
+      "quad_box": [
+        [
+          377,
+          545
+        ],
+        [
+          609,
+          547
+        ],
+        [
+          609,
+          596
+        ],
+        [
+          377,
+          594
+        ]
+      ],
+      "bbox_xyxy": [
+        377,
+        545,
+        609,
+        596
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "gm",
+      "score": 0.9595,
+      "quad_box": [
+        [
+          613,
+          556
+        ],
+        [
+          695,
+          556
+        ],
+        [
+          695,
+          602
+        ],
+        [
+          613,
+          602
+        ]
+      ],
+      "bbox_xyxy": [
+        613,
+        556,
+        695,
+        602
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Time:",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          86,
+          624
+        ],
+        [
+          230,
+          630
+        ],
+        [
+          228,
+          685
+        ],
+        [
+          84,
+          679
+        ]
+      ],
+      "bbox_xyxy": [
+        84,
+        624,
+        230,
+        685
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "7/10/20259:54:40",
+      "score": 0.9801,
+      "quad_box": [
+        [
+          361,
+          630
+        ],
+        [
+          796,
+          630
+        ],
+        [
+          796,
+          678
+        ],
+        [
+          361,
+          678
+        ]
+      ],
+      "bbox_xyxy": [
+        361,
+        630,
+        796,
+        678
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "3094",
+      "score": 0.9991,
+      "quad_box": [
+        [
+          820,
+          128
+        ],
+        [
+          933,
+          121
+        ],
+        [
+          936,
+          182
+        ],
+        [
+          820,
+          189
+        ]
+      ],
+      "bbox_xyxy": [
+        820,
+        121,
+        936,
+        189
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "(cubic)",
+      "score": 0.9987,
+      "quad_box": [
+        [
+          851,
+          462
+        ],
+        [
+          1017,
+          462
+        ],
+        [
+          1017,
+          524
+        ],
+        [
+          851,
+          524
+        ]
+      ],
+      "bbox_xyxy": [
+        851,
+        462,
+        1017,
+        524
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "4:40 PM",
+      "score": 0.9931,
+      "quad_box": [
+        [
+          820,
+          627
+        ],
+        [
+          1034,
+          627
+        ],
+        [
+          1034,
+          680
+        ],
+        [
+          820,
+          680
+        ]
+      ],
+      "bbox_xyxy": [
+        820,
+        627,
+        1034,
+        680
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "4",
+      "score": 0.7026,
+      "quad_box": [
+        [
+          639,
+          1999
+        ],
+        [
+          646,
+          1999
+        ],
+        [
+          646,
+          2006
+        ],
+        [
+          639,
+          2006
+        ]
+      ],
+      "bbox_xyxy": [
+        639,
+        1999,
+        646,
+        2006
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "2",
+      "score": 0.0796,
+      "quad_box": [
+        [
+          1884,
+          1878
+        ],
+        [
+          2241,
+          1875
+        ],
+        [
+          2245,
+          2343
+        ],
+        [
+          1888,
+          2346
+        ]
+      ],
+      "bbox_xyxy": [
+        1884,
+        1875,
+        2245,
+        2346
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "A",
+      "score": 0.1164,
+      "quad_box": [
+        [
+          81,
+          2465
+        ],
+        [
+          723,
+          2465
+        ],
+        [
+          723,
+          3260
+        ],
+        [
+          81,
+          3260
+        ]
+      ],
+      "bbox_xyxy": [
+        81,
+        2465,
+        723,
+        3260
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "-",
+      "score": 0.4523,
+      "quad_box": [
+        [
+          271,
+          2807
+        ],
+        [
+          282,
+          2807
+        ],
+        [
+          282,
+          2814
+        ],
+        [
+          271,
+          2814
+        ]
+      ],
+      "bbox_xyxy": [
+        271,
+        2807,
+        282,
+        2814
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "J",
+      "score": 0.6083,
+      "quad_box": [
+        [
+          856,
+          3039
+        ],
+        [
+          1010,
+          3031
+        ],
+        [
+          1020,
+          3220
+        ],
+        [
+          866,
+          3228
+        ]
+      ],
+      "bbox_xyxy": [
+        856,
+        3031,
+        1020,
+        3228
+      ]
+    }
+  ],
+  "detected_label_crop": null,
+  "barcode_output": [],
+  "parser_output": {
+    "tracking_number": "19109110323094",
+    "weight_value": 8570.0,
+    "weight_unit": "g",
+    "actual_weight": 8570.0,
+    "volumetric_weight": null,
+    "length": 41500.0,
+    "width": 65.9,
+    "height": 25.5,
+    "dimension_unit": "cm",
+    "status": "SUCCESS",
+    "scene_flags": []
+  },
+  "source_reconciliation_result": {
+    "tracking_number": {
+      "value": "19109110323094",
+      "source": "scanner_metadata",
+      "raw_text": "AWB No: 19109110323094",
+      "ocr_confidence": 0.95,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "tracking_reconciliation",
+      "unit": null,
+      "normalized_value": "19109110323094",
+      "conflict_status": null,
+      "raw_candidates": [
+        "Location",
+        "INMHAPVP",
+        "19109110323094",
+        "Location",
+        "INMHAPVP",
+        "19109110323094",
+        "19109110323094",
+        "19109110323094",
+        "19109110323094",
+        "19109110323094",
+        "19109110323094"
+      ]
+    },
+    "weight": {
+      "value": 8570.0,
+      "source": "scanner_metadata",
+      "raw_text": "Weight: 8570.000 gm",
+      "ocr_confidence": 0.98,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "weight_reconciliation",
+      "unit": "g",
+      "normalized_value": 8570.0,
+      "conflict_status": null,
+      "raw_candidates": []
+    },
+    "dimensions": {
+      "value": [
+        41500.0,
+        65.9,
+        25.5
+      ],
+      "source": "scanner_metadata",
+      "raw_text": "Length: 41500 cm; Width: 65.900 cm; Height: 25.500 cm",
+      "ocr_confidence": 0.98,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "dimensions_reconciliation",
+      "unit": "cm",
+      "normalized_value": [
+        41500.0,
+        65.9,
+        25.5
+      ],
+      "conflict_status": null,
+      "raw_candidates": []
+    }
+  }
+}

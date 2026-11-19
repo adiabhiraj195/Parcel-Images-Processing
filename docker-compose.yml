@@ -1,0 +1,70 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: parcel-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - ENVIRONMENT=production
+      - PORT=8000
+      - HOST=0.0.0.0
+      - DATABASE_URL=sqlite:////app/data/parcel_intelligence.db
+      - WORKER_CONCURRENCY=${WORKER_CONCURRENCY:-1}
+      - TEMP_DOWNLOAD_DIR=/app/temp_downloads
+      - MODEL_CACHE_DIR=/app/model_cache
+      - CORS_ORIGINS=${CORS_ORIGINS:-*}
+      - OCR_ENGINE=paddleocr
+      - PADDLE_OCR_VERSION=PP-OCRv5
+      - SAVE_DEBUG_BUNDLE=true
+    volumes:
+      - parcel_db_data:/app/data
+      - parcel_model_cache:/app/model_cache
+      - parcel_temp_downloads:/app/temp_downloads
+      - parcel_debug_bundles:/app/debug_bundles
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 120s
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-}
+    container_name: parcel-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - HOSTNAME=0.0.0.0
+    depends_on:
+      backend:
+        condition: service_healthy
+
+  nginx:
+    image: nginx:alpine
+    container_name: parcel-proxy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - backend
+      - frontend
+
+volumes:
+  parcel_db_data:
+  parcel_model_cache:
+  parcel_temp_downloads:
+  parcel_debug_bundles:

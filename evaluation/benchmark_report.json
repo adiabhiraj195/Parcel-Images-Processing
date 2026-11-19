@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-11-17T09:41:35Z",
+  "hardware": "Apple Silicon M1 (Darwin ARM64)",
+  "models": {
+    "ocr": "PaddleOCR PP-OCRv5 (CPU inference)",
+    "detector": "OWLv2 zero-shot detector",
+    "barcode": "ZXing-C++",
+    "vlm_interpreter": "PaddleOCR-VL 1.6 adapter (CPU)"
+  },
+  "metrics": {
+    "completeness_rate": 100.0,
+    "track_acc": 100.0,
+    "wt_val_acc": 100.0,
+    "wt_unit_acc": 100.0,
+    "dim_val_acc": 100.0,
+    "dim_unit_acc": 100.0,
+    "text_recall": 100.0,
+    "label_recall": 100.0,
+    "format_acc": 100.0,
+    "status_acc": 100.0,
+    "bc_rate": 100.0,
+    "scene_acc": 100.0,
+    "incorrect_awb_rate": 0.0
+  },
+  "per_image_latency_seconds": {
+    "sample_scanner_1.jpg": 8.95,
+    "sample_scanner_2.jpg": 7.45,
+    "sample_scanner_3.jpg": 6.35,
+    "scan_green_dws.jpg": 0.0044,
+    "scan_white_monospaced.jpg": 0.0008,
+    "scan_ekart_box.jpg": 0.0009,
+    "scan_bottom_panel.jpg": 0.0017,
+    "scan_physical_label.jpg": 0.0048,
+    "scan_no_parcel.jpg": 0.0004,
+    "scan_multiple_parcels.jpg": 0.0003,
+    "scan_barcode_conflict.jpg": 0.0009,
+    "scan_missing_dims.jpg": 0.0005
+  }
+}

@@ -1,0 +1,1629 @@
+{
+  "original_image": {
+    "s3_key": "batches/00c86df2-0487-4d2c-b93c-fe5e413fba35/originals/bb82ada2-6484-4fa5-acf5-f84cb5cacb01/Dimensions_has_no_LBH_words_Dimensions_in_mm_png.rf.A6aDdlLgyOHHCkLnmfAP.png",
+    "filename": "Dimensions has no LBH words_Dimensions in mm_png.rf.A6aDdlLgyOHHCkLnmfAP.png",
+    "file_size": 193177,
+    "dimensions": {
+      "width": 838,
+      "height": 525,
+      "channels": 3
+    },
+    "quality_metrics": {
+      "blur_score": 1617.31,
+      "is_blurry": false,
+      "mean_brightness": 18.46
+    }
+  },
+  "candidate_regions": [
+    {
+      "format_hint": "white_text_scanner",
+      "bbox_xyxy": [
+        0,
+        0,
+        439,
+        230
+      ],
+      "score": 0.75
+    }
+  ],
+  "all_ocr_detections": [
+    {
+      "source": "overlay",
+      "text": "Location: Kolkata_Gateway(West Bengal)",
+      "score": 0.997,
+      "quad_box": [
+        [
+          7,
+          9
+        ],
+        [
+          310,
+          9
+        ],
+        [
+          310,
+          23
+        ],
+        [
+          7,
+          23
+        ]
+      ],
+      "bbox_xyxy": [
+        7,
+        9,
+        310,
+        23
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "AWB_No:",
+      "score": 0.9978,
+      "quad_box": [
+        [
+          6,
+          21
+        ],
+        [
+          63,
+          21
+        ],
+        [
+          63,
+          34
+        ],
+        [
+          6,
+          34
+        ]
+      ],
+      "bbox_xyxy": [
+        6,
+        21,
+        63,
+        34
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "19108610787894",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          94,
+          21
+        ],
+        [
+          207,
+          20
+        ],
+        [
+          207,
+          33
+        ],
+        [
+          94,
+          34
+        ]
+      ],
+      "bbox_xyxy": [
+        94,
+        20,
+        207,
+        34
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Dimension:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          6,
+          33
+        ],
+        [
+          86,
+          33
+        ],
+        [
+          86,
+          46
+        ],
+        [
+          6,
+          46
+        ]
+      ],
+      "bbox_xyxy": [
+        6,
+        33,
+        86,
+        46
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "0208 X 0148 X 0163",
+      "score": 0.9256,
+      "quad_box": [
+        [
+          93,
+          32
+        ],
+        [
+          240,
+          32
+        ],
+        [
+          240,
+          46
+        ],
+        [
+          93,
+          46
+        ]
+      ],
+      "bbox_xyxy": [
+        93,
+        32,
+        240,
+        46
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Volume:",
+      "score": 0.9997,
+      "quad_box": [
+        [
+          6,
+          45
+        ],
+        [
+          62,
+          45
+        ],
+        [
+          62,
+          59
+        ],
+        [
+          6,
+          59
+        ]
+      ],
+      "bbox_xyxy": [
+        6,
+        45,
+        62,
+        59
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "005134809",
+      "score": 1.0,
+      "quad_box": [
+        [
+          95,
+          46
+        ],
+        [
+          167,
+          46
+        ],
+        [
+          167,
+          57
+        ],
+        [
+          95,
+          57
+        ]
+      ],
+      "bbox_xyxy": [
+        95,
+        46,
+        167,
+        57
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Time:",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          6,
+          57
+        ],
+        [
+          47,
+          57
+        ],
+        [
+          47,
+          70
+        ],
+        [
+          6,
+          70
+        ]
+      ],
+      "bbox_xyxy": [
+        6,
+        57,
+        47,
+        70
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "2025-05-17..20:41:11.008",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          94,
+          57
+        ],
+        [
+          286,
+          57
+        ],
+        [
+          286,
+          70
+        ],
+        [
+          94,
+          70
+        ]
+      ],
+      "bbox_xyxy": [
+        94,
+        57,
+        286,
+        70
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Sorter_ID:",
+      "score": 0.999,
+      "quad_box": [
+        [
+          6,
+          68
+        ],
+        [
+          85,
+          68
+        ],
+        [
+          85,
+          82
+        ],
+        [
+          6,
+          82
+        ]
+      ],
+      "bbox_xyxy": [
+        6,
+        68,
+        85,
+        82
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "DA1",
+      "score": 1.0,
+      "quad_box": [
+        [
+          94,
+          69
+        ],
+        [
+          119,
+          69
+        ],
+        [
+          119,
+          81
+        ],
+        [
+          94,
+          81
+        ]
+      ],
+      "bbox_xyxy": [
+        94,
+        69,
+        119,
+        81
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Location: Kolkata_Gateway(West Bengal)",
+      "score": 0.9863,
+      "quad_box": [
+        [
+          5,
+          6
+        ],
+        [
+          325,
+          7
+        ],
+        [
+          325,
+          23
+        ],
+        [
+          5,
+          22
+        ]
+      ],
+      "bbox_xyxy": [
+        5,
+        6,
+        325,
+        23
+      ]
+    },
+    {
+      "source": "label",
+      "text": "AWB_No:",
+      "score": 0.9875,
+      "quad_box": [
+        [
+          5,
+          18
+        ],
+        [
+          66,
+          21
+        ],
+        [
+          65,
+          36
+        ],
+        [
+          5,
+          34
+        ]
+      ],
+      "bbox_xyxy": [
+        5,
+        18,
+        66,
+        36
+      ]
+    },
+    {
+      "source": "label",
+      "text": "19108610787894",
+      "score": 1.0,
+      "quad_box": [
+        [
+          100,
+          21
+        ],
+        [
+          217,
+          21
+        ],
+        [
+          217,
+          34
+        ],
+        [
+          100,
+          34
+        ]
+      ],
+      "bbox_xyxy": [
+        100,
+        21,
+        217,
+        34
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Dimension:",
+      "score": 0.998,
+      "quad_box": [
+        [
+          4,
+          31
+        ],
+        [
+          92,
+          34
+        ],
+        [
+          91,
+          50
+        ],
+        [
+          4,
+          47
+        ]
+      ],
+      "bbox_xyxy": [
+        4,
+        31,
+        92,
+        50
+      ]
+    },
+    {
+      "source": "label",
+      "text": "0208 X 0148 X 0163",
+      "score": 0.938,
+      "quad_box": [
+        [
+          98,
+          33
+        ],
+        [
+          252,
+          33
+        ],
+        [
+          252,
+          46
+        ],
+        [
+          98,
+          46
+        ]
+      ],
+      "bbox_xyxy": [
+        98,
+        33,
+        252,
+        46
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Volume:",
+      "score": 0.9194,
+      "quad_box": [
+        [
+          5,
+          43
+        ],
+        [
+          66,
+          46
+        ],
+        [
+          65,
+          61
+        ],
+        [
+          5,
+          59
+        ]
+      ],
+      "bbox_xyxy": [
+        5,
+        43,
+        66,
+        61
+      ]
+    },
+    {
+      "source": "label",
+      "text": "005134809",
+      "score": 1.0,
+      "quad_box": [
+        [
+          98,
+          46
+        ],
+        [
+          176,
+          46
+        ],
+        [
+          176,
+          59
+        ],
+        [
+          98,
+          59
+        ]
+      ],
+      "bbox_xyxy": [
+        98,
+        46,
+        176,
+        59
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Time:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          7,
+          59
+        ],
+        [
+          49,
+          59
+        ],
+        [
+          49,
+          72
+        ],
+        [
+          7,
+          72
+        ]
+      ],
+      "bbox_xyxy": [
+        7,
+        59,
+        49,
+        72
+      ]
+    },
+    {
+      "source": "label",
+      "text": "2025-05-17..20:41:11.008",
+      "score": 0.9967,
+      "quad_box": [
+        [
+          99,
+          59
+        ],
+        [
+          301,
+          59
+        ],
+        [
+          301,
+          72
+        ],
+        [
+          99,
+          72
+        ]
+      ],
+      "bbox_xyxy": [
+        99,
+        59,
+        301,
+        72
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Sorter_ID:",
+      "score": 0.9979,
+      "quad_box": [
+        [
+          5,
+          70
+        ],
+        [
+          94,
+          70
+        ],
+        [
+          94,
+          86
+        ],
+        [
+          5,
+          86
+        ]
+      ],
+      "bbox_xyxy": [
+        5,
+        70,
+        94,
+        86
+      ]
+    },
+    {
+      "source": "label",
+      "text": "DA1",
+      "score": 1.0,
+      "quad_box": [
+        [
+          98,
+          72
+        ],
+        [
+          126,
+          72
+        ],
+        [
+          126,
+          84
+        ],
+        [
+          98,
+          84
+        ]
+      ],
+      "bbox_xyxy": [
+        98,
+        72,
+        126,
+        84
+      ]
+    }
+  ],
+  "text_by_region": {
+    "overlay_full_text": "Location: Kolkata_Gateway(West Bengal)\nAWB_No:\n19108610787894\nDimension:\n0208 X 0148 X 0163\nVolume:\n005134809\nTime:\n2025-05-17..20:41:11.008\nSorter_ID:\nDA1",
+    "label_full_text": "Location: Kolkata_Gateway(West Bengal)\nAWB_No:\n19108610787894\nDimension:\n0208 X 0148 X 0163\nVolume:\n005134809\nTime:\n2025-05-17..20:41:11.008\nSorter_ID:\nDA1",
+    "cluster_1_top_left": "Location: Kolkata_Gateway(West Bengal)\nAWB_No: 19108610787894\nDimension: 0208 X 0148 X 0163\nVolume: 005134809\nTime: 2025-05-17..20:41:11.008\nSorter_ID: DA1"
+  },
+  "enhanced_image_variants": [
+    "original_full_res",
+    "original",
+    "label_crop_0deg"
+  ],
+  "label_crop_info": {
+    "label_crop_bbox": [
+      0,
+      1,
+      346,
+      90
+    ],
+    "variants_evaluated": [
+      "0_deg",
+      "90_deg",
+      "180_deg",
+      "270_deg",
+      "clahe",
+      "deskewed"
+    ]
+  },
+  "barcode_decoder_attempts": [],
+  "profile_scores_and_matched_anchors": [
+    {
+      "profile_name": "green_dws",
+      "status": "rejected",
+      "evidence_score": 0.375,
+      "cue_score": 0.2,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": false,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 2,
+      "disqualification_reason": "DWS anchors (Machine ID / Real Vol / AWB No) not satisfied"
+    },
+    {
+      "profile_name": "yellow_dws",
+      "status": "rejected",
+      "evidence_score": 0.325,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": false,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 2,
+      "disqualification_reason": "DWS anchors (Machine ID / Real Vol / AWB No) not satisfied"
+    },
+    {
+      "profile_name": "white_text_scanner",
+      "status": "selected",
+      "evidence_score": 0.412,
+      "cue_score": 0.35,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": false,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 2,
+      "disqualification_reason": null
+    },
+    {
+      "profile_name": "ekart",
+      "status": "rejected",
+      "evidence_score": 0.325,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": false,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 2,
+      "disqualification_reason": "Ekart specific cues (L*W*H or Scan Time) not satisfied"
+    },
+    {
+      "profile_name": "bottom_panel",
+      "status": "rejected",
+      "evidence_score": 0.163,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": false,
+        "dimensions": true,
+        "metadata": false
+      },
+      "anchor_count": 1,
+      "disqualification_reason": "Bottom panel anchors (A.W / V.W / bottom dimensions) not satisfied"
+    },
+    {
+      "profile_name": "generic_overlay",
+      "status": "rejected",
+      "evidence_score": 0.513,
+      "cue_score": 0.1,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": false,
+        "dimensions": true,
+        "metadata": true
+      },
+      "anchor_count": 3,
+      "disqualification_reason": "Evidence threshold not met"
+    }
+  ],
+  "parsed_values_and_validation_failures": {
+    "parsed_values": {
+      "tracking_number": "19108610787894",
+      "weight_value": null,
+      "weight_unit": null,
+      "actual_weight": null,
+      "volumetric_weight": null,
+      "length": 208.0,
+      "width": 148.0,
+      "height": 163.0,
+      "dimension_unit": null,
+      "status": "PARTIAL_EXTRACTION",
+      "scene_flags": [
+        "NO_PARCEL",
+        "LABEL_NOT_FOUND"
+      ]
+    },
+    "validation_failures": [
+      {
+        "field": "tracking_number",
+        "candidate": "Location",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      },
+      {
+        "field": "tracking_number",
+        "candidate": "Dimension",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      },
+      {
+        "field": "tracking_number",
+        "candidate": "Location",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      },
+      {
+        "field": "tracking_number",
+        "candidate": "Dimension",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      }
+    ]
+  },
+  "final_field_provenance_and_confidence": {
+    "provenance": {
+      "tracking_number": {
+        "value": "19108610787894",
+        "source": "label_ocr",
+        "raw_text": "19108610787894",
+        "ocr_confidence": 0.9999,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "tracking_reconciliation",
+        "unit": null,
+        "normalized_value": "19108610787894",
+        "conflict_status": null,
+        "raw_candidates": [
+          "Location",
+          "19108610787894",
+          "Dimension",
+          "005134809",
+          "2025-05-17",
+          "Location",
+          "19108610787894",
+          "Dimension",
+          "005134809",
+          "2025-05-17",
+          "19108610787894",
+          "19108610787894"
+        ]
+      },
+      "weight": {
+        "value": null,
+        "source": "",
+        "raw_text": "",
+        "ocr_confidence": 0.0,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "weight_reconciliation",
+        "unit": null,
+        "normalized_value": null,
+        "conflict_status": null,
+        "raw_candidates": []
+      },
+      "dimensions": {
+        "value": [
+          208.0,
+          148.0,
+          163.0
+        ],
+        "source": "scanner_metadata",
+        "raw_text": "Dimension: 0208 X 0148 X 0163",
+        "ocr_confidence": 0.845,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "dimensions_reconciliation",
+        "unit": null,
+        "normalized_value": [
+          208.0,
+          148.0,
+          163.0
+        ],
+        "conflict_status": null,
+        "raw_candidates": []
+      }
+    },
+    "field_confidence": {
+      "tracking_number": 0.9999,
+      "weight": 0.0,
+      "dimensions": 0.845
+    }
+  },
+  "original_image_ref": "batches/00c86df2-0487-4d2c-b93c-fe5e413fba35/originals/bb82ada2-6484-4fa5-acf5-f84cb5cacb01/Dimensions_has_no_LBH_words_Dimensions_in_mm_png.rf.A6aDdlLgyOHHCkLnmfAP.png",
+  "detected_metadata_rois": [
+    {
+      "format_hint": "white_text_scanner",
+      "bbox_xyxy": [
+        0,
+        0,
+        439,
+        230
+      ],
+      "score": 0.75
+    }
+  ],
+  "ocr_text_and_geometry": [
+    {
+      "source": "overlay",
+      "text": "Location: Kolkata_Gateway(West Bengal)",
+      "score": 0.997,
+      "quad_box": [
+        [
+          7,
+          9
+        ],
+        [
+          310,
+          9
+        ],
+        [
+          310,
+          23
+        ],
+        [
+          7,
+          23
+        ]
+      ],
+      "bbox_xyxy": [
+        7,
+        9,
+        310,
+        23
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "AWB_No:",
+      "score": 0.9978,
+      "quad_box": [
+        [
+          6,
+          21
+        ],
+        [
+          63,
+          21
+        ],
+        [
+          63,
+          34
+        ],
+        [
+          6,
+          34
+        ]
+      ],
+      "bbox_xyxy": [
+        6,
+        21,
+        63,
+        34
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "19108610787894",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          94,
+          21
+        ],
+        [
+          207,
+          20
+        ],
+        [
+          207,
+          33
+        ],
+        [
+          94,
+          34
+        ]
+      ],
+      "bbox_xyxy": [
+        94,
+        20,
+        207,
+        34
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Dimension:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          6,
+          33
+        ],
+        [
+          86,
+          33
+        ],
+        [
+          86,
+          46
+        ],
+        [
+          6,
+          46
+        ]
+      ],
+      "bbox_xyxy": [
+        6,
+        33,
+        86,
+        46
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "0208 X 0148 X 0163",
+      "score": 0.9256,
+      "quad_box": [
+        [
+          93,
+          32
+        ],
+        [
+          240,
+          32
+        ],
+        [
+          240,
+          46
+        ],
+        [
+          93,
+          46
+        ]
+      ],
+      "bbox_xyxy": [
+        93,
+        32,
+        240,
+        46
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Volume:",
+      "score": 0.9997,
+      "quad_box": [
+        [
+          6,
+          45
+        ],
+        [
+          62,
+          45
+        ],
+        [
+          62,
+          59
+        ],
+        [
+          6,
+          59
+        ]
+      ],
+      "bbox_xyxy": [
+        6,
+        45,
+        62,
+        59
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "005134809",
+      "score": 1.0,
+      "quad_box": [
+        [
+          95,
+          46
+        ],
+        [
+          167,
+          46
+        ],
+        [
+          167,
+          57
+        ],
+        [
+          95,
+          57
+        ]
+      ],
+      "bbox_xyxy": [
+        95,
+        46,
+        167,
+        57
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Time:",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          6,
+          57
+        ],
+        [
+          47,
+          57
+        ],
+        [
+          47,
+          70
+        ],
+        [
+          6,
+          70
+        ]
+      ],
+      "bbox_xyxy": [
+        6,
+        57,
+        47,
+        70
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "2025-05-17..20:41:11.008",
+      "score": 0.9998,
+      "quad_box": [
+        [
+          94,
+          57
+        ],
+        [
+          286,
+          57
+        ],
+        [
+          286,
+          70
+        ],
+        [
+          94,
+          70
+        ]
+      ],
+      "bbox_xyxy": [
+        94,
+        57,
+        286,
+        70
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Sorter_ID:",
+      "score": 0.999,
+      "quad_box": [
+        [
+          6,
+          68
+        ],
+        [
+          85,
+          68
+        ],
+        [
+          85,
+          82
+        ],
+        [
+          6,
+          82
+        ]
+      ],
+      "bbox_xyxy": [
+        6,
+        68,
+        85,
+        82
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "DA1",
+      "score": 1.0,
+      "quad_box": [
+        [
+          94,
+          69
+        ],
+        [
+          119,
+          69
+        ],
+        [
+          119,
+          81
+        ],
+        [
+          94,
+          81
+        ]
+      ],
+      "bbox_xyxy": [
+        94,
+        69,
+        119,
+        81
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Location: Kolkata_Gateway(West Bengal)",
+      "score": 0.9863,
+      "quad_box": [
+        [
+          5,
+          6
+        ],
+        [
+          325,
+          7
+        ],
+        [
+          325,
+          23
+        ],
+        [
+          5,
+          22
+        ]
+      ],
+      "bbox_xyxy": [
+        5,
+        6,
+        325,
+        23
+      ]
+    },
+    {
+      "source": "label",
+      "text": "AWB_No:",
+      "score": 0.9875,
+      "quad_box": [
+        [
+          5,
+          18
+        ],
+        [
+          66,
+          21
+        ],
+        [
+          65,
+          36
+        ],
+        [
+          5,
+          34
+        ]
+      ],
+      "bbox_xyxy": [
+        5,
+        18,
+        66,
+        36
+      ]
+    },
+    {
+      "source": "label",
+      "text": "19108610787894",
+      "score": 1.0,
+      "quad_box": [
+        [
+          100,
+          21
+        ],
+        [
+          217,
+          21
+        ],
+        [
+          217,
+          34
+        ],
+        [
+          100,
+          34
+        ]
+      ],
+      "bbox_xyxy": [
+        100,
+        21,
+        217,
+        34
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Dimension:",
+      "score": 0.998,
+      "quad_box": [
+        [
+          4,
+          31
+        ],
+        [
+          92,
+          34
+        ],
+        [
+          91,
+          50
+        ],
+        [
+          4,
+          47
+        ]
+      ],
+      "bbox_xyxy": [
+        4,
+        31,
+        92,
+        50
+      ]
+    },
+    {
+      "source": "label",
+      "text": "0208 X 0148 X 0163",
+      "score": 0.938,
+      "quad_box": [
+        [
+          98,
+          33
+        ],
+        [
+          252,
+          33
+        ],
+        [
+          252,
+          46
+        ],
+        [
+          98,
+          46
+        ]
+      ],
+      "bbox_xyxy": [
+        98,
+        33,
+        252,
+        46
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Volume:",
+      "score": 0.9194,
+      "quad_box": [
+        [
+          5,
+          43
+        ],
+        [
+          66,
+          46
+        ],
+        [
+          65,
+          61
+        ],
+        [
+          5,
+          59
+        ]
+      ],
+      "bbox_xyxy": [
+        5,
+        43,
+        66,
+        61
+      ]
+    },
+    {
+      "source": "label",
+      "text": "005134809",
+      "score": 1.0,
+      "quad_box": [
+        [
+          98,
+          46
+        ],
+        [
+          176,
+          46
+        ],
+        [
+          176,
+          59
+        ],
+        [
+          98,
+          59
+        ]
+      ],
+      "bbox_xyxy": [
+        98,
+        46,
+        176,
+        59
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Time:",
+      "score": 0.9999,
+      "quad_box": [
+        [
+          7,
+          59
+        ],
+        [
+          49,
+          59
+        ],
+        [
+          49,
+          72
+        ],
+        [
+          7,
+          72
+        ]
+      ],
+      "bbox_xyxy": [
+        7,
+        59,
+        49,
+        72
+      ]
+    },
+    {
+      "source": "label",
+      "text": "2025-05-17..20:41:11.008",
+      "score": 0.9967,
+      "quad_box": [
+        [
+          99,
+          59
+        ],
+        [
+          301,
+          59
+        ],
+        [
+          301,
+          72
+        ],
+        [
+          99,
+          72
+        ]
+      ],
+      "bbox_xyxy": [
+        99,
+        59,
+        301,
+        72
+      ]
+    },
+    {
+      "source": "label",
+      "text": "Sorter_ID:",
+      "score": 0.9979,
+      "quad_box": [
+        [
+          5,
+          70
+        ],
+        [
+          94,
+          70
+        ],
+        [
+          94,
+          86
+        ],
+        [
+          5,
+          86
+        ]
+      ],
+      "bbox_xyxy": [
+        5,
+        70,
+        94,
+        86
+      ]
+    },
+    {
+      "source": "label",
+      "text": "DA1",
+      "score": 1.0,
+      "quad_box": [
+        [
+          98,
+          72
+        ],
+        [
+          126,
+          72
+        ],
+        [
+          126,
+          84
+        ],
+        [
+          98,
+          84
+        ]
+      ],
+      "bbox_xyxy": [
+        98,
+        72,
+        126,
+        84
+      ]
+    }
+  ],
+  "detected_label_crop": [
+    0,
+    1,
+    346,
+    90
+  ],
+  "barcode_output": [],
+  "parser_output": {
+    "tracking_number": "19108610787894",
+    "weight_value": null,
+    "weight_unit": null,
+    "actual_weight": null,
+    "volumetric_weight": null,
+    "length": 208.0,
+    "width": 148.0,
+    "height": 163.0,
+    "dimension_unit": null,
+    "status": "PARTIAL_EXTRACTION",
+    "scene_flags": [
+      "NO_PARCEL",
+      "LABEL_NOT_FOUND"
+    ]
+  },
+  "source_reconciliation_result": {
+    "tracking_number": {
+      "value": "19108610787894",
+      "source": "label_ocr",
+      "raw_text": "19108610787894",
+      "ocr_confidence": 0.9999,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "tracking_reconciliation",
+      "unit": null,
+      "normalized_value": "19108610787894",
+      "conflict_status": null,
+      "raw_candidates": [
+        "Location",
+        "19108610787894",
+        "Dimension",
+        "005134809",
+        "2025-05-17",
+        "Location",
+        "19108610787894",
+        "Dimension",
+        "005134809",
+        "2025-05-17",
+        "19108610787894",
+        "19108610787894"
+      ]
+    },
+    "weight": {
+      "value": null,
+      "source": "",
+      "raw_text": "",
+      "ocr_confidence": 0.0,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "weight_reconciliation",
+      "unit": null,
+      "normalized_value": null,
+      "conflict_status": null,
+      "raw_candidates": []
+    },
+    "dimensions": {
+      "value": [
+        208.0,
+        148.0,
+        163.0
+      ],
+      "source": "scanner_metadata",
+      "raw_text": "Dimension: 0208 X 0148 X 0163",
+      "ocr_confidence": 0.845,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "dimensions_reconciliation",
+      "unit": null,
+      "normalized_value": [
+        208.0,
+        148.0,
+        163.0
+      ],
+      "conflict_status": null,
+      "raw_candidates": []
+    }
+  }
+}

@@ -1,0 +1,728 @@
+{
+  "original_image": {
+    "s3_key": "batches/b/originals/i/test_scan.jpg",
+    "filename": "test_scan.jpg",
+    "file_size": 2073,
+    "dimensions": {
+      "width": 300,
+      "height": 300,
+      "channels": 3
+    },
+    "quality_metrics": {
+      "blur_score": 0.0,
+      "is_blurry": true,
+      "mean_brightness": 29.0
+    }
+  },
+  "candidate_regions": [
+    {
+      "format_hint": "generic_overlay",
+      "bbox_xyxy": [
+        0,
+        0,
+        135,
+        105
+      ],
+      "score": 0.35
+    },
+    {
+      "format_hint": "bottom_panel",
+      "bbox_xyxy": [
+        0,
+        240,
+        300,
+        300
+      ],
+      "score": 0.3
+    },
+    {
+      "source": "detector_parcel",
+      "bbox_xyxy": [
+        10,
+        10,
+        200,
+        200
+      ],
+      "score": 0.95
+    },
+    {
+      "source": "detector_shipping_label",
+      "bbox_xyxy": [
+        30,
+        30,
+        150,
+        150
+      ],
+      "score": 0.91
+    }
+  ],
+  "all_ocr_detections": [
+    {
+      "source": "overlay",
+      "text": "AWB: 1Z1234567890123456",
+      "score": 0.98,
+      "quad_box": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "WT: 3.2 KG",
+      "score": 0.95,
+      "quad_box": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "DIMS: 25x15x10 cm",
+      "score": 0.92,
+      "quad_box": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "label",
+      "text": "AWB: 1Z1234567890123456",
+      "score": 0.98,
+      "quad_box": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "label",
+      "text": "WT: 3.2 KG",
+      "score": 0.95,
+      "quad_box": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "label",
+      "text": "DIMS: 25x15x10 cm",
+      "score": 0.92,
+      "quad_box": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ]
+    }
+  ],
+  "text_by_region": {
+    "overlay_full_text": "AWB: 1Z1234567890123456\nWT: 3.2 KG\nDIMS: 25x15x10 cm",
+    "label_full_text": "AWB: 1Z1234567890123456\nWT: 3.2 KG\nDIMS: 25x15x10 cm",
+    "cluster_1_top_left": "AWB: 1Z1234567890123456 WT: 3.2 KG DIMS: 25x15x10 cm"
+  },
+  "enhanced_image_variants": [
+    "original_full_res",
+    "label_crop_0deg",
+    "original"
+  ],
+  "label_crop_info": {
+    "label_crop_bbox": [
+      30,
+      30,
+      150,
+      150
+    ],
+    "variants_evaluated": [
+      "0_deg",
+      "90_deg",
+      "180_deg",
+      "270_deg",
+      "clahe",
+      "deskewed"
+    ]
+  },
+  "barcode_decoder_attempts": [
+    {
+      "raw_value": "1Z1234567890123456",
+      "symbology": "Code128",
+      "bbox_xyxy": null,
+      "source_crop": "label_crop_270_deg"
+    }
+  ],
+  "profile_scores_and_matched_anchors": [
+    {
+      "profile_name": "green_dws",
+      "status": "rejected",
+      "evidence_score": 0.538,
+      "cue_score": 0.2,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": false
+      },
+      "anchor_count": 3,
+      "disqualification_reason": "DWS anchors (Machine ID / Real Vol / AWB No) not satisfied"
+    },
+    {
+      "profile_name": "yellow_dws",
+      "status": "rejected",
+      "evidence_score": 0.488,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": false
+      },
+      "anchor_count": 3,
+      "disqualification_reason": "DWS anchors (Machine ID / Real Vol / AWB No) not satisfied"
+    },
+    {
+      "profile_name": "white_text_scanner",
+      "status": "rejected",
+      "evidence_score": 0.488,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": false
+      },
+      "anchor_count": 3,
+      "disqualification_reason": "White text scanner anchors (Sorter ID / triplet dimensions) not satisfied"
+    },
+    {
+      "profile_name": "ekart",
+      "status": "rejected",
+      "evidence_score": 0.488,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": false
+      },
+      "anchor_count": 3,
+      "disqualification_reason": "Ekart specific cues (L*W*H or Scan Time) not satisfied"
+    },
+    {
+      "profile_name": "bottom_panel",
+      "status": "rejected",
+      "evidence_score": 0.488,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": false
+      },
+      "anchor_count": 3,
+      "disqualification_reason": "Bottom panel anchors (A.W / V.W / bottom dimensions) not satisfied"
+    },
+    {
+      "profile_name": "generic_overlay",
+      "status": "selected",
+      "evidence_score": 0.513,
+      "cue_score": 0.1,
+      "anchor_coverage": {
+        "tracking": true,
+        "weight": true,
+        "dimensions": true,
+        "metadata": false
+      },
+      "anchor_count": 3,
+      "disqualification_reason": null
+    }
+  ],
+  "parsed_values_and_validation_failures": {
+    "parsed_values": {
+      "tracking_number": "1Z1234567890123456",
+      "weight_value": 3.2,
+      "weight_unit": "kg",
+      "actual_weight": 3.2,
+      "volumetric_weight": null,
+      "length": 25.0,
+      "width": 15.0,
+      "height": 10.0,
+      "dimension_unit": "cm",
+      "status": "SUCCESS",
+      "scene_flags": [
+        "PARTIAL_PARCEL"
+      ]
+    },
+    "validation_failures": []
+  },
+  "final_field_provenance_and_confidence": {
+    "provenance": {
+      "tracking_number": {
+        "value": "1Z1234567890123456",
+        "source": "scanner_metadata+barcode",
+        "raw_text": "Overlay: AWB: 1Z1234567890123456 | Barcode: 1Z1234567890123456 (Code128)",
+        "ocr_confidence": 0.99,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "tracking_reconciliation",
+        "unit": null,
+        "normalized_value": "1Z1234567890123456",
+        "conflict_status": "AGREED",
+        "raw_candidates": [
+          "1Z1234567890123456",
+          "25x15x10",
+          "1Z1234567890123456",
+          "25x15x10",
+          "1Z1234567890123456",
+          "1Z1234567890123456",
+          "1Z1234567890123456",
+          "1Z1234567890123456",
+          "1Z1234567890123456",
+          "1Z1234567890123456"
+        ]
+      },
+      "weight": {
+        "value": 3.2,
+        "source": "scanner_metadata",
+        "raw_text": "WT: 3.2 KG",
+        "ocr_confidence": 0.98,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "weight_reconciliation",
+        "unit": "kg",
+        "normalized_value": 3.2,
+        "conflict_status": null,
+        "raw_candidates": []
+      },
+      "dimensions": {
+        "value": [
+          25.0,
+          15.0,
+          10.0
+        ],
+        "source": "scanner_metadata",
+        "raw_text": "DIMS: 25x15x10 cm",
+        "ocr_confidence": 0.98,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "dimensions_reconciliation",
+        "unit": "cm",
+        "normalized_value": [
+          25.0,
+          15.0,
+          10.0
+        ],
+        "conflict_status": null,
+        "raw_candidates": []
+      }
+    },
+    "field_confidence": {
+      "tracking_number": 0.99,
+      "weight": 0.98,
+      "dimensions": 0.98
+    }
+  },
+  "original_image_ref": "batches/b/originals/i/test_scan.jpg",
+  "detected_metadata_rois": [
+    {
+      "format_hint": "generic_overlay",
+      "bbox_xyxy": [
+        0,
+        0,
+        135,
+        105
+      ],
+      "score": 0.35
+    },
+    {
+      "format_hint": "bottom_panel",
+      "bbox_xyxy": [
+        0,
+        240,
+        300,
+        300
+      ],
+      "score": 0.3
+    }
+  ],
+  "ocr_text_and_geometry": [
+    {
+      "source": "overlay",
+      "text": "AWB: 1Z1234567890123456",
+      "score": 0.98,
+      "quad_box": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "WT: 3.2 KG",
+      "score": 0.95,
+      "quad_box": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "DIMS: 25x15x10 cm",
+      "score": 0.92,
+      "quad_box": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "label",
+      "text": "AWB: 1Z1234567890123456",
+      "score": 0.98,
+      "quad_box": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "label",
+      "text": "WT: 3.2 KG",
+      "score": 0.95,
+      "quad_box": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "label",
+      "text": "DIMS: 25x15x10 cm",
+      "score": 0.92,
+      "quad_box": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ]
+    }
+  ],
+  "detected_label_crop": [
+    30,
+    30,
+    150,
+    150
+  ],
+  "barcode_output": [
+    {
+      "raw_value": "1Z1234567890123456",
+      "symbology": "Code128",
+      "bbox_xyxy": null,
+      "source_crop": "label_crop_270_deg"
+    }
+  ],
+  "parser_output": {
+    "tracking_number": "1Z1234567890123456",
+    "weight_value": 3.2,
+    "weight_unit": "kg",
+    "actual_weight": 3.2,
+    "volumetric_weight": null,
+    "length": 25.0,
+    "width": 15.0,
+    "height": 10.0,
+    "dimension_unit": "cm",
+    "status": "SUCCESS",
+    "scene_flags": [
+      "PARTIAL_PARCEL"
+    ]
+  },
+  "source_reconciliation_result": {
+    "tracking_number": {
+      "value": "1Z1234567890123456",
+      "source": "scanner_metadata+barcode",
+      "raw_text": "Overlay: AWB: 1Z1234567890123456 | Barcode: 1Z1234567890123456 (Code128)",
+      "ocr_confidence": 0.99,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "tracking_reconciliation",
+      "unit": null,
+      "normalized_value": "1Z1234567890123456",
+      "conflict_status": "AGREED",
+      "raw_candidates": [
+        "1Z1234567890123456",
+        "25x15x10",
+        "1Z1234567890123456",
+        "25x15x10",
+        "1Z1234567890123456",
+        "1Z1234567890123456",
+        "1Z1234567890123456",
+        "1Z1234567890123456",
+        "1Z1234567890123456",
+        "1Z1234567890123456"
+      ]
+    },
+    "weight": {
+      "value": 3.2,
+      "source": "scanner_metadata",
+      "raw_text": "WT: 3.2 KG",
+      "ocr_confidence": 0.98,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "weight_reconciliation",
+      "unit": "kg",
+      "normalized_value": 3.2,
+      "conflict_status": null,
+      "raw_candidates": []
+    },
+    "dimensions": {
+      "value": [
+        25.0,
+        15.0,
+        10.0
+      ],
+      "source": "scanner_metadata",
+      "raw_text": "DIMS: 25x15x10 cm",
+      "ocr_confidence": 0.98,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "dimensions_reconciliation",
+      "unit": "cm",
+      "normalized_value": [
+        25.0,
+        15.0,
+        10.0
+      ],
+      "conflict_status": null,
+      "raw_candidates": []
+    }
+  }
+}

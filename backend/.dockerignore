@@ -1,0 +1,15 @@
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.db-shm
+*.db-wal
+.pytest_cache
+.ruff_cache
+tests/
+model_cache/
+temp_downloads/
+debug_bundles/
+.DS_Store

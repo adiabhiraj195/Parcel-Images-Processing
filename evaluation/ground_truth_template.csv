@@ -1,0 +1,7 @@
+image_name,expected_tracking,expected_weight,expected_length,expected_width,expected_height,expected_status
+scan_01_clean_box.jpg,1Z999AA10123456784,2.5,30,20,15,SUCCESS
+scan_02_no_parcel.jpg,,,,,,NO_PARCEL
+scan_03_two_parcels.jpg,,,,,,MULTIPLE_PARCELS
+scan_04_missing_dims.jpg,9400100000000000000000,1.2,,,,PARTIAL_EXTRACTION
+scan_05_barcode_conflict.jpg,TRACK1111111111,0.5,10,10,10,LOW_CONFIDENCE
+scan_06_corrupt.jpg,,,,,,PROCESSING_FAILED

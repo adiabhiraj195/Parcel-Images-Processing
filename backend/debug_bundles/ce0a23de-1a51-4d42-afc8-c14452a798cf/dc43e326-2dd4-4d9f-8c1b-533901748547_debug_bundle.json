@@ -1,0 +1,535 @@
+{
+  "original_image": {
+    "s3_key": "batches/ce0a23de-1a51-4d42-afc8-c14452a798cf/originals/dc43e326-2dd4-4d9f-8c1b-533901748547/images__1_.jpeg",
+    "filename": "images (1).jpeg",
+    "file_size": 15873,
+    "dimensions": {
+      "width": 678,
+      "height": 452,
+      "channels": 3
+    },
+    "quality_metrics": {
+      "blur_score": 162.94,
+      "is_blurry": false,
+      "mean_brightness": 189.34
+    }
+  },
+  "candidate_regions": [
+    {
+      "format_hint": "yellow_dws",
+      "bbox_xyxy": [
+        109,
+        56,
+        517,
+        268
+      ],
+      "score": 0.95
+    }
+  ],
+  "all_ocr_detections": [
+    {
+      "source": "overlay",
+      "text": "WONONIEE",
+      "score": 0.2497,
+      "quad_box": [
+        [
+          11,
+          31
+        ],
+        [
+          21,
+          31
+        ],
+        [
+          21,
+          109
+        ],
+        [
+          11,
+          109
+        ]
+      ],
+      "bbox_xyxy": [
+        11,
+        31,
+        21,
+        109
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Shipping Box",
+      "score": 0.9887,
+      "quad_box": [
+        [
+          315,
+          260
+        ],
+        [
+          434,
+          204
+        ],
+        [
+          448,
+          235
+        ],
+        [
+          329,
+          291
+        ]
+      ],
+      "bbox_xyxy": [
+        315,
+        204,
+        448,
+        291
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Mockup",
+      "score": 0.996,
+      "quad_box": [
+        [
+          319,
+          292
+        ],
+        [
+          394,
+          257
+        ],
+        [
+          406,
+          282
+        ],
+        [
+          330,
+          317
+        ]
+      ],
+      "bbox_xyxy": [
+        319,
+        257,
+        406,
+        317
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Gruitclesiy dest",
+      "score": 0.5071,
+      "quad_box": [
+        [
+          323,
+          327
+        ],
+        [
+          378,
+          299
+        ],
+        [
+          384,
+          310
+        ],
+        [
+          329,
+          339
+        ]
+      ],
+      "bbox_xyxy": [
+        323,
+        299,
+        384,
+        339
+      ]
+    }
+  ],
+  "text_by_region": {
+    "overlay_full_text": "WONONIEE\nShipping Box\nMockup\nGruitclesiy dest",
+    "cluster_1_top_left": "WONONIEE",
+    "cluster_2_label_area": "Shipping Box Mockup\nGruitclesiy dest"
+  },
+  "enhanced_image_variants": [
+    "original_full_res",
+    "original"
+  ],
+  "label_crop_info": {
+    "label_crop_bbox": null,
+    "variants_evaluated": [
+      "0_deg",
+      "90_deg",
+      "180_deg",
+      "270_deg",
+      "clahe",
+      "deskewed"
+    ]
+  },
+  "barcode_decoder_attempts": [],
+  "profile_scores_and_matched_anchors": [
+    {
+      "profile_name": "green_dws",
+      "status": "rejected",
+      "evidence_score": 0.0,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": false,
+        "dimensions": false,
+        "metadata": false
+      },
+      "anchor_count": 0,
+      "disqualification_reason": "DWS anchors (Machine ID / Real Vol / AWB No) not satisfied"
+    },
+    {
+      "profile_name": "yellow_dws",
+      "status": "rejected",
+      "evidence_score": 0.0,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": false,
+        "dimensions": false,
+        "metadata": false
+      },
+      "anchor_count": 0,
+      "disqualification_reason": "DWS anchors (Machine ID / Real Vol / AWB No) not satisfied"
+    },
+    {
+      "profile_name": "white_text_scanner",
+      "status": "rejected",
+      "evidence_score": 0.0,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": false,
+        "dimensions": false,
+        "metadata": false
+      },
+      "anchor_count": 0,
+      "disqualification_reason": "White text scanner anchors (Sorter ID / triplet dimensions) not satisfied"
+    },
+    {
+      "profile_name": "ekart",
+      "status": "rejected",
+      "evidence_score": 0.0,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": false,
+        "dimensions": false,
+        "metadata": false
+      },
+      "anchor_count": 0,
+      "disqualification_reason": "Disqualified: tracking invalid or null with null weight and dimensions"
+    },
+    {
+      "profile_name": "bottom_panel",
+      "status": "rejected",
+      "evidence_score": 0.0,
+      "cue_score": 0.0,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": false,
+        "dimensions": false,
+        "metadata": false
+      },
+      "anchor_count": 0,
+      "disqualification_reason": "Bottom panel anchors (A.W / V.W / bottom dimensions) not satisfied"
+    },
+    {
+      "profile_name": "generic_overlay",
+      "status": "selected",
+      "evidence_score": 0.025,
+      "cue_score": 0.1,
+      "anchor_coverage": {
+        "tracking": false,
+        "weight": false,
+        "dimensions": false,
+        "metadata": false
+      },
+      "anchor_count": 0,
+      "disqualification_reason": null
+    }
+  ],
+  "parsed_values_and_validation_failures": {
+    "parsed_values": {
+      "tracking_number": null,
+      "weight_value": null,
+      "weight_unit": null,
+      "actual_weight": null,
+      "volumetric_weight": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "dimension_unit": null,
+      "status": "LOW_CONFIDENCE",
+      "scene_flags": [
+        "NO_PARCEL",
+        "LABEL_NOT_FOUND"
+      ]
+    },
+    "validation_failures": [
+      {
+        "field": "tracking_number",
+        "candidate": "WONONIEE",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      },
+      {
+        "field": "tracking_number",
+        "candidate": "Shipping",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      },
+      {
+        "field": "tracking_number",
+        "candidate": "Gruitclesiy",
+        "reason": "Alphabetic-only tracking candidate rejected; requires >= 1 digit (e.g. INVENTIMENT)"
+      }
+    ]
+  },
+  "final_field_provenance_and_confidence": {
+    "provenance": {
+      "tracking_number": {
+        "value": null,
+        "source": "",
+        "raw_text": "",
+        "ocr_confidence": 0.0,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "tracking_reconciliation",
+        "unit": null,
+        "normalized_value": null,
+        "conflict_status": null,
+        "raw_candidates": [
+          "WONONIEE",
+          "Shipping",
+          "Gruitclesiy"
+        ]
+      },
+      "weight": {
+        "value": null,
+        "source": "",
+        "raw_text": "",
+        "ocr_confidence": 0.0,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "weight_reconciliation",
+        "unit": null,
+        "normalized_value": null,
+        "conflict_status": null,
+        "raw_candidates": []
+      },
+      "dimensions": {
+        "value": null,
+        "source": "",
+        "raw_text": "",
+        "ocr_confidence": 0.0,
+        "bounding_box": null,
+        "evidence_reference": null,
+        "parser_rule": "dimensions_reconciliation",
+        "unit": null,
+        "normalized_value": null,
+        "conflict_status": null,
+        "raw_candidates": []
+      }
+    },
+    "field_confidence": {
+      "tracking_number": 0.0,
+      "weight": 0.0,
+      "dimensions": 0.0
+    }
+  },
+  "original_image_ref": "batches/ce0a23de-1a51-4d42-afc8-c14452a798cf/originals/dc43e326-2dd4-4d9f-8c1b-533901748547/images__1_.jpeg",
+  "detected_metadata_rois": [
+    {
+      "format_hint": "yellow_dws",
+      "bbox_xyxy": [
+        109,
+        56,
+        517,
+        268
+      ],
+      "score": 0.95
+    }
+  ],
+  "ocr_text_and_geometry": [
+    {
+      "source": "overlay",
+      "text": "WONONIEE",
+      "score": 0.2497,
+      "quad_box": [
+        [
+          11,
+          31
+        ],
+        [
+          21,
+          31
+        ],
+        [
+          21,
+          109
+        ],
+        [
+          11,
+          109
+        ]
+      ],
+      "bbox_xyxy": [
+        11,
+        31,
+        21,
+        109
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Shipping Box",
+      "score": 0.9887,
+      "quad_box": [
+        [
+          315,
+          260
+        ],
+        [
+          434,
+          204
+        ],
+        [
+          448,
+          235
+        ],
+        [
+          329,
+          291
+        ]
+      ],
+      "bbox_xyxy": [
+        315,
+        204,
+        448,
+        291
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Mockup",
+      "score": 0.996,
+      "quad_box": [
+        [
+          319,
+          292
+        ],
+        [
+          394,
+          257
+        ],
+        [
+          406,
+          282
+        ],
+        [
+          330,
+          317
+        ]
+      ],
+      "bbox_xyxy": [
+        319,
+        257,
+        406,
+        317
+      ]
+    },
+    {
+      "source": "overlay",
+      "text": "Gruitclesiy dest",
+      "score": 0.5071,
+      "quad_box": [
+        [
+          323,
+          327
+        ],
+        [
+          378,
+          299
+        ],
+        [
+          384,
+          310
+        ],
+        [
+          329,
+          339
+        ]
+      ],
+      "bbox_xyxy": [
+        323,
+        299,
+        384,
+        339
+      ]
+    }
+  ],
+  "detected_label_crop": null,
+  "barcode_output": [],
+  "parser_output": {
+    "tracking_number": null,
+    "weight_value": null,
+    "weight_unit": null,
+    "actual_weight": null,
+    "volumetric_weight": null,
+    "length": null,
+    "width": null,
+    "height": null,
+    "dimension_unit": null,
+    "status": "LOW_CONFIDENCE",
+    "scene_flags": [
+      "NO_PARCEL",
+      "LABEL_NOT_FOUND"
+    ]
+  },
+  "source_reconciliation_result": {
+    "tracking_number": {
+      "value": null,
+      "source": "",
+      "raw_text": "",
+      "ocr_confidence": 0.0,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "tracking_reconciliation",
+      "unit": null,
+      "normalized_value": null,
+      "conflict_status": null,
+      "raw_candidates": [
+        "WONONIEE",
+        "Shipping",
+        "Gruitclesiy"
+      ]
+    },
+    "weight": {
+      "value": null,
+      "source": "",
+      "raw_text": "",
+      "ocr_confidence": 0.0,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "weight_reconciliation",
+      "unit": null,
+      "normalized_value": null,
+      "conflict_status": null,
+      "raw_candidates": []
+    },
+    "dimensions": {
+      "value": null,
+      "source": "",
+      "raw_text": "",
+      "ocr_confidence": 0.0,
+      "bounding_box": null,
+      "evidence_reference": null,
+      "parser_rule": "dimensions_reconciliation",
+      "unit": null,
+      "normalized_value": null,
+      "conflict_status": null,
+      "raw_candidates": []
+    }
+  }
+}
